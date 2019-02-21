@@ -37,9 +37,9 @@ Mutations must be follow the HGVS nomenclature. Information on this format can b
 
 ## Generating a new library
 
-##### Install 
+##### Install
 
-Just downloade the repository using `git clone git@github.com:jodyphelan/tbdb.git`. The script is written in pure python with no dependancies.
+Just downloade the repository using `https://github.com/jodyphelan/tbdb.git`. The script is written in pure python with no dependancies.
 
 ##### Run
 Once the tbdb.csv is finished the `parse_db.py` script can be run.
