@@ -2,8 +2,8 @@
 
 This repository contains the scripts and data to generate all files required to run [TBProfiler2](https://github.com/jodyphelan/TBProfiler2/).
 
-Why is there a seperate github repository?
---
+## Why is there a seperate github repository?
+
 With analysis pipelines pretty standardised it is evident that accuracy of prediction is affected mostly by the underlying library of mutations. As new evidence for the inclusion or exclusion of mutations is generated there is a constant need to  update and re-evaluate the mutation library. Moreover, it is important for the control of the library to be put in the hands of the end-users. By hosting the library seperate on a seperate repository (rather than buried deep in the profiling tool code) it makes it easier to find out exactly which mutations are present. Additionally, github has a number of useful features which can be utilised:
  - All changes to the library are tracked and can be easily be reverted to previous versions
  - Users can raise concerns or discuss the library using the [Issues](https://github.com/jodyphelan/tbdb/issues) secion of the github repository
@@ -36,6 +36,12 @@ Mutations must be follow the HGVS nomenclature. Information on this format can b
 **Important! The mutations and resulting library files are in reference to the H37Rv reference genome**
 
 ## Generating a new library
+
+##### Install 
+
+Just downloade the repository using `git clone git@github.com:jodyphelan/tbdb.git`. The script is written in pure python with no dependancies.
+
+##### Run
 Once the tbdb.csv is finished the `parse_db.py` script can be run.
 When run without any optional arguments like this `python parse_db.py` it will by defualt read the **tbdb.csv** file and produce all output with the "tbdb" as the file prefix. These can be changed using the `--csv` flag to specify a different CSV file and `--prefix` to specify the output file prefixes. Use the `--help` flag to print the script help:
 
