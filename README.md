@@ -8,6 +8,7 @@ With analysis pipelines pretty standardised it is evident that accuracy of predi
  - All changes to the library are tracked and can be easily be reverted to previous versions
  - Users can raise concerns or discuss the library using the [Issues](https://github.com/jodyphelan/tbdb/issues) secion of the github repository
  - Different versions of the library can be mnaintained using Forks. Allowing users to experiment with the library without affecting the main project. These changes can then be merged in to the main repo after the changes are reviewed
+ - Multiple users/developers can contribute towards the library.
 
 **tl;dr** - Hosting it here makes it easier to update the library.
 
@@ -26,7 +27,7 @@ The first three columns must be contain a value, however literature may remain e
 
 ###### Mutation format
 Mutations must be follow the HGVS nomenclature. Information on this format can be found [here](http://varnomen.hgvs.org/). The following types of mutations are currently allowed:
-* Amino acid substitutions. *Example: S450L in rpoB would be Ser450Leu*
+* Amino acid substitutions. *Example: S450L in rpoB would be p.Ser450Leu*
 * Deletions in genes. *Example: Deletion of nucleotide 758 in tlyA would be c.758del*
 * Insertion in genes. *Example: Insertion of GT between nucleotide 1850 and 1851 in katG would be c.1850_1851insGT*
 * SNPs in non-coding RNAs. *Example: A to G at position 1401 in rrs would be r.1401a>g*
