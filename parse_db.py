@@ -4,6 +4,7 @@ import re
 from collections import defaultdict
 import argparse
 from shutil import copyfile
+import os.path
 
 def fa2dict(filename):
 	fa_dict = {}
@@ -105,21 +106,35 @@ def main(args):
 		db[locus_tag][mut]["drugs"].append(row["Drug"].lower())
 		annotation_columns = set(row.keys()) - set(["Gene","Mutation","Drug"])
 		for col in annotation_columns:
-			if col not in db[locus_tag][mut]:
-				db[locus_tag][mut][col] = [row[col]]
+			if row[col]=="": continue
+			if col.lower() not in db[locus_tag][mut]:
+				db[locus_tag][mut][col.lower()] = [row[col]]
 			else:
-				db[locus_tag][mut][col].append(row[col])
+				db[locus_tag][mut][col.lower()].append(row[col])
+	conf_file = "%s.config.json" % args.prefix
+	genome_file = "%s.fasta" % args.prefix
+	gff_file = "%s.gff" % args.prefix
+	ann_file = "%s.ann.txt" % args.prefix
+	barcode_file = "%s.barcode.bed" % args.prefix
+	bed_file = "%s.bed" % args.prefix
+	json_file = "%s.dr.json" % args.prefix
+	conf = {
+		"gff": os.path.abspath(gff_file), "ref": os.path.abspath(genome_file),
+		"ann": os.path.abspath(ann_file), "barcode": os.path.abspath(barcode_file),
+		"bed": os.path.abspath(bed_file), "json_db": os.path.abspath(json_file)
+	}
 
-	copyfile("genome.fasta", "%s.fasta" % args.prefix)
-	copyfile("genome.gff", "%s.gff" % args.prefix)
-	copyfile("ann.txt", "%s.ann.txt" % args.prefix)
-	copyfile("barcode.bed", "%s.barcode.bed" % args.prefix)
-	write_bed(locus_tag_to_drug_dict,gene_info,"%s.bed"%args.prefix)
-	json.dump(db,open("%s.dr.json"%args.prefix,"w"))
+	copyfile("genome.fasta", genome_file)
+	copyfile("genome.gff", gff_file)
+	copyfile("ann.txt", ann_file)
+	copyfile("barcode.bed", barcode_file)
+	write_bed(locus_tag_to_drug_dict,gene_info,bed_file)
+	json.dump(db,open(json_file,"w"))
+	json.dump(conf,open(conf_file,"w"))
 
-parser = argparse.ArgumentParser(description='TBProfiler pipeline',formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-parser.add_argument('--prefix','-p',default="tbdb",type=str,help='NGS Platform')
-parser.add_argument('--csv','-c',default="tbdb.csv",type=str,help='NGS Platform')
+parser = argparse.ArgumentParser(description='Script to generate the files required to run TBProfiler',formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+parser.add_argument('--prefix','-p',default="tbdb",type=str,help='The input CSV file containing the mutations')
+parser.add_argument('--csv','-c',default="tbdb.csv",type=str,help='The prefix for all output files')
 parser.set_defaults(func=main)
 args = parser.parse_args()
 args.func(args)
