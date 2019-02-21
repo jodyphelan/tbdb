@@ -1,6 +1,6 @@
 # TBDB: A repository for the TBProfiler library
 
-This repository contains the scripts and data to generate all files required for TBProfiler
+This repository contains the scripts and data to generate all files required to run [TBProfiler2](https://github.com/jodyphelan/TBProfiler2/).
 
 Why is there a seperate github repository?
 --
@@ -32,6 +32,8 @@ Mutations must be follow the HGVS nomenclature. Information on this format can b
 * Insertion in genes. *Example: Insertion of GT between nucleotide 1850 and 1851 in katG would be c.1850_1851insGT*
 * SNPs in non-coding RNAs. *Example: A to G at position 1401 in rrs would be r.1401a>g*
 * SNPs in gene promoters. *Example: A to G 7 bases 5' of the start codon in pncA c.-7A>G*
+
+**Important! The mutations and resulting library files are in reference to the H37Rv reference genome**
 
 ## Generating a new library
 Once the tbdb.csv is finished the `parse_db.py` script can be run.
