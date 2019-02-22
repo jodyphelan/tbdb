@@ -7,7 +7,7 @@ This repository contains the scripts and data to generate all files required to 
 With analysis pipelines pretty much standardised, it is evident that accuracy of prediction is affected mostly by the underlying library of mutations. As new evidence for the inclusion or exclusion of mutations is generated, there is a constant need to  update and re-evaluate the mutation library. Moreover, it is important for the control of the library to be put in the hands of the end-users. By hosting the library on a separate repository (rather than buried deep in the profiling tool code) it makes it easier to find out exactly which mutations are present. Additionally, github has a number of useful features which can be utilised:
  - All changes to the library are tracked and can be easily be reverted to previous versions.
  - Users can raise concerns or discuss the library using the [Issues](https://github.com/jodyphelan/tbdb/issues) section of the github repository.
- - Different versions of the library can be maintained using Forks. Allowing users to experiment with the library without affecting the main project. These changes can then be merged into the main repo after the changes are reviewed.
+ - Different versions of the library can be maintained using [Forks](https://help.github.com/en/articles/fork-a-repo). Allowing users to experiment with the library without affecting the main project. These changes can then be merged into the main repo after the changes are reviewed.
  - Multiple users/developers can contribute towards the library.
 
 **tl;dr** - Hosting it here makes it easier to update the library.
