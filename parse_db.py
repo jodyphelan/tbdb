@@ -106,10 +106,10 @@ def main(args):
 		db[locus_tag][mut]["drugs"].append(row["Drug"].lower())
 		annotation_columns = set(row.keys()) - set(["Gene","Mutation","Drug"])
 		for col in annotation_columns:
-			if row[col]=="": continue
 			if col.lower() not in db[locus_tag][mut]:
 				db[locus_tag][mut][col.lower()] = [row[col]]
 			else:
+				if row[col]=="": continue
 				db[locus_tag][mut][col.lower()].append(row[col])
 	conf_file = "%s.config.json" % args.prefix
 	genome_file = "%s.fasta" % args.prefix
