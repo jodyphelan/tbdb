@@ -109,7 +109,7 @@ def main(args):
 			if col.lower() not in db[locus_tag][mut]:
 				db[locus_tag][mut][col.lower()] = [row[col]]
 			else:
-				if row[col]=="": continue
+#				if row[col]=="": continue
 				db[locus_tag][mut][col.lower()].append(row[col])
 	conf_file = "%s.config.json" % args.prefix
 	genome_file = "%s.fasta" % args.prefix
