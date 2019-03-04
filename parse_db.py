@@ -75,11 +75,16 @@ def parse_mutation(mut,gene,fasta_dict):
 		return "%s%s>%s" % (nt_pos,ref_nt.upper(),alt_nt.upper())
 def write_bed(gene_dict,gene_info,outfile):
 	O = open(outfile,"w")
+	lines = []
 	for gene in gene_dict:
 		if gene not in gene_info:
 			sys.stderr.write("%s not found in the 'gene_info' dictionary... Exiting!" % gene)
 			quit()
-		O.write("Chromosome\t%s\t%s\t%s\t%s\t%s\n" % (gene_info[gene]["start"],gene_info[gene]["end"],gene_info[gene]["locus_tag"],gene_info[gene]["gene"],",".join(gene_dict[gene])))
+		lines.append(["Chromosome",int(gene_info[gene]["start"]),int(gene_info[gene]["end"]),gene_info[gene]["locus_tag"],gene_info[gene]["gene"],",".join(gene_dict[gene])])
+	for line in sorted(lines,key=lambda x: x[1]):
+		line[1] = str(line[1])
+		line[2] = str(line[2])
+		O.write("%s\n" %"\t".join(line))
 	O.close()
 
 def load_gene_info(filename):
