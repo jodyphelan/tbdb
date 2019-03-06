@@ -77,7 +77,7 @@ def parse_mutation(mut,gene,fasta_dict):
 	if re_obj:
 		nt_pos = re_obj.group(1)
 		ref_nt = re_obj.group(2)
-		alt_nt = re_obj.group(2)
+		alt_nt = re_obj.group(3)
 		return "%s%s>%s" % (nt_pos,ref_nt,alt_nt)
 	## ncRNA Mutation
 	## r.514a>c
