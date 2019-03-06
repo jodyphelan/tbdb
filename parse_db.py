@@ -25,14 +25,14 @@ def write_gene_pos(infile,genes,outfile):
 	O = open(outfile,"w")
 	for l in open(infile):
 		row = l.strip().split()
-		gene,chr_start,chr_end,gene_start,gene_end = [row[0]]+[int(row[i]) for i in range(1,5)]
-		if gene in genes:
+		rv,gene,chr_start,chr_end,gene_start,gene_end = [row[0],row[1]]+[int(row[i]) for i in range(2,6)]
+		if rv in genes:
 			y = 0
 			for i,chr_pos in enumerate(range(chr_start,chr_end+1)):
 				x = 1 if gene_start<gene_end else -1
 				if gene_start+(x*i)==0:
 					y = 1 if gene_start<gene_end else -1
-				O.write("Chromosome\t%s\t%s\t%s\n" % (chr_pos,gene,gene_start+(x*i)+y))
+				O.write("Chromosome\t%s\t%s\t%s\n" % (chr_pos,rv,gene_start+(x*i)+y))
 	O.close()
 
 def parse_mutation(mut,gene,fasta_dict):
@@ -146,7 +146,7 @@ def main(args):
 	copyfile("genome.fasta", genome_file)
 	copyfile("genome.gff", gff_file)
 	copyfile("barcode.bed", barcode_file)
-	write_gene_pos("gene_pos.txt",list(db.keys()),ann_file)
+	write_gene_pos("genes.txt",list(db.keys()),ann_file)
 	write_bed(locus_tag_to_drug_dict,gene_info,bed_file)
 	json.dump(db,open(json_file,"w"))
 	json.dump(conf,open(conf_file,"w"))
