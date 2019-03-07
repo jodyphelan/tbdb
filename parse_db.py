@@ -121,15 +121,17 @@ def main(args):
 		if locus_tag not in db:
 			db[locus_tag] = {}
 		if mut not in db[locus_tag]:
-			db[locus_tag][mut] = {"drugs":[]}
-		db[locus_tag][mut]["drugs"].append(row["Drug"].lower())
+			db[locus_tag][mut] = {"drugs":{}}
+		db[locus_tag][mut]["drugs"][row["Drug"].lower()] = {}
 		annotation_columns = set(row.keys()) - set(["Gene","Mutation","Drug"])
 		for col in annotation_columns:
-			if col.lower() not in db[locus_tag][mut]:
-				db[locus_tag][mut][col.lower()] = [row[col]]
-			else:
-#				if row[col]=="": continue
-				db[locus_tag][mut][col.lower()].append(row[col])
+			if row[col]=="":continue
+			db[locus_tag][mut]["drugs"][row["Drug"].lower()][col.lower()] = row[col]
+# 			if col.lower() not in db[locus_tag][mut]:
+# 				db[locus_tag][mut][col.lower()] = [row[col]]
+# 			else:
+# #				if row[col]=="": continue
+# 				db[locus_tag][mut][col.lower()].append(row[col])
 	conf_file = "%s.config.json" % args.prefix
 	genome_file = "%s.fasta" % args.prefix
 	gff_file = "%s.gff" % args.prefix
