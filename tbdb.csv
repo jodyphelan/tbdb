@@ -1,4 +1,5 @@
 Gene,Mutation,Drug
+Rv3261,p.Asp49Tyr,delamanid
 pncA,c.521_522insA,pyrazinamide
 pncA,c.518_519insC,pyrazinamide
 pncA,c.497del,pyrazinamide
