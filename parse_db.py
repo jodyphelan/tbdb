@@ -137,6 +137,13 @@ def parse_mutation(mut,gene,fasta_dict,gene_info):
 		start = int(re_obj.group(1))
 		end = int(re_obj.group(2))
 		return ["any_missense_codon_%s" % i for i in range(start,end+1)]
+	## indel range
+	##
+	re_obj = re.search("any_indel_nucleotide([0-9]+)_([0-9]+)",mut)
+	if re_obj:
+		start = int(re_obj.group(1))
+		end = int(re_obj.group(2))
+		return ["any_indel_nucleotide_%s" % i for i in range(start,end+1)]
 	## Large deletion
 	## "large_deletion"
 	re_obj = re.search("large_deletion",mut)
@@ -173,10 +180,8 @@ def main(args):
 	db = {}
 	locus_tag_to_drug_dict = defaultdict(set)
 	for row in csv.DictReader(open(args.csv)):
-		print(row)
 		locus_tag = gene_info[row["Gene"]]["locus_tag"]
 		muts = parse_mutation(row["Mutation"],locus_tag,fasta_dict,gene_info)
-		print(muts)
 		#	sys.exit()
 		for mut in muts:
 			locus_tag_to_drug_dict[locus_tag].add(row["Drug"].lower())
