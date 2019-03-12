@@ -1,4 +1,7 @@
 Gene,Mutation,Drug
+katG,large_deletion,isoniazid
+ethA,large_deletion,ethionamide
+pncA,large_deletion,pyrazinamide
 thyA,large_deletion,para-aminosalicylic_acid
 gid,large_deletion,streptomycin
 Rv3261,p.Asp49Tyr,delamanid
