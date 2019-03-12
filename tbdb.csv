@@ -1,4 +1,5 @@
 Gene,Mutation,Drug
+thyA,large_deletion,para-aminosalicylic_acid
 gid,large_deletion,streptomycin
 Rv3261,p.Asp49Tyr,delamanid
 pncA,c.375_389del,pyrazinamide
