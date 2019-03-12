@@ -5,7 +5,7 @@ from collections import defaultdict
 import argparse
 from shutil import copyfile
 import os.path
-
+import sys
 def fa2dict(filename):
 	fa_dict = {}
 	seq_name = ""
@@ -21,6 +21,15 @@ def fa2dict(filename):
 		result[seq] = "".join(fa_dict[seq])
 	return result
 
+def revcom(s):
+        """Return reverse complement of a sequence"""
+        def complement(s):
+                        basecomplement = {'A': 'T', 'C': 'G', 'G': 'C', 'T': 'A', 'N': 'N'}
+                        letters = list(s)
+                        letters = [basecomplement[base] for base in letters]
+                        return ''.join(letters)
+        return complement(s[::-1])
+
 def write_gene_pos(infile,genes,outfile):
 	O = open(outfile,"w")
 	for l in open(infile):
@@ -35,7 +44,7 @@ def write_gene_pos(infile,genes,outfile):
 				O.write("Chromosome\t%s\t%s\t%s\n" % (chr_pos,rv,gene_start+(x*i)+y))
 	O.close()
 
-def parse_mutation(mut,gene,fasta_dict):
+def parse_mutation(mut,gene,fasta_dict,gene_info):
 	aa_long2short = {
 	"Ala":"A","Arg":"R","Asn":"N","Asp":"D","Cys":"C",
 	"Gln":"Q","Glu":"E","Gly":"G","His":"H","Ile":"I",
@@ -49,28 +58,52 @@ def parse_mutation(mut,gene,fasta_dict):
 		ref_aa = aa_long2short[re_obj.group(1)]
 		alt_aa = aa_long2short[re_obj.group(3)]
 		codon_num = re_obj.group(2)
-		return "%s%s>%s%s" % (codon_num,ref_aa,codon_num,alt_aa)
+		return ["%s%s>%s%s" % (codon_num,ref_aa,codon_num,alt_aa)]
 	# Stop codon
 	re_obj = re.search("p.([A-Z][a-z][a-z])([0-9]+)(\*)",mut)
 	if re_obj:
 		ref_aa = aa_long2short[re_obj.group(1)]
 		alt_aa = re_obj.group(3)
 		codon_num = re_obj.group(2)
-		return "%s%s>%s%s" % (codon_num,ref_aa,codon_num,alt_aa)
-	# Deletion
-	re_obj = re.search("c.([0-9]+)_([0-9]+)del",mut)
+		return ["%s%s>%s%s" % (codon_num,ref_aa,codon_num,alt_aa)]
+	# Deletion single base
+	re_obj = re.search("c.([\-0-9]+)del",mut)
 	if re_obj:
-		start_nt = int(re_obj.group(1))
-		end_nt = int(re_obj.group(2))
-		seq = fasta_dict[gene][start_nt-2:end_nt]
-		return "%s%s>%s" % (start_nt-1,seq,seq[0])
+		gene_start_nt = int(re_obj.group(1))
+		strand = gene_info[gene]["strand"]
+		if strand=="-":
+			chr_start_nt = gene_info[gene]["end"] + gene_info[gene]["gene_end"] - gene_start_nt + (1 if gene_info[gene]["gene_end"]<0 else 0)
+		else:
+			chr_start_nt = gene_info[gene]["start"] - gene_info[gene]["gene_start"] + gene_start_nt - (0 if gene_start_nt<0 else 1)
+		seq = fasta_dict["Chromosome"][chr_start_nt-2:chr_start_nt]
+		return ["%s%s>%s" % (chr_start_nt-1,seq,seq[0])]
+	# Deletion multi base
+	re_obj = re.search("c.([\-0-9]+)_([\-0-9]+)del",mut)
+	if re_obj:
+		gene_start_nt = int(re_obj.group(1))
+		gene_end_nt = int(re_obj.group(2))
+		del_len = gene_end_nt-gene_start_nt+1
+		strand = gene_info[gene]["strand"]
+		if strand=="-":
+			chr_start_nt = gene_info[gene]["end"] + gene_info[gene]["gene_end"] - gene_start_nt - (del_len-1) + (1 if gene_info[gene]["gene_end"]<0 else 0)
+		else:
+			chr_start_nt = gene_info[gene]["start"] - gene_info[gene]["gene_start"] + gene_start_nt - (0 if gene_start_nt<0 else 1)
+		chr_end_nt = chr_start_nt+del_len-1
+		seq = fasta_dict["Chromosome"][chr_start_nt-2:chr_end_nt]
+		return ["%s%s>%s" % (chr_start_nt-1,seq,seq[0])]
 	# Insertion
 	re_obj = re.search("c.([0-9]+)_([0-9]+)ins([A-Z]+)",mut)
 	if re_obj:
-		start_nt = int(re_obj.group(1))
+		gene_start_nt = int(re_obj.group(1))
 		seq_ins = re_obj.group(3)
-		seq_start = fasta_dict[gene][start_nt-1]
-		return "%s%s>%s" % (start_nt,seq_start,seq_start+seq_ins)
+		strand = gene_info[gene]["strand"]
+		if strand=="-":
+			chr_start_nt = gene_info[gene]["end"] + gene_info[gene]["gene_end"] - gene_start_nt + 1
+			seq_ins = revcom(seq_ins)
+		else:
+			chr_start_nt = gene_info[gene]["start"] - gene_info[gene]["gene_start"] + gene_start_nt - 1
+		seq_start = fasta_dict["Chromosome"][chr_start_nt-1]
+		return ["%s%s>%s" % (chr_start_nt,seq_start,seq_start+seq_ins)]
 	## Promoter Mutation
 	## c.-16G>C
 	re_obj = re.search("c.(\-[0-9]+)([A-Z])>([A-Z])",mut)
@@ -78,15 +111,34 @@ def parse_mutation(mut,gene,fasta_dict):
 		nt_pos = re_obj.group(1)
 		ref_nt = re_obj.group(2)
 		alt_nt = re_obj.group(3)
-		return "%s%s>%s" % (nt_pos,ref_nt,alt_nt)
+		return ["%s%s>%s" % (nt_pos,ref_nt,alt_nt)]
 	## ncRNA Mutation
 	## r.514a>c
-	re_obj = re.search("r.([0-9]+)([a-z])>([a-z])",mut)
+	re_obj = re.search("r.([0-9]+)([a-z]+)>([a-z]+)",mut)
 	if re_obj:
 		nt_pos = re_obj.group(1)
 		ref_nt = re_obj.group(2)
 		alt_nt = re_obj.group(3)
-		return "%s%s>%s" % (nt_pos,ref_nt.upper(),alt_nt.upper())
+		return ["%s%s>%s" % (nt_pos,ref_nt.upper(),alt_nt.upper())]
+	## frameshift
+	## frameshift
+	re_obj = re.search("frameshift",mut)
+	if re_obj:
+		return ["frameshift"]
+	## premature_stop
+	## premature_stop
+	re_obj = re.search("premature_stop",mut)
+	if re_obj:
+		return ["premature_stop"]
+	## codon range
+	## any_missense_codon_425_452
+	re_obj = re.search("any_missense_codon_([0-9]+)_([0-9]+)",mut)
+	if re_obj:
+		start = int(re_obj.group(1))
+		end = int(re_obj.group(2))
+		return ["any_missense_codon_%s" % i for i in range(start,end+1)]
+	return []
+#	sys.exit("%s is not a valid formatted mutation... Exiting!" % mut)
 def write_bed(gene_dict,gene_info,outfile):
 	O = open(outfile,"w")
 	lines = []
@@ -105,33 +157,33 @@ def load_gene_info(filename):
 	gene_info = {}
 	for l in open(filename):
 		row = l.rstrip().split()
-		gene_info[row[0]] = {"locus_tag":row[0],"gene":row[1],"start":row[2],"end":row[3],"strand":row[4]}
-		gene_info[row[1]] = {"locus_tag":row[0],"gene":row[1],"start":row[2],"end":row[3],"strand":row[4]}
+		strand = "-" if row[0][-1]=="c" else "+"
+		gene_info[row[0]] = {"locus_tag":row[0],"gene":row[1],"start":int(row[2]),"end":int(row[3]),"gene_start":int(row[4]),"gene_end":int(row[5]),"strand":strand}
+		gene_info[row[1]] = {"locus_tag":row[0],"gene":row[1],"start":int(row[2]),"end":int(row[3]),"gene_start":int(row[4]),"gene_end":int(row[5]),"strand":strand}
 	return gene_info
 
 def main(args):
-	fasta_dict = fa2dict("genes.fasta")
+	fasta_dict = fa2dict("genome.fasta")
 	gene_info = load_gene_info("genes.txt")
 	db = {}
 	locus_tag_to_drug_dict = defaultdict(set)
 	for row in csv.DictReader(open(args.csv)):
+		print(row)
 		locus_tag = gene_info[row["Gene"]]["locus_tag"]
-		mut = parse_mutation(row["Mutation"],locus_tag,fasta_dict)
-		locus_tag_to_drug_dict[locus_tag].add(row["Drug"].lower())
-		if locus_tag not in db:
-			db[locus_tag] = {}
-		if mut not in db[locus_tag]:
-			db[locus_tag][mut] = {"drugs":{}}
-		db[locus_tag][mut]["drugs"][row["Drug"].lower()] = {}
-		annotation_columns = set(row.keys()) - set(["Gene","Mutation","Drug"])
-		for col in annotation_columns:
-			if row[col]=="":continue
-			db[locus_tag][mut]["drugs"][row["Drug"].lower()][col.lower()] = row[col]
-# 			if col.lower() not in db[locus_tag][mut]:
-# 				db[locus_tag][mut][col.lower()] = [row[col]]
-# 			else:
-# #				if row[col]=="": continue
-# 				db[locus_tag][mut][col.lower()].append(row[col])
+		muts = parse_mutation(row["Mutation"],locus_tag,fasta_dict,gene_info)
+		print(muts)
+		#	sys.exit()
+		for mut in muts:
+			locus_tag_to_drug_dict[locus_tag].add(row["Drug"].lower())
+			if locus_tag not in db:
+				db[locus_tag] = {}
+			if mut not in db[locus_tag]:
+				db[locus_tag][mut] = {"drugs":{}}
+			db[locus_tag][mut]["drugs"][row["Drug"].lower()] = {}
+			annotation_columns = set(row.keys()) - set(["Gene","Mutation","Drug"])
+			for col in annotation_columns:
+				if row[col]=="":continue
+				db[locus_tag][mut]["drugs"][row["Drug"].lower()][col.lower()] = row[col]
 	conf_file = "%s.config.json" % args.prefix
 	genome_file = "%s.fasta" % args.prefix
 	gff_file = "%s.gff" % args.prefix
