@@ -1,4 +1,5 @@
 Gene,Mutation,Drug
+gid,large_deletion,streptomycin
 Rv3261,p.Asp49Tyr,delamanid
 pncA,c.375_389del,pyrazinamide
 pncA,c.521_522insT,pyrazinamide
