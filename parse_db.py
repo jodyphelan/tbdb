@@ -108,10 +108,17 @@ def parse_mutation(mut,gene,fasta_dict,gene_info):
 	## c.-16G>C
 	re_obj = re.search("c.(\-[0-9]+)([A-Z])>([A-Z])",mut)
 	if re_obj:
-		nt_pos = re_obj.group(1)
+		nt_pos = int(re_obj.group(1))
 		ref_nt = re_obj.group(2)
 		alt_nt = re_obj.group(3)
-		return ["%s%s>%s" % (nt_pos,ref_nt,alt_nt)]
+		strand = gene_info[gene]["strand"]
+
+		if strand =="+":
+			chr_pos = gene_info[gene]["start"] - (gene_info[gene]["gene_start"] - nt_pos)
+			return ["%s%s>%s" % (nt_pos,ref_nt,alt_nt)]
+		else:
+			chr_pos = gene_info[gene]["end"] + (gene_info[gene]["gene_end"] - nt_pos)
+			return ["%s%s>%s" % (nt_pos,revcom(ref_nt),revcom(alt_nt))]
 	## ncRNA Mutation
 	## r.514a>c
 	re_obj = re.search("r.([0-9]+)([a-z]+)>([a-z]+)",mut)
@@ -182,6 +189,8 @@ def main(args):
 	for row in csv.DictReader(open(args.csv)):
 		locus_tag = gene_info[row["Gene"]]["locus_tag"]
 		muts = parse_mutation(row["Mutation"],locus_tag,fasta_dict,gene_info)
+		print("%(Gene)s\t%(Mutation)s\t%(Drug)s" % row)
+		print(muts)
 		#	sys.exit()
 		for mut in muts:
 			locus_tag_to_drug_dict[locus_tag].add(row["Drug"].lower())
