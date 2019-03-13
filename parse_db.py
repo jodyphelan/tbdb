@@ -144,6 +144,12 @@ def parse_mutation(mut,gene,fasta_dict,gene_info):
 		start = int(re_obj.group(1))
 		end = int(re_obj.group(2))
 		return ["any_missense_codon_%s" % i for i in range(start,end+1)]
+	## codon single
+	## any_missense_codon_425
+	re_obj = re.search("any_missense_codon_([0-9]+)",mut)
+	if re_obj:
+		start = int(re_obj.group(1))
+		return ["any_missense_codon_%s" % start]
 	## indel range
 	##
 	re_obj = re.search("any_indel_nucleotide([0-9]+)_([0-9]+)",mut)
