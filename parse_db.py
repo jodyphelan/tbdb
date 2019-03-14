@@ -152,7 +152,7 @@ def parse_mutation(mut,gene,fasta_dict,gene_info):
 		return ["any_missense_codon_%s" % start]
 	## indel range
 	##
-	re_obj = re.search("any_indel_nucleotide([0-9]+)_([0-9]+)",mut)
+	re_obj = re.search("any_indel_nucleotide_([0-9]+)_([0-9]+)",mut)
 	if re_obj:
 		start = int(re_obj.group(1))
 		end = int(re_obj.group(2))
@@ -162,8 +162,8 @@ def parse_mutation(mut,gene,fasta_dict,gene_info):
 	re_obj = re.search("large_deletion",mut)
 	if re_obj:
 		return ["large_deletion"]
-	return []
-#	sys.exit("%s is not a valid formatted mutation... Exiting!" % mut)
+
+	sys.exit("%s is not a valid formatted mutation... Exiting!" % mut)
 def write_bed(gene_dict,gene_info,outfile):
 	O = open(outfile,"w")
 	lines = []
