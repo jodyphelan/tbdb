@@ -4,8 +4,12 @@ import re
 from collections import defaultdict
 import argparse
 from shutil import copyfile
+import subprocess
 import os.path
 import sys
+
+chr_name = "Chromosome"
+
 def fa2dict(filename):
 	fa_dict = {}
 	seq_name = ""
@@ -41,7 +45,7 @@ def write_gene_pos(infile,genes,outfile):
 				x = 1 if gene_start<gene_end else -1
 				if gene_start+(x*i)==0:
 					y = 1 if gene_start<gene_end else -1
-				O.write("Chromosome\t%s\t%s\t%s\n" % (chr_pos,rv,gene_start+(x*i)+y))
+				O.write("%s\t%s\t%s\t%s\n" % (chr_name,chr_pos,rv,gene_start+(x*i)+y))
 	O.close()
 
 def parse_mutation(mut,gene,fasta_dict,gene_info):
@@ -164,14 +168,14 @@ def parse_mutation(mut,gene,fasta_dict,gene_info):
 		return ["large_deletion"]
 
 	sys.exit("%s is not a valid formatted mutation... Exiting!" % mut)
-def write_bed(gene_dict,gene_info,outfile):
+def write_bed(gene_dict,gene_info,outfile,chr_name):
 	O = open(outfile,"w")
 	lines = []
 	for gene in gene_dict:
 		if gene not in gene_info:
 			sys.stderr.write("%s not found in the 'gene_info' dictionary... Exiting!" % gene)
 			quit()
-		lines.append(["Chromosome",int(gene_info[gene]["start"]),int(gene_info[gene]["end"]),gene_info[gene]["locus_tag"],gene_info[gene]["gene"],",".join(gene_dict[gene])])
+		lines.append([chr_name,int(gene_info[gene]["start"]),int(gene_info[gene]["end"]),gene_info[gene]["locus_tag"],gene_info[gene]["gene"],",".join(gene_dict[gene])])
 	for line in sorted(lines,key=lambda x: x[1]):
 		line[1] = str(line[1])
 		line[2] = str(line[2])
@@ -188,6 +192,8 @@ def load_gene_info(filename):
 	return gene_info
 
 def main(args):
+	global chr_name
+	chr_name = args.seqname
 	fasta_dict = fa2dict("genome.fasta")
 	gene_info = load_gene_info("genes.txt")
 	db = {}
@@ -195,9 +201,6 @@ def main(args):
 	for row in csv.DictReader(open(args.csv)):
 		locus_tag = gene_info[row["Gene"]]["locus_tag"]
 		muts = parse_mutation(row["Mutation"],locus_tag,fasta_dict,gene_info)
-		print("%(Gene)s\t%(Mutation)s\t%(Drug)s" % row)
-		print(muts)
-		#	sys.exit()
 		for mut in muts:
 			locus_tag_to_drug_dict[locus_tag].add(row["Drug"].lower())
 			if locus_tag not in db:
@@ -222,17 +225,18 @@ def main(args):
 		"bed": os.path.abspath(bed_file), "json_db": os.path.abspath(json_file)
 	}
 
-	copyfile("genome.fasta", genome_file)
-	copyfile("genome.gff", gff_file)
-	copyfile("barcode.bed", barcode_file)
+	open(genome_file,"w").write(">%s\n%s\n" % (chr_name,fasta_dict["Chromosome"]))
+	subprocess.call("sed 's/Chromosome/%s/g' genome.gff > %s" % (chr_name,gff_file),shell=True)
+	subprocess.call("sed 's/Chromosome/%s/g' barcode.bed > %s" % (chr_name,barcode_file),shell=True)
 	write_gene_pos("genes.txt",list(db.keys()),ann_file)
-	write_bed(locus_tag_to_drug_dict,gene_info,bed_file)
+	write_bed(locus_tag_to_drug_dict,gene_info,bed_file,chr_name)
 	json.dump(db,open(json_file,"w"))
-	json.dump(conf,open(conf_file,"w"))
+	#json.dump(conf,open(conf_file,"w"))
 
 parser = argparse.ArgumentParser(description='Script to generate the files required to run TBProfiler',formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 parser.add_argument('--prefix','-p',default="tbdb",type=str,help='The input CSV file containing the mutations')
 parser.add_argument('--csv','-c',default="tbdb.csv",type=str,help='The prefix for all output files')
+parser.add_argument('--seqname','-s',default="Chromosome",type=str,help='The prefix for all output files')
 parser.set_defaults(func=main)
 args = parser.parse_args()
 args.func(args)

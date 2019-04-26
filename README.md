@@ -70,6 +70,9 @@ After running `parse_db.py` you will have 6 output files (considering you did no
 
 The **tbdb.config.json** file can then be loaded by TBProfiler using `tb-profiler load_library drdb.config.json` and is then ready to be used.
 
+## Using alternate reference names
+
+The tbdb database will assume you have mapped your data to a reference with "Chromosome" as the sequenc name. If your reference sequence is the same but has a differenct name e.g "NC_000962.3". You can generate a database with an alternate sequence name using the `--seqname` flag.
 
 ## FAQ
 
