@@ -219,12 +219,17 @@ def main(args):
 	barcode_file = "%s.barcode.bed" % args.prefix
 	bed_file = "%s.bed" % args.prefix
 	json_file = "%s.dr.json" % args.prefix
+	version_file = "%s.version.json" % args.prefix
 	conf = {
 		"gff": os.path.abspath(gff_file), "ref": os.path.abspath(genome_file),
 		"ann": os.path.abspath(ann_file), "barcode": os.path.abspath(barcode_file),
 		"bed": os.path.abspath(bed_file), "json_db": os.path.abspath(json_file)
 	}
-
+	version = {}
+	for l in subprocess.Popen("git log | head -3", shell=True, stdout=subprocess.PIPE).stdout:
+		row = l.decode().strip().split()
+		version[row[0].replace(":","")] = " ".join(row[1:])
+	json.dump(version,open(version_file,"w"))
 	open(genome_file,"w").write(">%s\n%s\n" % (chr_name,fasta_dict["Chromosome"]))
 	subprocess.call("sed 's/Chromosome/%s/g' genome.gff > %s" % (chr_name,gff_file),shell=True)
 	subprocess.call("sed 's/Chromosome/%s/g' barcode.bed > %s" % (chr_name,barcode_file),shell=True)
