@@ -7,6 +7,7 @@ from shutil import copyfile
 import subprocess
 import os.path
 import sys
+from datetime import datetime
 
 chr_name = "Chromosome"
 
@@ -226,9 +227,12 @@ def main(args):
 		"bed": os.path.abspath(bed_file), "json_db": os.path.abspath(json_file)
 	}
 	version = {"name":args.prefix}
-	for l in subprocess.Popen("git log | head -3", shell=True, stdout=subprocess.PIPE).stdout:
-		row = l.decode().strip().split()
-		version[row[0].replace(":","")] = " ".join(row[1:])
+	if not args.custom:
+		for l in subprocess.Popen("git log | head -3", shell=True, stdout=subprocess.PIPE).stdout:
+			row = l.decode().strip().split()
+			version[row[0].replace(":","")] = " ".join(row[1:])
+	else:
+		version["Date"] = str(datetime.now()) 
 	json.dump(version,open(version_file,"w"))
 	open(genome_file,"w").write(">%s\n%s\n" % (chr_name,fasta_dict["Chromosome"]))
 	subprocess.call("sed 's/Chromosome/%s/g' genome.gff > %s" % (chr_name,gff_file),shell=True)
@@ -242,6 +246,7 @@ parser = argparse.ArgumentParser(description='Script to generate the files requi
 parser.add_argument('--prefix','-p',default="tbdb",type=str,help='The input CSV file containing the mutations')
 parser.add_argument('--csv','-c',default="tbdb.csv",type=str,help='The prefix for all output files')
 parser.add_argument('--seqname','-s',default="Chromosome",type=str,help='The prefix for all output files')
+parser.add_argument('--custom',action="store_true",help='Tells the script this is a custom database, this is used to alter the generation of the version file')
 parser.set_defaults(func=main)
 args = parser.parse_args()
 args.func(args)
