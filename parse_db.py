@@ -225,7 +225,7 @@ def main(args):
 		"ann": os.path.abspath(ann_file), "barcode": os.path.abspath(barcode_file),
 		"bed": os.path.abspath(bed_file), "json_db": os.path.abspath(json_file)
 	}
-	version = {}
+	version = {"name":args.prefix}
 	for l in subprocess.Popen("git log | head -3", shell=True, stdout=subprocess.PIPE).stdout:
 		row = l.decode().strip().split()
 		version[row[0].replace(":","")] = " ".join(row[1:])
