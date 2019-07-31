@@ -213,6 +213,7 @@ def main(args):
 			for col in annotation_columns:
 				if row[col]=="":continue
 				db[locus_tag][mut]["drugs"][row["Drug"].lower()][col.lower()] = row[col]
+			db[locus_tag][mut]["hgvs_mutation"] = row["Mutation"]
 	conf_file = "%s.config.json" % args.prefix
 	genome_file = "%s.fasta" % args.prefix
 	gff_file = "%s.gff" % args.prefix
@@ -232,7 +233,7 @@ def main(args):
 			row = l.decode().strip().split()
 			version[row[0].replace(":","")] = " ".join(row[1:])
 	else:
-		version["Date"] = str(datetime.now()) 
+		version["Date"] = str(datetime.now())
 	json.dump(version,open(version_file,"w"))
 	open(genome_file,"w").write(">%s\n%s\n" % (chr_name,fasta_dict["Chromosome"]))
 	subprocess.call("sed 's/Chromosome/%s/g' genome.gff > %s" % (chr_name,gff_file),shell=True)
