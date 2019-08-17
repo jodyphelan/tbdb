@@ -1,6 +1,6 @@
 # TBDB: A repository for the TBProfiler library
 
-This repository contains the scripts and data to generate all files required to run [TBProfiler2](https://github.com/jodyphelan/TBProfiler2/).
+This repository contains the scripts and data to generate all files required to run [TBProfiler](https://github.com/jodyphelan/TBProfiler/).
 
 ## Why is there a seperate github repository?
 
@@ -11,6 +11,11 @@ With analysis pipelines pretty much standardised, it is evident that accuracy of
  - Multiple users/developers can contribute towards the library.
 
 **tl;dr** - Hosting it here makes it easier to update the library.
+
+## Want to contribute?
+
+If you think a mutation should be removed or added please raise and issue [here](https://github.com/jodyphelan/tbdb/issues).
+If you want to help curate the library, leave a comment [here](https://github.com/jodyphelan/tbdb/issues/4).
 
 ## How does it work?
 
@@ -23,7 +28,7 @@ This is a CSV file which must contain the following column headings:
 3. **Drug** - Name of the drug
 4. **Literature** - Any literature which provides evidence for the mutation. I would recommend using pubmed IDs (e.g. PMC3315572) but in theory anything can be put here. Multiple entries can be separated with ";".
 
-The first three columns must contain a value, however literature may remain empty. Additional columns may be added and will be built into the json library. Currently, only the columns listed above are actually used by TBProfiler to generate the results but we are working on allowing a more flexible output in the future.
+The first three columns must contain a value, however literature may remain empty. Additional columns may be added and will be built into the json library, and can be output in the tb-profiler results.
 
 ###### Mutation format
 Mutations must follow the HGVS nomenclature. Information on this format can be found [here](http://varnomen.hgvs.org/). The following types of mutations are currently allowed:
@@ -72,11 +77,8 @@ The **tbdb.config.json** file can then be loaded by TBProfiler using `tb-profile
 
 ## Using alternate reference names
 
-The tbdb database will assume you have mapped your data to a reference with "Chromosome" as the sequenc name. If your reference sequence is the same but has a differenct name e.g "NC_000962.3". You can generate a database with an alternate sequence name using the `--seqname` flag.
+The tbdb database will assume you have mapped your data to a reference with "Chromosome" as the sequence name. If your reference sequence is the same but has a differenct name e.g "NC_000962.3". You can generate a database with an alternate sequence name using the `--seqname` flag.
 
-## FAQ
-
-Will populate this once we get some frequently asked questions!
 
 ## Future plans
 
