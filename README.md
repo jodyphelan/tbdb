@@ -40,6 +40,14 @@ Mutations must follow the HGVS nomenclature. Information on this format can be f
 
 **Important! The mutations and resulting library files are in reference to the H37Rv reference genome**
 
+## Confidence values
+
+Confidence values for mutations will be included upon building the database. By default these are source from the [tbdb.confidence.csv](https://github.com/jodyphelan/tbdb/blob/master/tbdb.confidence.csv) file. These confidence values have been precomputed using a database of >16,000 isolates with phenotypic and genotypic data available. The database was created as specified in the [tb-profiler paper](https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-019-0650-x). The confidence values were calculated using a method similar to that as proposed by the ReSeqTB consortium and is detailed in supplementary material 5 of [this paper](https://erj.ersjournals.com/content/50/6/1701354). In short, the risk ratio is used to infer if mutations are positively or negatively associated with resistance and the odds ratio is used to characterise the effect size. Associated p-value for these metrics are calculated and if any fall below 0.05, the confidence is graded as _indeterminate_. If the p-values are significant the OR is used to grade the mutations in high (OR>10), moderate (5<OR<=10), low (1<OR<=5) or no_association (OR<=1). The script used to download the necessary data and calculate the metrics can be found [here](https://github.com/jodyphelan/tbdb/blob/master/scripts/generate_confidence.py).
+
+### Can I use my own grading system?
+
+Of course! If you would prefer to assign your own confidence values you can supply a CSV file with the columns drug, gene, mutation and confidence to the `--confidence` flag when using `parse_db.py`. If a mutation if found in the confidence list it will be included, if not it will be set to indeterminate.
+
 ## Generating a new library
 
 ##### Install

@@ -192,6 +192,10 @@ def load_gene_info(filename):
 		gene_info[row[1]] = {"locus_tag":row[0],"gene":row[1],"start":int(row[2]),"end":int(row[3]),"gene_start":int(row[4]),"gene_end":int(row[5]),"strand":strand}
 	return gene_info
 
+# def get_codon_num(x):
+# 	re_obj = re.search("p.[A-Za-z]+([0-9]+)[A-Za-z\*]+",x)
+# 	return re_obj.group(1)
+
 def main(args):
 	global chr_name
 	chr_name = args.seqname
@@ -204,21 +208,26 @@ def main(args):
 		confidence[(row["gene"],row["mutation"],row["drug"])] = row["confidence"]
 	for row in csv.DictReader(open(args.csv)):
 		locus_tag = gene_info[row["Gene"]]["locus_tag"]
+		drug = row["Drug"].lower()
 		muts = parse_mutation(row["Mutation"],locus_tag,fasta_dict,gene_info)
 		for mut in muts:
-			locus_tag_to_drug_dict[locus_tag].add(row["Drug"].lower())
+			locus_tag_to_drug_dict[locus_tag].add(drug)
 			if locus_tag not in db:
 				db[locus_tag] = {}
 			if mut not in db[locus_tag]:
 				db[locus_tag][mut] = {"drugs":{}}
-			db[locus_tag][mut]["drugs"][row["Drug"].lower()] = {}
+			db[locus_tag][mut]["drugs"][drug] = {}
 			annotation_columns = set(row.keys()) - set(["Gene","Mutation","Drug"])
 			for col in annotation_columns:
 				if row[col]=="":continue
-				db[locus_tag][mut]["drugs"][row["Drug"].lower()][col.lower()] = row[col]
+				db[locus_tag][mut]["drugs"][drug][col.lower()] = row[col]
 			db[locus_tag][mut]["hgvs_mutation"] = row["Mutation"]
-			db[locus_tag][mut]["drugs"][row["Drug"].lower()]["confidence"] = confidence[(locus_tag,mut,row["Drug"].lower())] if (locus_tag,mut,row["Drug"].lower()) in confidence else "indeterminate"
-	conf_file = "%s.config.json" % args.prefix
+			db[locus_tag][mut]["drugs"][drug]["confidence"] = confidence[(locus_tag,row["Mutation"],drug)] if (locus_tag,row["Mutation"],drug) in confidence else "indeterminate"
+			# if row["Mutation"][0]=="p":
+			# 	print(row)
+			# 	codon_num = get_codon_num(row["Mutation"])
+			# 	if (locus_tag,"any_missense_codon_"+codon_num,drug) in confidence:
+			# 		db[locus_tag][mut]["drugs"][drug]["confidence"] = confidence[(locus_tag,"any_missense_codon_"+codon_num,drug)]
 	genome_file = "%s.fasta" % args.prefix
 	gff_file = "%s.gff" % args.prefix
 	ann_file = "%s.ann.txt" % args.prefix

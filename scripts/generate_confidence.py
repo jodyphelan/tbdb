@@ -14,7 +14,7 @@ import math
 import subprocess
 
 def get_codon_number(x):
-	re_obj = re.search("p.[A-Za-z]+([0-9]+)[A-Za-z]+",x)
+	re_obj = re.search("p.[A-Za-z]+([0-9]+)[A-Za-z\*]+",x)
 	return re_obj.group(1)
 
 def download(args):
@@ -33,7 +33,10 @@ def main(args):
 			drug2genes[d].add(row[3])
 
 	multi_change_codons = defaultdict(list)
-
+	for row in csv.DictReader(open(args.resistance_db)):
+		if "any_missense_codon_" in row["Mutation"]:
+			codon_num = row["Mutation"].replace("any_missense_codon_","")
+			multi_change_codons[(gene2locustag[row["Gene"]],codon_num)].append(row["Drug"].lower())
 	meta = {}
 	for row in csv.DictReader(open(args.meta)):
 		meta[row["id"]] = row
@@ -56,9 +59,10 @@ def main(args):
 				variants[var["locus_tag"]]["large_deletion"].append(s)
 			elif  "frameshift" in var["type"]:
 				variants[var["locus_tag"]]["frameshift"].append(s)
-			if var["locus_tag"] in multi_change_codons and var["type"]=="missense":
-				if get_codon_number(var["change"]) in multi_change_codons[var["locus_tag"]]:
-					variants[var["locus_tag"]]["any_missense_codon_"+get_codon_number(var["change"])].append(s)
+			if var["type"]=="missense":
+				codon_num = get_codon_number(var["change"])
+				if (var["locus_tag"],codon_num) in multi_change_codons and var["drug"] in multi_change_codons[(var["locus_tag"],codon_num)]:
+					variants[var["locus_tag"]]["any_missense_codon_"+codon_num].append(s)
 			mutation_types[(var["locus_tag"],var["change"])] = var["type"]
 		for var in tmp["other_variants"]:
 			variants[var["locus_tag"]][var["change"]].append(s)
@@ -66,9 +70,10 @@ def main(args):
 				variants[var["locus_tag"]]["large_deletion"].append(s)
 			elif  "frameshift" in var["type"]:
 				variants[var["locus_tag"]]["frameshift"].append(s)
-			if var["locus_tag"] in multi_change_codons and var["type"]=="missense":
-				if get_codon_number(var["change"]) in multi_change_codons[var["locus_tag"]]:
-					variants[var["locus_tag"]]["any_missense_codon_"+get_codon_number(var["change"])].append(s)
+			if var["type"]=="missense":
+				codon_num = get_codon_number(var["change"])
+				if (var["locus_tag"],codon_num) in multi_change_codons and var["drug"] in multi_change_codons[(var["locus_tag"],codon_num)]:
+					variants[var["locus_tag"]]["any_missense_codon_"+codon_num].append(s)
 			mutation_types[(var["locus_tag"],var["change"])] = var["type"]
 	print("Collected %s unique variants in %s genes" % (sum([len(variants[x]) for x in variants]),len(variants)))
 	results = []
@@ -131,6 +136,7 @@ parser_sub.add_argument('--bed',type=str,help="BED file with genes",required=Tru
 parser_sub.add_argument('--out',type=str,help="Output file",required=True)
 parser_sub.add_argument('--samples',type=str,help='NGS Platform')
 parser_sub.add_argument('--dir',default="tbprofiler_results/",type=str,help='NGS Platform')
+parser_sub.add_argument('--resistance-db',default="tbdb.csv",type=str,help='NGS Platform')
 parser_sub.add_argument('--pval-cutoff',default=0.05,type=float,help='Pvalue cutoff to use for the corrected OR and RR p-vaule significance')
 parser_sub.set_defaults(func=main)
 
