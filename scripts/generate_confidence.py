@@ -33,10 +33,6 @@ def main(args):
 			drug2genes[d].add(row[3])
 
 	multi_change_codons = defaultdict(list)
-	if args.add_to_db:
-		for row in csv.DictReader(open(args.add_to_db)):
-			if "any_missense_codon" in row["Mutation"]:
-				multi_change_codons[gene2locustag[row["Gene"]]].append(row["Mutation"].replace("any_missense_codon_",""))
 
 	meta = {}
 	for row in csv.DictReader(open(args.meta)):
@@ -63,6 +59,7 @@ def main(args):
 			if var["locus_tag"] in multi_change_codons and var["type"]=="missense":
 				if get_codon_number(var["change"]) in multi_change_codons[var["locus_tag"]]:
 					variants[var["locus_tag"]]["any_missense_codon_"+get_codon_number(var["change"])].append(s)
+			mutation_types[(var["locus_tag"],var["change"])] = var["type"]
 		for var in tmp["other_variants"]:
 			variants[var["locus_tag"]][var["change"]].append(s)
 			if "large_deletion" in var["type"]:
@@ -72,6 +69,7 @@ def main(args):
 			if var["locus_tag"] in multi_change_codons and var["type"]=="missense":
 				if get_codon_number(var["change"]) in multi_change_codons[var["locus_tag"]]:
 					variants[var["locus_tag"]]["any_missense_codon_"+get_codon_number(var["change"])].append(s)
+			mutation_types[(var["locus_tag"],var["change"])] = var["type"]
 	print("Collected %s unique variants in %s genes" % (sum([len(variants[x]) for x in variants]),len(variants)))
 	results = []
 	for drug in sorted(drug2genes):
@@ -97,18 +95,17 @@ def main(args):
 				result["RR"] = t2.riskratio
 				result["RR_pval"] = t2.riskratio_pvalue()
 				result["table"] = t
+				result["variant_type"] = mutation_types[(gene,mutation)]
 				results.append(result)
 
 	OR_corrected_pvals = sm.stats.multipletests([r["OR_pval"] for r in results],method="fdr_bh")[1]
 	RR_corrected_pvals = sm.stats.multipletests([r["RR_pval"] for r in results],method="fdr_bh")[1]
 	sys.stderr.write("Writing results\n")
-	organised_results = defaultdict(lambda:defaultdict(dict))
 	with open(args.out,"w") as O:
-		columns = ["drug","gene","mutation","table","OR","OR_pval","OR_pval_corrected","RR","RR_pval","RR_pval_corrected","confidence"]
+		columns = ["drug","gene","mutation","variant_type","table","OR","OR_pval","OR_pval_corrected","RR","RR_pval","RR_pval_corrected","confidence"]
 		writer = csv.DictWriter(O,fieldnames=columns)
 		writer.writeheader()
 		for i in tqdm(range(len(results))):
-			organised_results[results[i]["gene"]][results[i]["mutation"]][results[i]["drug"]] = results[i]
 			results[i]["OR_pval_corrected"] = OR_corrected_pvals[i]
 			results[i]["RR_pval_corrected"] = RR_corrected_pvals[i]
 			if results[i]["OR"]>10 and results[i]["OR_pval_corrected"]<args.pval_cutoff and results[i]["RR"]>1 and results[i]["RR_pval_corrected"]<args.pval_cutoff:
@@ -123,23 +120,6 @@ def main(args):
 				results[i]["confidence"] = "indeterminate"
 			writer.writerow(results[i])
 
-	if args.add_to_db:
-		with open(args.add_to_db.replace(".csv")+".confidence.csv","w") as O:
-			reader = csv.DictReader(open(args.add_to_db))
-			columns = reader.fieldnames + ["confidence"]
-			writer = csv.DictWriter(O,fieldnames = columns)
-			writer.writeheader()
-			for row in reader:
-				if row["Gene"] not in gene2locustag:
-					sys.stderr.write(str(row)+"\n")
-					continue
-				locus_tag = gene2locustag[row["Gene"]]
-
-				if locus_tag in organised_results and row["Mutation"] in organised_results[locus_tag] and row["Drug"] in organised_results[locus_tag][row["Mutation"]]:
-					row["confidence"] = organised_results[locus_tag][row["Mutation"]][row["Drug"]]["confidence"]
-				else:
-					row["confidence"] = "indeterminate"
-				writer.writerow(row)
 
 
 parser = argparse.ArgumentParser(description='TBProfiler pipeline',formatter_class=argparse.ArgumentDefaultsHelpFormatter)
@@ -151,7 +131,6 @@ parser_sub.add_argument('--bed',type=str,help="BED file with genes",required=Tru
 parser_sub.add_argument('--out',type=str,help="Output file",required=True)
 parser_sub.add_argument('--samples',type=str,help='NGS Platform')
 parser_sub.add_argument('--dir',default="tbprofiler_results/",type=str,help='NGS Platform')
-parser_sub.add_argument('--add-to-db',default=None,type=str,help='Choose db CSV file to add to')
 parser_sub.add_argument('--pval-cutoff',default=0.05,type=float,help='Pvalue cutoff to use for the corrected OR and RR p-vaule significance')
 parser_sub.set_defaults(func=main)
 
