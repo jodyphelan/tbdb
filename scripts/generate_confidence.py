@@ -134,9 +134,9 @@ parser_sub = subparsers.add_parser('calculate', help='Collate results form multi
 parser_sub.add_argument('--meta',type=str,help="Meta data",required=True)
 parser_sub.add_argument('--bed',type=str,help="BED file with genes",required=True)
 parser_sub.add_argument('--out',type=str,help="Output file",required=True)
-parser_sub.add_argument('--samples',type=str,help='NGS Platform')
-parser_sub.add_argument('--dir',default="tbprofiler_results/",type=str,help='NGS Platform')
-parser_sub.add_argument('--resistance-db',default="tbdb.csv",type=str,help='NGS Platform')
+parser_sub.add_argument('--samples',type=str,help='A one-column list of samples you want to use, if you want to subset')
+parser_sub.add_argument('--dir',default="tbprofiler_results/",type=str,help='Firectory to look for tbprofiler results files')
+parser_sub.add_argument('--resistance-db',default="tbdb.csv",type=str,help='Resistance CSV DB')
 parser_sub.add_argument('--pval-cutoff',default=0.05,type=float,help='Pvalue cutoff to use for the corrected OR and RR p-vaule significance')
 parser_sub.set_defaults(func=main)
 
