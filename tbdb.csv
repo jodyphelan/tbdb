@@ -1,4 +1,4 @@
-Gene,Mutation,Drug,Literature,confidence
+Gene,Mutation,Drug,Literature,Confidence
 rrs,r.1158g>t,amikacin,,indeterminate
 rrs,r.1338a>c,amikacin,,indeterminate
 rrs,r.1401a>g,amikacin,,high
