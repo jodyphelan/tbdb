@@ -199,6 +199,9 @@ def main(args):
 	gene_info = load_gene_info("genes.txt")
 	db = {}
 	locus_tag_to_drug_dict = defaultdict(set)
+	confidence = {}
+	for row in csv.DictReader(open(args.confidence)):
+		confidence[(row["gene"],row["mutation"],row["drug"])] = row["confidence"]
 	for row in csv.DictReader(open(args.csv)):
 		locus_tag = gene_info[row["Gene"]]["locus_tag"]
 		muts = parse_mutation(row["Mutation"],locus_tag,fasta_dict,gene_info)
@@ -214,6 +217,7 @@ def main(args):
 				if row[col]=="":continue
 				db[locus_tag][mut]["drugs"][row["Drug"].lower()][col.lower()] = row[col]
 			db[locus_tag][mut]["hgvs_mutation"] = row["Mutation"]
+			db[locus_tag][mut]["drugs"][row["Drug"].lower()]["confidence"] = confidence[(locus_tag,mut,row["Drug"].lower())] if (locus_tag,mut,row["Drug"].lower()) in confidence else "indeterminate"
 	conf_file = "%s.config.json" % args.prefix
 	genome_file = "%s.fasta" % args.prefix
 	gff_file = "%s.gff" % args.prefix
@@ -241,12 +245,13 @@ def main(args):
 	write_gene_pos("genes.txt",list(db.keys()),ann_file)
 	write_bed(locus_tag_to_drug_dict,gene_info,bed_file,chr_name)
 	json.dump(db,open(json_file,"w"))
-	#json.dump(conf,open(conf_file,"w"))
+
 
 parser = argparse.ArgumentParser(description='Script to generate the files required to run TBProfiler',formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 parser.add_argument('--prefix','-p',default="tbdb",type=str,help='The input CSV file containing the mutations')
 parser.add_argument('--csv','-c',default="tbdb.csv",type=str,help='The prefix for all output files')
 parser.add_argument('--seqname','-s',default="Chromosome",type=str,help='The prefix for all output files')
+parser.add_argument('--confidence',default="tbdb.confidence.csv",type=str,help="A CSV containing gene, mutation, drug and confidence columns")
 parser.add_argument('--custom',action="store_true",help='Tells the script this is a custom database, this is used to alter the generation of the version file')
 parser.set_defaults(func=main)
 args = parser.parse_args()
