@@ -18,7 +18,7 @@ If you think a mutation should be removed or added please raise and issue [here]
 If you want to help curate the library, leave a comment [here](https://github.com/jodyphelan/tbdb/issues/4).
 
 #### Adding/removing mutations
-Mutations can be added by submitting a pull request on a branch modified `tbdb.csv` file. If that previous sentence made no sense to you then you can suggest a change using an [issue](https://github.com/jodyphelan/tbdb/issues) and we will try help. On submitting a pull request the `tbdb_bot` will automatically calculate the confidence of the mutations in question and submit the results as a comment on the pull request (like [this](https://github.com/jodyphelan/tbdb/pull/5)). At least one review should be requested and upon review can be merged into the master branch 
+Mutations can be added by submitting a pull request on a branch modified `tbdb.csv` file. If that previous sentence made no sense to you then you can suggest a change using an [issue](https://github.com/jodyphelan/tbdb/issues) and we will try help. On submitting a pull request the `tbdb_bot` will automatically calculate the confidence of the mutations in question and submit the results as a comment on the pull request (like [this](https://github.com/jodyphelan/tbdb/pull/5)). All `tbdb_bot` checks should pass, at least two reviews should be requested and upon review can be merged into the master branch 
 
 ## How does it work?
 
