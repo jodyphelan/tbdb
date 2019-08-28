@@ -19,13 +19,8 @@ jobs:
 
     steps:
       - checkout
-
-      # Download and cache dependencies
-      - run: mkdir /tmp/out
       - run: curl https://raw.githubusercontent.com/jodyphelan/tbdb/master/tbdb.csv > tbdb.master.csv
       - run: pip install --user PyGithub
       - run: pip install --user statsmodels
       - run: pip install --user tqdm
       - run: python scripts/tbdb_bot.py compare --csv1 tbdb.master.csv --csv2 tbdb.csv --github
-      - store_artifacts:
-          path: /tmp/out
