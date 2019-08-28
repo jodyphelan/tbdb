@@ -17,6 +17,9 @@ With analysis pipelines pretty much standardised, it is evident that accuracy of
 If you think a mutation should be removed or added please raise and issue [here](https://github.com/jodyphelan/tbdb/issues).
 If you want to help curate the library, leave a comment [here](https://github.com/jodyphelan/tbdb/issues/4).
 
+#### Adding/removing mutations
+Mutations can be added by submitting a pull request on a branch modified `tbdb.csv` file. If that previous sentence made no sense to you then you can suggest a change using an [issue](https://github.com/jodyphelan/tbdb/issues) and we will try help. On submitting a pull request the `tbdb_bot` will automatically calculate the confidence of the mutations in question and submit the results as a comment on the pull request (like [this](https://github.com/jodyphelan/tbdb/pull/5)). At least one review should be requested and upon review can be merged into the master branch 
+
 ## How does it work?
 
 The mutations are listed in [tbdb.csv](https://github.com/jodyphelan/tbdb/blob/master/tbdb.csv). These are parsed by `parse_db.py` to generate the json formatted database used by TBProfiler along with a few more files. Mutations can be removed and added from tbdb.csv and a new library can be built using `parse_db.py`.
