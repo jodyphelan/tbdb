@@ -1,4 +1,5 @@
 Gene,Mutation,Drug,Literature
+gyrA,p.Ala90Glu,amikacin,
 rrs,r.1158g>t,amikacin,
 rrs,r.1338a>c,amikacin,
 rrs,r.1401a>g,amikacin,
@@ -69,7 +70,6 @@ gyrA,p.Ile92Met,ciprofloxacin,
 gyrA,p.Leu109Val,ciprofloxacin,
 gyrA,p.Pro102His,ciprofloxacin,
 gyrA,p.Ser69Thr,ciprofloxacin,
-gyrA,p.Ser91Ala,ciprofloxacin,
 gyrA,p.Ser91Pro,ciprofloxacin,
 gyrB,p.Ala504Thr,ciprofloxacin,
 gyrB,p.Ala504Val,ciprofloxacin,
