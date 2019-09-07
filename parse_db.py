@@ -246,7 +246,10 @@ def main(args):
 			row = l.decode().strip().split()
 			version[row[0].replace(":","")] = " ".join(row[1:])
 	else:
-		version["Date"] = str(datetime.now())
+		version["Date"] = str(datetime.now()) if not args.db_date else args.db_date
+		version["Name"] = args.db_name if args.db_name else "NA"
+		version["Commit"] = args.db_commit if args.db_name commit "NA"
+		version["Author"] = args.db_author if args.db_author else "NA"
 	json.dump(version,open(version_file,"w"))
 	open(genome_file,"w").write(">%s\n%s\n" % (chr_name,fasta_dict["Chromosome"]))
 	subprocess.call("sed 's/Chromosome/%s/g' genome.gff > %s" % (chr_name,gff_file),shell=True)
@@ -262,6 +265,10 @@ parser.add_argument('--csv','-c',default="tbdb.csv",type=str,help='The prefix fo
 parser.add_argument('--seqname','-s',default="Chromosome",type=str,help='The prefix for all output files')
 parser.add_argument('--confidence',default="tbdb.confidence.csv",type=str,help="A CSV containing gene, mutation, drug and confidence columns")
 parser.add_argument('--custom',action="store_true",help='Tells the script this is a custom database, this is used to alter the generation of the version file')
+parser.add_argument('--db-name',action="store_true",help='Overrides the name of the database in the version file')
+parser.add_argument('--db-commit',action="store_true",help='Overrides the commit string of the database in the version file')
+parser.add_argument('--db-author',action="store_true",help='Overrides the author of the database in the version file')
+parser.add_argument('--db-date',action="store_true",help='Overrides the date of the database in the version file')
 parser.set_defaults(func=main)
 args = parser.parse_args()
 args.func(args)
