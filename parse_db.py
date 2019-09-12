@@ -248,7 +248,7 @@ def main(args):
 	else:
 		version["Date"] = str(datetime.now()) if not args.db_date else args.db_date
 		version["Name"] = args.db_name if args.db_name else "NA"
-		version["Commit"] = args.db_commit if args.db_name commit "NA"
+		version["Commit"] = args.db_commit if args.db_name else "NA"
 		version["Author"] = args.db_author if args.db_author else "NA"
 	json.dump(version,open(version_file,"w"))
 	open(genome_file,"w").write(">%s\n%s\n" % (chr_name,fasta_dict["Chromosome"]))
