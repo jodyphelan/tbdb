@@ -41,7 +41,7 @@ Mutations must follow the HGVS nomenclature. Information on this format can be f
 * SNPs in non-coding RNAs. *Example: A to G at position 1401 in rrs would be r.1401a>g*
 * SNPs in gene promoters. *Example: A to G 7 bases 5' of the start codon in pncA c.-7A>G*
 
-**Important! The mutations and resulting library files are in reference to the H37Rv reference genome**
+**Important! The mutations and resulting library files are in reference to the H37Rv (NC_000962.3/AL123456.3) reference genome**
 
 ## Confidence values
 
