@@ -259,7 +259,7 @@ def main(args):
 	open(genome_file,"w").write(">%s\n%s\n" % (chr_name,fasta_dict["Chromosome"]))
 	subprocess.call("sed 's/Chromosome/%s/g' genome.gff > %s" % (chr_name,gff_file),shell=True)
 	subprocess.call("sed 's/Chromosome/%s/g' barcode.bed > %s" % (chr_name,barcode_file),shell=True)
-	write_gene_pos("genes.txt",list(db.keys()),ann_file)
+	write_gene_pos("genes.txt",list(locus_tag_to_drug_dict.keys()),ann_file)
 	write_bed(locus_tag_to_drug_dict,gene_info,bed_file,chr_name)
 	json.dump(db,open(json_file,"w"))
 
