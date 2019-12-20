@@ -34,7 +34,7 @@ def github_pr_comment(added_results, removed_results):
 
 def download_data():
 	with open("/dev/null","w") as O:
-		subprocess.call("wget http://tbdr.lshtm.ac.uk/VM/tbprofiler_results.tgz", shell=True, stderr=O, stdout=O)
+		# subprocess.call("wget http://tbdr.lshtm.ac.uk/VM/tbprofiler_results.tgz", shell=True, stderr=O, stdout=O)
 		subprocess.call("tar -xvf tbprofiler_results.tgz", shell=True, stderr=O, stdout=O)
 
 def get_codon_number(x):
@@ -82,7 +82,6 @@ def main_identify_new_mutations(args):
 		meta[row["id"]] = row
 
 	samples = [x.replace(".results.json","") for x in os.listdir("%s/" % args.dir) if x[-13:]==".results.json"]
-
 	variants = defaultdict(lambda:defaultdict(list))
 	mutation_types = defaultdict(dict)
 	sys.stderr.write("Loading tb-profiler results\n")
@@ -113,6 +112,8 @@ def main_identify_new_mutations(args):
 
 	print("Collected %s unique variants in %s genes" % (sum([len(variants[x]) for x in variants]),len(variants)))
 	added_results = []
+	print(meta[samples[0]])
+
 	for drug,gene,mutation in diff_added:
 		if drug not in meta[samples[0]]: quit("%s not in meta" % drug)
 		if gene not in variants: quit("%s not in genotype files" % gene)

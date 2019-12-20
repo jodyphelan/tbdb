@@ -228,6 +228,11 @@ def main(args):
 			# 	codon_num = get_codon_num(row["Mutation"])
 			# 	if (locus_tag,"any_missense_codon_"+codon_num,drug) in confidence:
 			# 		db[locus_tag][mut]["drugs"][drug]["confidence"] = confidence[(locus_tag,"any_missense_codon_"+codon_num,drug)]
+	for row in csv.DictReader(open(args.watchlist)):
+		locus_tag = gene_info[row["Gene"]]["locus_tag"]
+		drug = row["Drug"].lower()
+		locus_tag_to_drug_dict[locus_tag].add(drug)
+
 	genome_file = "%s.fasta" % args.prefix
 	gff_file = "%s.gff" % args.prefix
 	ann_file = "%s.ann.txt" % args.prefix
@@ -262,6 +267,7 @@ def main(args):
 parser = argparse.ArgumentParser(description='Script to generate the files required to run TBProfiler',formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 parser.add_argument('--prefix','-p',default="tbdb",type=str,help='The input CSV file containing the mutations')
 parser.add_argument('--csv','-c',default="tbdb.csv",type=str,help='The prefix for all output files')
+parser.add_argument('--watchlist','-w',default="tbdb.watchlist.csv",type=str,help='A csv file containing genes to profile but without any specific associated mutations')
 parser.add_argument('--seqname','-s',default="Chromosome",type=str,help='The prefix for all output files')
 parser.add_argument('--confidence',default="tbdb.confidence.csv",type=str,help="A CSV containing gene, mutation, drug and confidence columns")
 parser.add_argument('--custom',action="store_true",help='Tells the script this is a custom database, this is used to alter the generation of the version file')
