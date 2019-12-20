@@ -48,6 +48,7 @@ def main_identify_new_mutations(args):
 	for l in open("tbdb.bed"):
 		row = l.rstrip().split()
 		gene2locustag[row[4]] = row[3]
+		gene2locustag[row[3]] = row[3]
 		for d in row[5].split(","):
 			drug2genes[d].add(row[3])
 
