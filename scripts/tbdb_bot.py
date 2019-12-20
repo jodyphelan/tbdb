@@ -45,7 +45,7 @@ def main_identify_new_mutations(args):
 	download_data()
 	gene2locustag = {}
 	drug2genes = defaultdict(set)
-	for l in open("tb.bed"):
+	for l in open("tbdb.bed"):
 		row = l.rstrip().split()
 		gene2locustag[row[4]] = row[3]
 		for d in row[5].split(","):

@@ -23,4 +23,5 @@ jobs:
       - run: pip install --user PyGithub
       - run: pip install --user statsmodels
       - run: pip install --user tqdm
+      - run: python parse_db.py
       - run: python scripts/tbdb_bot.py compare --csv1 tbdb.master.csv --csv2 tbdb.csv --github
