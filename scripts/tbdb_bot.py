@@ -33,7 +33,7 @@ def github_pr_comment(added_results, removed_results):
 
 def download_data():
 	with open("/dev/null","w") as O:
-		subprocess.call("wget http://pathogenseq.lshtm.ac.uk/downloads/tbprofiler_results.tgz", shell=True, stderr=O, stdout=O)
+		subprocess.call("wget http://tbdr.lshtm.ac.uk/VM/tbprofiler_results.tgz", shell=True, stderr=O, stdout=O)
 		subprocess.call("tar -xvf tbprofiler_results.tgz", shell=True, stderr=O, stdout=O)
 
 def get_codon_number(x):
