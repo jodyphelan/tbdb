@@ -1,4 +1,7 @@
 Gene,Drug,Literature
 fgd1,delamanid,PMID:26559594
+fbiB,delamanid,PMID:29523322
+fbiC,delamanid,PMID:29523322
 ddn,delamanid,PMID:26559594
-ubiA,ethambutol,
+ubiA,ethambutol,PMID:25547657
+atpE,bedaquiline,PMID:25010492
