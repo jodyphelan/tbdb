@@ -1,4 +1,10 @@
 Gene,Mutation,Drug,Literature
+fbiA,p.Lys250*,delamanid,PMID: 26559594
+Rv0407,p.Lys270Met,delamanid,PMID: 26559594
+Rv0407,p.Lys296Glu,delamanid,PMID: 26559594
+ddn,p.Leu90Val,delamanid,PMID: 26559594
+ddn,p.Asp113Asn,delamanid,PMID: 26559594
+ddn,p.Trp88*,delamanid,PMID: 26559594
 rrs,r.1158g>t,amikacin,
 rrs,r.1338a>c,amikacin,
 rrs,r.1401a>g,amikacin,
