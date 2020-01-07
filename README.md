@@ -18,7 +18,7 @@ If you think a mutation should be removed or added please raise and issue [here]
 If you want to help curate the library, leave a comment [here](https://github.com/jodyphelan/tbdb/issues/4).
 
 #### Adding/removing mutations
-Mutations can be added by submitting a pull request on a branch modified `tbdb.csv` file. If that previous sentence made no sense to you then you can suggest a change using an [issue](https://github.com/jodyphelan/tbdb/issues) and we will try help. On submitting a pull request the `tbdb_bot` will automatically calculate the confidence of the mutations in question and submit the results as a comment on the pull request (like [this](https://github.com/jodyphelan/tbdb/pull/5)). All `tbdb_bot` checks should pass, at least two reviews should be requested and upon review can be merged into the master branch 
+Mutations can be added by submitting a pull request on a branch modified `tbdb.csv` file. If that previous sentence made no sense to you then you can suggest a change using an [issue](https://github.com/jodyphelan/tbdb/issues) and we will try help. On submitting a pull request the `tbdb_bot` will automatically calculate the confidence of the mutations in question and submit the results as a comment on the pull request (like [this](https://github.com/jodyphelan/tbdb/pull/5)). All `tbdb_bot` checks should pass, at least two reviews should be requested and upon review can be merged into the master branch
 
 ## How does it work?
 
@@ -90,7 +90,9 @@ The **tbdb.config.json** file can then be loaded by TBProfiler using `tb-profile
 
 The tbdb database will assume you have mapped your data to a reference with "Chromosome" as the sequence name. If your reference sequence is the same but has a differenct name e.g "NC_000962.3". You can generate a database with an alternate sequence name using the `--seqname` flag.
 
+## Watchlist
 
+There are some genes it may be of interest to record mutations even if we do not have any specific associated mutaitons. To allow this funcitonality we have included a "watchlist" file. To include genes just add them and the associated drug(s) to the `tbdb.watchlist.csv` file.
 ## Future plans
 
 - Build in customisation of the lineage assigning SNPs

@@ -22,7 +22,7 @@ def github_pr_comment(added_results, removed_results):
     if len(removed_results)>0:
         body+= "### Mutations removed\n| Drug | Gene | Mutation | # Isolates | Lineage | OR | OR-pval | LR | LR-pval | confidence |\n|-|-|-|-|-|-|-|-|-|-|\n"
         for r in removed_results:
-            body+=("|%(drug)s|%(gene)s|%(mutation)s|%(num_samples)s|%(%(lineage)s|OR)s|%(OR_pval)s|%(RR)s|%(RR_pval)s|%(confidence)s|\n" % r)
+            body+=("|%(drug)s|%(gene)s|%(mutation)s|%(num_samples)s|%(lineage)s|%(OR)s|%(OR_pval)s|%(RR)s|%(RR_pval)s|%(confidence)s|\n" % r)
 
 
     g = Github(os.environ["GH_AUTH_TOKEN"])
