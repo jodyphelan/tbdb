@@ -1,9 +1,9 @@
 Gene,Mutation,Drug,Literature
-ddn,p.Trp88*,delamanid,PMID: 27076101
-fgd1,c.146_147insC,delamanid,PMID: 26559594
-fgd1,p.Gln88Glu,delamanid,PMID: 21930879
-fbiA,p.Lys250*,delamanid,PMID: 27076101
-fbiA,p.Arg175His,delamanid,PMID: 26829425
+ddn,p.Trp88*,delamanid,PMID:27076101
+fgd1,c.146_147insC,delamanid,PMID:26559594
+fgd1,p.Gln88Glu,delamanid,PMID:21930879
+fbiA,p.Lys250*,delamanid,PMID:27076101
+fbiA,p.Arg175His,delamanid,PMID:26829425
 rrs,r.1158g>t,amikacin,
 rrs,r.1338a>c,amikacin,
 rrs,r.1401a>g,amikacin,
@@ -123,7 +123,7 @@ ald,c.991_992insC,cycloserine,
 alr,p.Leu113Arg,cycloserine,
 alr,p.Met343Thr,cycloserine,
 alr,p.Phe4Leu,cycloserine,
-fbiA,p.Asp49Tyr,delamanid,PMID: 26559594
+fbiA,p.Asp49Tyr,delamanid,PMID:26559594
 embA,c.-11C>A,ethambutol,
 embA,c.-12C>T,ethambutol,
 embA,c.-16C>G,ethambutol,
