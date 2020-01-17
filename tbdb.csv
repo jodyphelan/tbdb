@@ -1,4 +1,6 @@
 Gene,Mutation,Drug,Literature
+ddn,p.Leu107Pro,delamanid,PMID:29523322
+ddn,c.51_101del,delamanid,PMID:29523322
 ddn,p.Trp88*,delamanid,PMID:27076101
 fgd1,c.146_147insC,delamanid,PMID:26559594
 fgd1,p.Gln88Glu,delamanid,PMID:21930879
