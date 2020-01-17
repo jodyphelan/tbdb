@@ -1,4 +1,14 @@
 Gene,Mutation,Drug,Literature
+katG,p.Arg632Cys,isoniazid,10.1128/AAC.01691-09
+katG,p.Met420Thr,isoniazid,10.1128/AAC.01691-09
+katG,p.Trp351STOP,isoniazid,10.5588/ijtld.18.0095
+katG,p.Asp329Ala,isoniazid,10.1128/AAC.06418-11
+eis,G-6T,kanamycin,10.1093/jac/dkr109
+eis,G-10C,kanamycin,10.1016/j.ijmyco.2015.09.001
+eis,A-13G,kanamycin,10.1073/pnas.0907925106
+eis,C-15T,kanamycin,10.1093/jac/dkr109
+ethA,p.Asn345Lys,ethionamide,10.1111/j.1469-0691.2009.02838.x;10.1111/j.1365-2672.2010.04840.x
+ethA,p.Ser266Arg,Ethionamide,10.1128/AAC.01030-10
 ddn,p.Leu107Pro,delamanid,PMID:29523322
 ddn,c.51_101del,delamanid,PMID:29523322
 ddn,p.Trp88*,delamanid,PMID:27076101
