@@ -55,7 +55,7 @@ def get_codon_number(x):
 
 def main_identify_new_mutations(args):
 
-    download_data()
+    # download_data()
     gene2locustag = {}
     drug2genes = defaultdict(set)
     for l in open("tbdb.bed"):
@@ -149,10 +149,10 @@ def main_identify_new_mutations(args):
             if meta[s][drug]=="1" and s not in variants[gene][mutation]:     t[1][0]+=1
             if meta[s][drug]=="0" and s not in variants[gene][mutation]:     t[1][1]+=1
         t2 = sm.stats.Table2x2(np.asarray(t))
-        result["OR"] = t2.oddsratio
-        result["OR_pval"] = t2.oddsratio_pvalue()
-        result["RR"] = t2.riskratio
-        result["RR_pval"] = t2.riskratio_pvalue()
+        result["OR"] = t2.oddsratio if t!=[[0.5,0.5],[0.5,0.5]] else "NA"
+        result["OR_pval"] = t2.oddsratio_pvalue() if t!=[[0.5,0.5],[0.5,0.5]] else "NA"
+        result["RR"] = t2.riskratio if t!=[[0.5,0.5],[0.5,0.5]] else "NA"
+        result["RR_pval"] = t2.riskratio_pvalue() if t!=[[0.5,0.5],[0.5,0.5]] else "NA"
         result["table"] = t
         result["variant_type"] = mutation_types[(gene,mutation)]
         result["num_samples"] = len(variants[gene][mutation])
@@ -178,10 +178,10 @@ def main_identify_new_mutations(args):
             if meta[s][drug]=="1" and s not in variants[gene][mutation]:     t[1][0]+=1
             if meta[s][drug]=="0" and s not in variants[gene][mutation]:     t[1][1]+=1
         t2 = sm.stats.Table2x2(np.asarray(t))
-        result["OR"] = t2.oddsratio
-        result["OR_pval"] = t2.oddsratio_pvalue()
-        result["RR"] = t2.riskratio
-        result["RR_pval"] = t2.riskratio_pvalue()
+        result["OR"] = t2.oddsratio if t!=[[0.5,0.5],[0.5,0.5]] else "NA"
+        result["OR_pval"] = t2.oddsratio_pvalue() if t!=[[0.5,0.5],[0.5,0.5]] else "NA"
+        result["RR"] = t2.riskratio if t!=[[0.5,0.5],[0.5,0.5]] else "NA"
+        result["RR_pval"] = t2.riskratio_pvalue() if t!=[[0.5,0.5],[0.5,0.5]] else "NA"
         result["table"] = t
         result["variant_type"] = mutation_types[(gene,mutation)]
         result["num_samples"] = len(variants[gene][mutation])
@@ -190,26 +190,32 @@ def main_identify_new_mutations(args):
         removed_results.append(result)
 
     for i in tqdm(range(len(added_results))):
-        if added_results[i]["OR"]>10 and added_results[i]["OR_pval"]<args.pval_cutoff and added_results[i]["RR"]>1 and added_results[i]["RR_pval"]<args.pval_cutoff:
-            added_results[i]["confidence"] = "high"
-        elif 5<added_results[i]["OR"]<=10 and added_results[i]["OR_pval"]<args.pval_cutoff and added_results[i]["RR"]>1 and added_results[i]["RR_pval"]<args.pval_cutoff:
-            added_results[i]["confidence"] = "moderate"
-        elif 1<added_results[i]["OR"]<=5 and added_results[i]["OR_pval"]<args.pval_cutoff and added_results[i]["RR"]>1 and added_results[i]["RR_pval"]<args.pval_cutoff:
-            added_results[i]["confidence"] = "low"
-        elif (added_results[i]["OR"]<=1 and added_results[i]["OR_pval"]<args.pval_cutoff) or (added_results[i]["RR"]<=1 and added_results[i]["RR_pval"]<args.pval_cutoff):
-            added_results[i]["confidence"] = "no_association"
+        if added_results[i]["OR"]!="NA":
+            if added_results[i]["OR"]>10 and added_results[i]["OR_pval"]<args.pval_cutoff and added_results[i]["RR"]>1 and added_results[i]["RR_pval"]<args.pval_cutoff:
+                added_results[i]["confidence"] = "high"
+            elif 5<added_results[i]["OR"]<=10 and added_results[i]["OR_pval"]<args.pval_cutoff and added_results[i]["RR"]>1 and added_results[i]["RR_pval"]<args.pval_cutoff:
+                added_results[i]["confidence"] = "moderate"
+            elif 1<added_results[i]["OR"]<=5 and added_results[i]["OR_pval"]<args.pval_cutoff and added_results[i]["RR"]>1 and added_results[i]["RR_pval"]<args.pval_cutoff:
+                added_results[i]["confidence"] = "low"
+            elif (added_results[i]["OR"]<=1 and added_results[i]["OR_pval"]<args.pval_cutoff) or (added_results[i]["RR"]<=1 and added_results[i]["RR_pval"]<args.pval_cutoff):
+                added_results[i]["confidence"] = "no_association"
+            else:
+                added_results[i]["confidence"] = "indeterminate"
         else:
             added_results[i]["confidence"] = "indeterminate"
 
     for i in tqdm(range(len(removed_results))):
-        if removed_results[i]["OR"]>10 and removed_results[i]["OR_pval"]<args.pval_cutoff and removed_results[i]["RR"]>1 and removed_results[i]["RR_pval"]<args.pval_cutoff:
-            removed_results[i]["confidence"] = "high"
-        elif 5<removed_results[i]["OR"]<=10 and removed_results[i]["OR_pval"]<args.pval_cutoff and removed_results[i]["RR"]>1 and removed_results[i]["RR_pval"]<args.pval_cutoff:
-            removed_results[i]["confidence"] = "moderate"
-        elif 1<removed_results[i]["OR"]<=5 and removed_results[i]["OR_pval"]<args.pval_cutoff and removed_results[i]["RR"]>1 and removed_results[i]["RR_pval"]<args.pval_cutoff:
-            removed_results[i]["confidence"] = "low"
-        elif (removed_results[i]["OR"]<=1 and removed_results[i]["OR_pval"]<args.pval_cutoff) or (removed_results[i]["RR"]<=1 and removed_results[i]["RR_pval"]<args.pval_cutoff):
-            removed_results[i]["confidence"] = "no_association"
+        if removed_results[i]["OR"]!="NA":
+            if removed_results[i]["OR"]>10 and removed_results[i]["OR_pval"]<args.pval_cutoff and removed_results[i]["RR"]>1 and removed_results[i]["RR_pval"]<args.pval_cutoff:
+                removed_results[i]["confidence"] = "high"
+            elif 5<removed_results[i]["OR"]<=10 and removed_results[i]["OR_pval"]<args.pval_cutoff and removed_results[i]["RR"]>1 and removed_results[i]["RR_pval"]<args.pval_cutoff:
+                removed_results[i]["confidence"] = "moderate"
+            elif 1<removed_results[i]["OR"]<=5 and removed_results[i]["OR_pval"]<args.pval_cutoff and removed_results[i]["RR"]>1 and removed_results[i]["RR_pval"]<args.pval_cutoff:
+                removed_results[i]["confidence"] = "low"
+            elif (removed_results[i]["OR"]<=1 and removed_results[i]["OR_pval"]<args.pval_cutoff) or (removed_results[i]["RR"]<=1 and removed_results[i]["RR_pval"]<args.pval_cutoff):
+                removed_results[i]["confidence"] = "no_association"
+            else:
+                removed_results[i]["confidence"] = "indeterminate"
         else:
             removed_results[i]["confidence"] = "indeterminate"
 
