@@ -55,7 +55,7 @@ def get_codon_number(x):
 
 def main_identify_new_mutations(args):
 
-    # download_data()
+    download_data()
     gene2locustag = {}
     drug2genes = defaultdict(set)
     for l in open("tbdb.bed"):
