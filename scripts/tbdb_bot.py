@@ -149,10 +149,11 @@ def main_identify_new_mutations(args):
             if meta[s][drug]=="1" and s not in variants[gene][mutation]:     t[1][0]+=1
             if meta[s][drug]=="0" and s not in variants[gene][mutation]:     t[1][1]+=1
         t2 = sm.stats.Table2x2(np.asarray(t))
-        result["OR"] = t2.oddsratio if t!=[[0.5,0.5],[0.5,0.5]] else "NA"
-        result["OR_pval"] = t2.oddsratio_pvalue() if t!=[[0.5,0.5],[0.5,0.5]] else "NA"
-        result["RR"] = t2.riskratio if t!=[[0.5,0.5],[0.5,0.5]] else "NA"
-        result["RR_pval"] = t2.riskratio_pvalue() if t!=[[0.5,0.5],[0.5,0.5]] else "NA"
+
+        result["OR"] = t2.oddsratio if t[0]!=[0.5,0.5] else "NA"
+        result["OR_pval"] = t2.oddsratio_pvalue() if t[0]!=[0.5,0.5] else "NA"
+        result["RR"] = t2.riskratio if t[0]!=[0.5,0.5] else "NA"
+        result["RR_pval"] = t2.riskratio_pvalue() if t[0]!=[0.5,0.5] else "NA"
         result["table"] = t
         result["variant_type"] = mutation_types[(gene,mutation)]
         result["num_samples"] = len(variants[gene][mutation])
