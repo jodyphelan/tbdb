@@ -10,5 +10,5 @@ assignees: ''
 ** Please provide a justification of adding/removing the mutation along along with the following essential information.
 
 Gene: [...]
-Mutatoion: [...]
+Mutation: [...]
 Literature Evidence: [...]
