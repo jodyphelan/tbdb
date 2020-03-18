@@ -1,4 +1,6 @@
 Gene,Mutation,Drug,Literature,
+pncA,p.Thr100Ile,pyrazinamide,10.1128/JCM.01214-17,
+pncA,p.Thr160Ala,pyrazinamide,10.1128/JCM.01214-17,
 gid,p.Gly73Ala,streptomycin,10.1128/AAC.02175-18,
 gid,p.Leu79Ser,streptomycin,10.1128/AAC.02175-18,
 gid,p.Leu108Arg,streptomycin,10.1128/AAC.02175-18,
