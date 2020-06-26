@@ -250,10 +250,11 @@ def main(args):
             row = l.decode().strip().split()
             if row == []: continue
             version[row[0].replace(":","")] = " ".join(row[1:])
+        version["commit"] = version["commit"][:7]
     else:
         version["Date"] = str(datetime.now()) if not args.db_date else args.db_date
-        version["Name"] = args.db_name if args.db_name else "NA"
-        version["Commit"] = args.db_commit if args.db_name else "NA"
+        version["name"] = args.db_name if args.db_name else "NA"
+        version["commit"] = args.db_commit if args.db_name else "NA"
         version["Author"] = args.db_author if args.db_author else "NA"
     json.dump(version,open(version_file,"w"))
     open(genome_file,"w").write(">%s\n%s\n" % (chr_name,fasta_dict["Chromosome"]))
