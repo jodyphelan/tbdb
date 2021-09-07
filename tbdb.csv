@@ -15,9 +15,7 @@ gid,p.Ala134Glu,streptomycin,https://www.who.int/publications/i/item/97892400281
 rrs,r.878g>a,streptomycin,https://www.who.int/publications/i/item/9789240028173
 gid,p.Pro75Arg,streptomycin,https://www.who.int/publications/i/item/9789240028173
 gid,p.Gly69Asp,streptomycin,https://www.who.int/publications/i/item/9789240028173
-fabG1,c.-777C>T,isoniazid,https://www.who.int/publications/i/item/9789240028173
-fabG1,c.-154G>A,isoniazid,https://www.who.int/publications/i/item/9789240028173
-fabG1,c.-777C>T,ethionamide,https://www.who.int/publications/i/item/9789240028173
+fabG1,c.609G>A,isoniazid,https://www.who.int/publications/i/item/9789240028173
 ethA,p.Arg207Gly,ethionamide,https://www.who.int/publications/i/item/9789240028173
 eis,c.-8del,kanamycin,https://www.who.int/publications/i/item/9789240028173
 tlyA,p.Leu74Pro,capreomycin,https://www.who.int/publications/i/item/9789240028173

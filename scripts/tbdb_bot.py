@@ -133,6 +133,9 @@ def main_identify_new_mutations(args):
 
 
     for drug,gene,mutation in diff_added:
+        print(drug)
+        print(samples)
+        print(meta[samples[0]])
         if drug not in meta[samples[0]]: quit("%s not in meta" % drug)
         if gene not in variants: quit("%s not in genotype files" % gene)
         sys.stderr.write("Calculating metrics for %s with %s\n" % (gene,drug))
