@@ -1,0 +1,3 @@
+Gene,Mutation,Type,Info
+gyrA,p.Ser95Thr,phylogenetic_mutation,lineage=lineage4
+rpoB,p.Ser450Leu,resistance_association_confidence,drug=rifampicin;confidence=high
