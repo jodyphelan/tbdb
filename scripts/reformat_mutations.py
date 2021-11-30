@@ -53,10 +53,11 @@ def get_ann(variants):
         row = l.strip().split()
         for ann in row[7].split(","):
             a = ann.split("|")
+            if len(a)!=16:continue
             if vals[i]["gene"] in [a[3],a[4]]:
                 results[keys[i]] = a[9] if vals[i]["type"]=="nucleotide" else a[10]
         i+=1
-    os.remove(uuid)
+    # os.remove(uuid)
     return results
 
     
@@ -71,6 +72,10 @@ def main(args):
     for row in csv.DictReader(open(args.csv)):
         gene = [g for g in genes if g.name==row["Gene"] or g.locus_tag==row["Gene"]][0]
         mut = None
+        r = re.search("n.([0-9]+)([ACGT]+)>([ACGT]+)",row["Mutation"])
+        if r:
+            converted_mutations[(row["Gene"],row["Mutation"])] = row["Mutation"]
+            
         r = re.search("r.([0-9]+)([acgt]+)>([acgt]+)",row["Mutation"])
         if r:
             converted_mutations[(row["Gene"],row["Mutation"])] = f"n.{r.group(1)}{r.group(2).upper()}>{r.group(3).upper()}"
@@ -123,7 +128,10 @@ def main(args):
             ref = refseq["Chromosome"][genome_start-1:genome_end-1]
             alt = ref[0]
             mutations[(row["Gene"],row["Mutation"])] = {"pos":genome_start, "ref":ref, "alt":alt,"gene":row["Gene"],"type":"nucleotide"}
-
+            if "96_268del" in row["Mutation"]:
+                pp.debug(del_start)
+                pp.debug(del_end)
+                pp.debug({"pos":genome_start, "ref":ref, "alt":alt,"gene":row["Gene"],"type":"nucleotide"})
         r = re.search("c.-([0-9]+)del",row["Mutation"])
         if r:
             del_start = int(r.group(1))
@@ -157,6 +165,24 @@ def main(args):
             alt = ref[0]
             mutations[(row["Gene"],row["Mutation"])] = {"pos":genome_start, "ref":ref, "alt":alt,"gene":row["Gene"],"type":"nucleotide"}
 
+        r = re.search("c.(-[0-9]+)_([0-9]+)del",row["Mutation"])
+        if r:
+            del_start = int(r.group(1))
+            del_end = int(r.group(2))
+            if gene.strand == "+":
+               # "ethA" "c.-1058_968del"
+                genome_start = gene.start + del_start -1
+                genome_end = gene.start + del_end 
+                # quit("Need to define!")
+
+            else:
+               # "ethA" "c.-1058_968del"
+                genome_start = gene.start - del_end 
+                genome_end = gene.start - del_start + 1
+
+            ref = refseq["Chromosome"][genome_start-1:genome_end-1]
+            alt = ref[0]
+            mutations[(row["Gene"],row["Mutation"])] = {"pos":genome_start, "ref":ref, "alt":alt,"gene":row["Gene"],"type":"nucleotide"}
         
 
         r = re.search("c.([0-9]+)_([0-9]+)ins([ACGT]+)", row["Mutation"])
@@ -191,19 +217,21 @@ def main(args):
     for key in mutation_conversion:
         converted_mutations[key] = mutation_conversion[key]
 
-    with open(args.out+".csv","w")  as O:
-        with open(args.out+".log","w")  as L:
-            writer = csv.DictWriter(O,fieldnames=list(row))
-            writer.writeheader()
-            for row in csv.DictReader(open(args.csv)):
-                key = (row["Gene"],row["Mutation"])
-                if row["Mutation"]!= converted_mutations[key]:
-                        L.write(f'Recoded {row["Gene"]} {row["Mutation"]} as {converted_mutations[key]}\n')
-                
-                row["Mutation"] = converted_mutations[key]
-                    
-                writer.writerow(row)
+    final_mutations = []
+    with open(args.out+".log","w")  as L:
+        for row in csv.DictReader(open(args.csv)):
+            key = (row["Gene"],row["Mutation"])
+            if row["Mutation"]!= converted_mutations[key]:
+                    L.write(f'Recoded {row["Gene"]} {row["Mutation"]} as {converted_mutations[key]}\n')
+            
+            row["original_mutatation"] = row["Mutation"]
+            row["Mutation"] = converted_mutations[key]
+            final_mutations.append(row)
         
+    with open(args.out+".csv","w")  as O:
+        writer = csv.DictWriter(O,fieldnames=list(final_mutations[0]))
+        writer.writeheader()
+        writer.writerows(final_mutations)
     
             
         
