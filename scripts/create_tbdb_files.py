@@ -18,7 +18,7 @@ drug_convert = {
     "LZD":"linezolid",
     "MXF":"moxifloxacin",
     "PZA":"pyrazinamide",
-    "RIF":"rifamicin",
+    "RIF":"rifampicin",
     "STM":"streptomycin"
 }
 
