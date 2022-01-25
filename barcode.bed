@@ -77,7 +77,7 @@ Chromosome	119599	119600	lineage4.9.1	G	Euro-American (H37Rv-like)	T1	None
 Chromosome	121462	121463	lineage4.2.2.1	T	Euro-American	LAM7-TUR	None
 Chromosome	121830	121831	M.caprae	A	M. caprae	None	None
 Chromosome	122793	122794	lineage4.6	G	Euro-American	T;LAM	None
-Chromosome	128263	128264	La1.2 BCG	G	La1.2 BCG	None	None
+Chromosome	128263	128264	La1.2.BCG	G	La1.2.BCG	None	None
 Chromosome	129851	129852	lineage4.1.4	T	Euro-American	T;X;H	None
 Chromosome	130448	130449	lineage4.6.1.2	A	Euro-American	T2	RD724
 Chromosome	135328	135329	lineage2.2.1	T	East-Asian (Beijing)	Beijing-RD181	RD105;RD207;RD181
@@ -126,7 +126,7 @@ Chromosome	215976	215977	lineage2.2.1	T	East-Asian (Beijing)	Beijing-RD181	RD105
 Chromosome	216468	216469	lineage2.1	T	East-Asian (non-Beijing)	None	None
 Chromosome	217305	217306	lineage4.2	G	Euro-American	H;T;LAM	None
 Chromosome	219754	219755	lineage9	T	Lineage 9	None	None
-Chromosome	220103	220104	unk6	T	unk6	None	None
+Chromosome	220103	220104	L1.8.X-unk6	T	L1.8.X-unk6	None	None
 Chromosome	221189	221190	lineage8	T	Lineage 8	None	None
 Chromosome	223626	223627	lineage4.3.1.1	A	Euro-American (LAM)	LAM9	None
 Chromosome	224900	224901	lineage4.4.1.1	G	Euro-American	S;Orphans	None
@@ -188,7 +188,7 @@ Chromosome	313424	313425	lineage1.1.1	T	Indo-Oceanic	EAI4;EAI5	RD239
 Chromosome	313604	313605	La1.7.1	A	La1.7.1	None	None
 Chromosome	314337	314338	lineage4.2.1	G	Euro-American (TUR)	H3;H4	None
 Chromosome	317044	317045	lineage1.1.3	A	Indo-Oceanic	EAI6	RD239
-Chromosome	318067	318068	La1.2_La1.2 BCG	T	La1.2_La1.2 BCG	None	None
+Chromosome	318067	318068	La1.2	T	La1.2	None	None
 Chromosome	321557	321558	lineage2.1	T	East-Asian (non-Beijing)	None	None
 Chromosome	323525	323526	lineage1.1.3.2	G	Indo-Oceanic	NA	RD239
 Chromosome	324661	324662	lineage4.3.1.1	T	Euro-American (LAM)	LAM9	None
@@ -280,7 +280,7 @@ Chromosome	541047	541048	lineage4.1.1.2	G	Euro-American (X-type)	X1	None
 Chromosome	541200	541201	lineage4.9	A	Euro-American (H37Rv-like)	T1	None
 Chromosome	541868	541869	lineage6.2.2	T	West-Africa 2	AFRI_1	RD702
 Chromosome	545116	545117	lineage4.8.1	A	Euro-American (mainly T)	T1;T2;T3;T5	RD219
-Chromosome	545402	545403	unk6	T	unk6	None	None
+Chromosome	545402	545403	L1.8.X-unk6	T	L1.8.X-unk6	None	None
 Chromosome	546356	546357	lineage4	A	Euro-American	LAM;T;S;X;H	None
 Chromosome	550572	550573	lineage4.3.4.2.1	C	Euro-American (LAM)	LAM11	RD174
 Chromosome	550975	550976	lineage5.1.2	G	West-Africa 1	AFRI_2;AFRI_3	RD711
@@ -313,7 +313,7 @@ Chromosome	620028	620029	lineage4.5	T	Euro-American	H;T	RD122
 Chromosome	622546	622547	lineage4.6.3	T	Euro-American	T;LAM	None
 Chromosome	632329	632330	lineage4.3.4.2	T	Euro-American (LAM)	LAM1;LAM4;LAM11	RD174
 Chromosome	633630	633631	lineage1.1.3.3	T	Indo-Oceanic	NA	RD239
-Chromosome	636623	636624	unk4	T	unk4	None	None
+Chromosome	636623	636624	L1.7.X-unk4	T	L1.7.X-unk4	None	None
 Chromosome	637729	637730	lineage4.1.2.1	T	Euro-American (Haarlem)	T1;H1	RD182
 Chromosome	638211	638212	lineage4.2.1.1	T	Euro-American (TUR)	H3;H4	None
 Chromosome	646242	646243	lineage4.3.2	C	Euro-American (LAM)	LAM3	None
@@ -455,7 +455,7 @@ Chromosome	1014057	1014058	lineage5.1.2	A	West-Africa 1	AFRI_2;AFRI_3	RD711
 Chromosome	1014721	1014722	lineage5.3	T	West-Africa 1	AFRI_2;AFRI_3	RD711
 Chromosome	1017835	1017836	lineage4.2.1	C	Euro-American (TUR)	H3;H4	None
 Chromosome	1018810	1018811	lineage1.2.2	A	Indo-Oceanic	EAI1	RD239
-Chromosome	1020731	1020732	unk5	C	unk5	None	None
+Chromosome	1020731	1020732	L1.7.X-unk5	C	L1.7.X-unk5	None	None
 Chromosome	1025613	1025614	lineage4.1.2.1.1	T	Euro-American (Haarlem)	T1;H1	RD182
 Chromosome	1028943	1028944	lineage4.1.1.3	T	Euro-American (X-type)	X1;X3	RD193
 Chromosome	1030367	1030368	lineage4.6.2.1	G	Euro-American	T3	RD726
@@ -505,7 +505,7 @@ Chromosome	1153213	1153214	lineage5.3	A	West-Africa 1	AFRI_2;AFRI_3	RD711
 Chromosome	1153675	1153676	lineage4.1.2	G	Euro-American	T;H	None
 Chromosome	1154367	1154368	lineage4.8.3	C	Euro-American (mainly T)	T1;T2;T3;T5	RD219
 Chromosome	1155867	1155868	lineage4.8.1	T	Euro-American (mainly T)	T1;T2;T3;T5	RD219
-Chromosome	1158433	1158434	unk4	A	unk4	None	None
+Chromosome	1158433	1158434	L1.7.X-unk4	A	L1.7.X-unk4	None	None
 Chromosome	1169027	1169028	lineage4.3.1	A	Euro-American (LAM)	LAM9	None
 Chromosome	1172078	1172079	lineage4.3.1	G	Euro-American (LAM)	LAM9	None
 Chromosome	1184797	1184798	lineage1.1.3	T	Indo-Oceanic	EAI6	RD239
@@ -537,7 +537,7 @@ Chromosome	1267405	1267406	lineage6.1.1	T	West-Africa 2	AFRI_1	RD702
 Chromosome	1273070	1273071	lineage4.8	C	Euro-American (mainly T)	T1;T2;T3;T5	RD219
 Chromosome	1274334	1274335	lineage4.3.4.1	A	Euro-American (LAM)	LAM1;LAM2	RD174
 Chromosome	1286665	1286666	lineage4.1.1.2	A	Euro-American (X-type)	X1	None
-Chromosome	1288125	1288126	unk6	C	unk6	None	None
+Chromosome	1288125	1288126	L1.8.X-unk6	C	L1.8.X-unk6	None	None
 Chromosome	1288697	1288698	lineage2.2	A	East-Asian (Beijing)	Beijing-RD207	RD105;RD207
 Chromosome	1289554	1289555	lineage4.6.2	G	Euro-American	T;LAM	RD726
 Chromosome	1293120	1293121	lineage1.1.3	T	Indo-Oceanic	EAI6	RD239
@@ -571,11 +571,11 @@ Chromosome	1372001	1372002	lineage6	T	West-Africa 2	AFRI_1	RD702
 Chromosome	1378724	1378725	lineage3.1.1	C	East-African-Indian	CAS1-Kili	RD750
 Chromosome	1391867	1391868	lineage4.6.1.2	A	Euro-American	T2	RD724
 Chromosome	1396921	1396922	lineage4.9	T	Euro-American (H37Rv-like)	T1	None
-Chromosome	1401049	1401050	unk4	T	unk4	None	None
+Chromosome	1401049	1401050	L1.7.X-unk4	T	L1.7.X-unk4	None	None
 Chromosome	1405847	1405848	lineage3.1.3	T	East-African-Indian	CAS	RD750
 Chromosome	1406311	1406312	lineage1.2.1.2.1	G	Indo-Oceanic	NA	RD239
 Chromosome	1421108	1421109	lineage4.3.1	G	Euro-American (LAM)	LAM9	None
-Chromosome	1427066	1427067	unk5	G	unk5	None	None
+Chromosome	1427066	1427067	L1.7.X-unk5	G	L1.7.X-unk5	None	None
 Chromosome	1434318	1434319	lineage5.1.3	T	West-Africa 1	AFRI_2;AFRI_3	RD711
 Chromosome	1435762	1435763	lineage4.5	T	Euro-American	H;T	RD122
 Chromosome	1436229	1436230	lineage6.1.3	G	West-Africa 2	AFRI_1	RD702
@@ -678,7 +678,7 @@ Chromosome	1750464	1750465	lineage1.1.1.1	C	Indo-Oceanic	EAI4;ZERO	RD239
 Chromosome	1759251	1759252	lineage4.9	G	Euro-American (H37Rv-like)	T1	None
 Chromosome	1764224	1764225	lineage3	T	East-African-Indian	CAS	RD750
 Chromosome	1764807	1764808	lineage4.8.2	T	Euro-American (mainly T)	T1;T2;T3;T5	RD219
-Chromosome	1765766	1765767	unk4	C	unk4	None	None
+Chromosome	1765766	1765767	L1.7.X-unk4	C	L1.7.X-unk4	None	None
 Chromosome	1771319	1771320	lineage4.3.4.2	A	Euro-American (LAM)	LAM1;LAM4;LAM11	RD174
 Chromosome	1775673	1775674	lineage6.2	T	West-Africa 2	AFRI_1	RD702
 Chromosome	1778556	1778557	lineage4.3.2	T	Euro-American (LAM)	LAM3	None
@@ -729,10 +729,10 @@ Chromosome	1947281	1947282	lineage2.2.1.1	G	East-Asian (Beijing)	Beijing-RD150	R
 Chromosome	1952600	1952601	lineage4.1.1	T	Euro-American (X-type)	X1;X2;X3	None
 Chromosome	1965132	1965133	lineage4.4.2	T	Euro-American	T1;T2	None
 Chromosome	1976013	1976014	lineage1.1.3.3	T	Indo-Oceanic	NA	RD239
-Chromosome	1978430	1978431	unk5	T	unk5	None	None
+Chromosome	1978430	1978431	L1.7.X-unk5	T	L1.7.X-unk5	None	None
 Chromosome	1980651	1980652	lineage2	T	East-Asian	Beijing	RD105
 Chromosome	1980870	1980871	lineage4.5	C	Euro-American	H;T	RD122
-Chromosome	1985033	1985034	La1.2_La1.2 BCG	C	La1.2_La1.2 BCG	None	None
+Chromosome	1985033	1985034	La1.2	C	La1.2	None	None
 Chromosome	1985572	1985573	lineage4.2.2.1	A	Euro-American	LAM7-TUR	None
 Chromosome	2016285	2016286	lineage1.1.3.3	A	Indo-Oceanic	NA	RD239
 Chromosome	2020119	2020120	lineage3.1.2.1	T	East-African-Indian	CAS2	RD750
@@ -740,7 +740,7 @@ Chromosome	2020143	2020144	lineage4.1	A	Euro-American	T;X;H	None
 Chromosome	2022125	2022126	lineage4.4.1.1	C	Euro-American	S;Orphans	None
 Chromosome	2022867	2022868	lineage4.9	T	Euro-American (H37Rv-like)	T1	None
 Chromosome	2024412	2024413	lineage6.3.1	T	West-Africa 2	AFRI_1	RD702
-Chromosome	2027616	2027617	La1.2 BCG	A	La1.2 BCG	None	None
+Chromosome	2027616	2027617	La1.2.BCG	A	La1.2.BCG	None	None
 Chromosome	2033747	2033748	lineage4.6.1	C	Euro-American (Uganda)	T2	RD724
 Chromosome	2033889	2033890	lineage4.4.1	T	Euro-American (S-type)	S;T	None
 Chromosome	2053681	2053682	lineage4.3	T	Euro-American (LAM)	mainly-LAM	None
@@ -779,7 +779,7 @@ Chromosome	2215711	2215712	lineage1.2.1.2.1	A	Indo-Oceanic	NA	RD239
 Chromosome	2225514	2225515	lineage4.6.2.1	A	Euro-American	T3	RD726
 Chromosome	2239383	2239384	lineage6.3.3	A	West-Africa 2	AFRI_1	RD702
 Chromosome	2240715	2240716	lineage5.2	A	West-Africa 1	AFRI_2;AFRI_3	RD711
-Chromosome	2243434	2243435	unk6	A	unk6	None	None
+Chromosome	2243434	2243435	L1.8.X-unk6	A	L1.8.X-unk6	None	None
 Chromosome	2244769	2244770	lineage4.1.2.1	A	Euro-American (Haarlem)	T1;H1	RD182
 Chromosome	2245074	2245075	lineage4.4.2	T	Euro-American	T1;T2	None
 Chromosome	2245498	2245499	lineage3.1.2.1	T	East-African-Indian	CAS2	RD750
@@ -791,7 +791,7 @@ Chromosome	2271142	2271143	lineage3.1.2.1	A	East-African-Indian	CAS2	RD750
 Chromosome	2271442	2271443	lineage5.1.2	G	West-Africa 1	AFRI_2;AFRI_3	RD711
 Chromosome	2271554	2271555	La1.1	A	La1.1	None	None
 Chromosome	2273626	2273627	lineage4.6.1	T	Euro-American (Uganda)	T2	RD724
-Chromosome	2291556	2291557	unk5	G	unk5	None	None
+Chromosome	2291556	2291557	L1.7.X-unk5	G	L1.7.X-unk5	None	None
 Chromosome	2311356	2311357	lineage1.1.1.1	A	Indo-Oceanic	EAI4;ZERO	RD239
 Chromosome	2315589	2315590	lineage5.1.2	T	West-Africa 1	AFRI_2;AFRI_3	RD711
 Chromosome	2326191	2326192	lineage1.1.1.1	T	Indo-Oceanic	EAI4;ZERO	RD239
@@ -884,14 +884,14 @@ Chromosome	2763623	2763624	lineage1.2.2	A	Indo-Oceanic	EAI1	RD239
 Chromosome	2781383	2781384	lineage4.6.2.1	G	Euro-American	T3	RD726
 Chromosome	2782139	2782140	lineage4.8.3	A	Euro-American (mainly T)	T1;T2;T3;T5	RD219
 Chromosome	2782497	2782498	lineage3	A	East-African-Indian	CAS	RD750
-Chromosome	2807763	2807764	unk4	A	unk4	None	None
+Chromosome	2807763	2807764	L1.7.X-unk4	A	L1.7.X-unk4	None	None
 Chromosome	2809249	2809250	lineage4.8	T	Euro-American (mainly T)	T1;T2;T3;T5	RD219
 Chromosome	2814960	2814961	lineage4.3.3	A	Euro-American (LAM)	LAM;T	RD115
 Chromosome	2824838	2824839	lineage4.1.1.1	T	Euro-American (X-type)	X2	RD183
 Chromosome	2825465	2825466	lineage4	G	Euro-American	LAM;T;S;X;H	None
 Chromosome	2825580	2825581	lineage2.2.1	G	East-Asian (Beijing)	Beijing-RD181	RD105;RD207;RD181
 Chromosome	2826038	2826039	lineage2.2.1.2	C	East-Asian (Beijing)	Beijing-RD142	RD105;RD207;RD181;RD142
-Chromosome	2834423	2834424	La1.2 BCG	A	La1.2 BCG	None	None
+Chromosome	2834423	2834424	La1.2.BCG	A	La1.2.BCG	None	None
 Chromosome	2840848	2840849	lineage1.2.1.2	C	Indo-Oceanic	NA	RD239
 Chromosome	2844013	2844014	lineage4.1.4	A	Euro-American	T;X;H	None
 Chromosome	2844688	2844689	lineage4.3.2.1	C	Euro-American (LAM)	LAM3	RD761
@@ -923,7 +923,7 @@ Chromosome	2914905	2914906	lineage4.8.1	C	Euro-American (mainly T)	T1;T2;T3;T5	R
 Chromosome	2919531	2919532	lineage4.6.4	G	Euro-American	T;LAM	None
 Chromosome	2923263	2923264	lineage4.2.2.2	A	Euro-American (Ural)	T;LAM7-TUR	None
 Chromosome	2940051	2940052	lineage5.3	A	West-Africa 1	AFRI_2;AFRI_3	RD711
-Chromosome	2948296	2948297	unk5	C	unk5	None	None
+Chromosome	2948296	2948297	L1.7.X-unk5	C	L1.7.X-unk5	None	None
 Chromosome	2958569	2958570	lineage1.2.1.2.1	A	Indo-Oceanic	NA	RD239
 Chromosome	2963596	2963597	La1.7	A	La1.7	None	None
 Chromosome	2980974	2980975	lineage4.1.1.3.1	A	Euro-American (X-type)	X1;X3	RD193
@@ -936,7 +936,7 @@ Chromosome	3007523	3007524	lineage4.2.2.1	A	Euro-American	LAM7-TUR	None
 Chromosome	3015965	3015966	lineage4.6	A	Euro-American	T;LAM	None
 Chromosome	3023683	3023684	lineage3.1.1	A	East-African-Indian	CAS1-Kili	RD750
 Chromosome	3028657	3028658	lineage4.6.1.1	A	Euro-American	T2-Uganda	RD724
-Chromosome	3033643	3033644	La1.2_La1.2 BCG	C	La1.2_La1.2 BCG	None	None
+Chromosome	3033643	3033644	La1.2	C	La1.2	None	None
 Chromosome	3037135	3037136	lineage4.3.1	A	Euro-American (LAM)	LAM9	None
 Chromosome	3038565	3038566	La1.5	A	La1.5	None	None
 Chromosome	3048840	3048841	lineage4.6.4	A	Euro-American	T;LAM	None
@@ -944,7 +944,7 @@ Chromosome	3072871	3072872	La1.6	A	La1.6	None	None
 Chromosome	3093940	3093941	lineage6.3.1	G	West-Africa 2	AFRI_1	RD702
 Chromosome	3094180	3094181	M.caprae	A	M. caprae	None	None
 Chromosome	3094576	3094577	lineage9	A	Lineage 9	None	None
-Chromosome	3095341	3095342	La1.2 BCG	C	La1.2 BCG	None	None
+Chromosome	3095341	3095342	La1.2.BCG	C	La1.2.BCG	None	None
 Chromosome	3097222	3097223	lineage5.1.4	T	West-Africa 1	AFRI_2;AFRI_3	RD711
 Chromosome	3108168	3108169	lineage6.2.1	A	West-Africa 2	AFRI_1	RD702
 Chromosome	3129358	3129359	lineage4.1.1	T	Euro-American (X-type)	X1;X2;X3	None
@@ -999,7 +999,7 @@ Chromosome	3416733	3416734	lineage4.2.2.2	A	Euro-American (Ural)	T;LAM7-TUR	None
 Chromosome	3418329	3418330	lineage4.3	A	Euro-American (LAM)	mainly-LAM	None
 Chromosome	3419559	3419560	lineage4.4	T	Euro-American	S;T	None
 Chromosome	3423183	3423184	lineage4.3.3	T	Euro-American (LAM)	LAM;T	RD115
-Chromosome	3423938	3423939	La1.2 BCG	A	La1.2 BCG	None	None
+Chromosome	3423938	3423939	La1.2.BCG	A	La1.2.BCG	None	None
 Chromosome	3433139	3433140	lineage6.3.3	A	West-Africa 2	AFRI_1	RD702
 Chromosome	3464052	3464053	lineage4.1.1.1	A	Euro-American (X-type)	X2	RD183
 Chromosome	3469693	3469694	lineage4.2	T	Euro-American	H;T;LAM	None
@@ -1025,7 +1025,7 @@ Chromosome	3643391	3643392	lineage4.3.3	T	Euro-American (LAM)	LAM;T	RD115
 Chromosome	3646963	3646964	lineage4.2.1	G	Euro-American (TUR)	H3;H4	None
 Chromosome	3664134	3664135	lineage4.4.1	A	Euro-American (S-type)	S;T	None
 Chromosome	3666904	3666905	lineage4.2	T	Euro-American	H;T;LAM	None
-Chromosome	3676092	3676093	unk6	T	unk6	None	None
+Chromosome	3676092	3676093	L1.8.X-unk6	T	L1.8.X-unk6	None	None
 Chromosome	3720206	3720207	La1.7.1	T	La1.7.1	None	None
 Chromosome	3722701	3722702	lineage3.1.2	C	East-African-Indian	CAS;CAS2	RD750
 Chromosome	3770448	3770449	La3	A	La3	None	None
@@ -1103,7 +1103,7 @@ Chromosome	4297209	4297210	La1.8.2	G	La1.8.2	None	None
 Chromosome	4298105	4298106	lineage4.2.2.2	A	Euro-American (Ural)	T;LAM7-TUR	None
 Chromosome	4307885	4307886	lineage4.4	A	Euro-American	S;T	None
 Chromosome	4308394	4308395	lineage2	A	East-Asian	Beijing	RD105
-Chromosome	4309280	4309281	La1.2_La1.2 BCG	T	La1.2_La1.2 BCG	None	None
+Chromosome	4309280	4309281	La1.2	T	La1.2	None	None
 Chromosome	4331584	4331585	lineage4.1.2.1	A	Euro-American (Haarlem)	T1;H1	RD182
 Chromosome	4332754	4332755	lineage6.2.3	T	West-Africa 2	AFRI_1	RD702
 Chromosome	4357502	4357503	La1.1	G	La1.1	None	None
