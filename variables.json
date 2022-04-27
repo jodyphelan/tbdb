@@ -1,1 +1,21 @@
-{"snpEff_db":"Mycobacterium_tuberculosis_h37rv"}
+{
+    "snpEff_db":"Mycobacterium_tuberculosis_h37rv",
+    "drugs": [
+        "rifampicin",
+        "isoniazid",
+        "ethambutol",
+        "pyrazinamide",
+        "streptomycin",
+        "fluoroquinolones",
+        "amikacin",
+        "capreomycin",
+        "kanamycin",
+        "cycloserine",
+        "ethionamide",
+        "clofazimine",
+        "para-aminosalicylic_acid",
+        "delamanid",
+        "bedaquiline",
+        "linezolid"
+      ]
+}
