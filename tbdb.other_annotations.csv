@@ -15825,3 +15825,2314 @@ inhA,p.Ile228Val,who_confidence,drug=isoniazid;who_confidence=Uncertain signific
 rpoA,c.-469A>G,who_confidence,drug=rifampicin;who_confidence=Uncertain significance
 embC,p.Thr609Ser,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
 gyrB,p.Ala504Thr,who_confidence,drug=moxifloxacin;who_confidence=Uncertain significance
+tlyA,c.100delA,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.106_278del,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.125dupC,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.136dupG,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.226delG,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.268_269dupGG,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.273_274delAT,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.311dupG,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.315dupC,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.328delG,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.391dupC,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.395_396dupAG,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.395dupA,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.396dupG,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.397_398dupCG,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.397dupC,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.399delG,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.430dupA,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.570dupT,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.588_589dupGG,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.590_591insA,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.593delT,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.637_638delCG,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.642_643dupGG,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.698delC,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.716delA,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,p.Gln117*,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,p.Gly232Asp,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,p.Gly66*,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,p.Leu74Pro,who_confidence,drug=capreomycin;who_confidence=Assoc w R
+tlyA,p.Ser159*,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+ddn,p.Leu49Pro,who_confidence,drug=delamanid;who_confidence=Assoc w R - interim
+embB,p.Leu74Arg,who_confidence,drug=ethambutol;who_confidence=Assoc w R - interim
+ethA,c.1010delT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1016_1018delTTA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1016_1018dupTTA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1028_1029dupGG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1029delG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1029dupG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1030_1032delTTG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1034delA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1047dupT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1055dupC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1058_1061delCGGC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.-1058_968del,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1060delG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1061dupC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1070_1072delACG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.107delA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1105delT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1112delG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1112dupG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1121delT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1123delT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1134delC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1137_1149dupCATGGCCTACACG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1152delT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1152dupT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1156delT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1159dupA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1168delT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1174_1175dupAC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.117delA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1185delC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1192_1194dupGTG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1214delT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1230delC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.-1242_166del,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1242dupT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.125_128delGCGG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.125delG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.125dupG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1265delC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1268delG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1287delG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1291_1305delTTCATGGAGTTCACC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1292_1293delTC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1292delT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1307delC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1307dupC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.130dupA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1319delT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1323_1329delCTCGCTG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.133_152delTGGGATTTGTTCCGTTATCC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1333dupG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1341delC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1343delA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1349dupG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1351dupT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1371_1381delGAATCAGAACT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.137_138delAT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1386delA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1390_1391dupGA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1390delG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1390dupG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1391dupA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1394dupT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1396_1397insT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1407delG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1427_1428dupAG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1431delT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1431dupT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1435dupC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1465dupG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.174_195delCATGTACACGCTAGGTTTCCGA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.181delA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.18_24dupCGTTGTC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.191_192insG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.201dupT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.204dupC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.217dupC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.223_226dupATCG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.230delA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.242_243insA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.24_48delCATCGTGGGCGCTGGAATCTCCGGT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.248_267delAGTACGTCAAGAGCACCGCG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.-2501_1459del,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.253_255delGTC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.261dupC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.268delG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.277_281dupGGAAT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.280delA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.299delT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.307_314delAAGGTGAT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.315dupC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.317_331delGTGCCGATTGGTCGA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.-32_124del,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.32delG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.341delA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.341dupA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.354dupT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.361delC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.364delA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.364dupA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.371_375dupGCACG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.382_383delGC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.382dupG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.385dupC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.388delA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.391dupT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.392delG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.4_123del,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.424_448dupAACTACGACGAGGGCTACTCGCCGA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.436_437dupGG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.439delT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.440_441dupAC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.440_441insT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.449_481delGATTCGCCGGCTCGGAGGATTTCGTCGGGCCGA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.477delG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.478_480delCCG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.479delC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.481_653del,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.491dupC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.501delG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.-507_165del,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.509delA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.52dupA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.531dupC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.535delG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.540dupG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.549_551delTGG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.553_554dupGC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.567_568dupGC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.567dupG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.569_570dupTC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.578dupC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.580dupC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.581_583delTGG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.584dupC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.618dupG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.619delC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.622_623delTC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.622_633dupTCACCCACCTAC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.623delC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.624delA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.625_633dupCCCACCTAC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.627dupC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.657_658delCG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.657delC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.65delA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.666_671delCGAGAA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.668_671delAGAA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.671dupA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.672_673dupGC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.672dupG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.682_686dupTGGCT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.682delT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.686dupT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.693_694dupGA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.-693_867del,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.693dupG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.699_707delGGCCTACAC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.702delC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.706delA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.708_710dupCGC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.708delC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.710_711dupCG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.720dupG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.722delA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.732dupG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.737_744dupAGGCGGCC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.737_756dupAGGCGGCCGTGTACAGCGCC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.737delA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.739dupG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.741_743dupGGC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.742dupG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.752dupG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.754_755delGC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.754_755dupGC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.757delT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.767_768dupGG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.770delC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.770dupC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.774dupG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.805dupC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.811delC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.825delG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.825dupG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.826delT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.83_84delCG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.839delA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.839dupA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.83delC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.841dupC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.842_845dupACTT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.848delG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.850_851dupCC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.851delC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.858_859insG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.859_999del,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.860delA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.862_866dupCCCTG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.864delC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.864dupC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.869dupA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.878_881dupTGTG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.87delC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.880_881delTG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.886delG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.89delA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.8delA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.92_101delGCTACGCCAT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.926delA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.92_93dupGC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.930_958delCGAGGTGGTGACCGACACCATTGAACGGT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.937delG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.938dupT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.939delG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.94_112delTACGCCATCCTGGAAAAGC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.942delC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.944_945insGCCAGCCCGCGCGCCAACGCCGCCGCTACCAGGTTGGG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.94_96dupTAC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.966_968dupGAC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.96delC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.973dupA,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Ala341Val,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Arg207Gly,who_confidence,drug=ethionamide;who_confidence=Assoc w R
+ethA,p.Arg279*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Arg421*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Cys253*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Cys294*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Gln121*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Gln165*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Gln215*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Gln24*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Gln254*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Gln359*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Gln360*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Gln73*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Glu132*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Glu332*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Glu476*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Gly11Val,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Leu293*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Lys394*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Lys86*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Met1Thr,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Pro378Leu,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Ser390Phe,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Ser399*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Ser57Tyr,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Thr88Ile,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Trp109*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Trp116*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Trp21*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Trp228*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Trp240*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Trp289*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Trp455*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Trp69*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Tyr140*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Tyr147*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Tyr211*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Tyr250*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Tyr276*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Tyr32Asp,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Tyr386*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Tyr408*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Tyr438*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Tyr60*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Tyr84*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Tyr92*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+katG,c.1002dupG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1016delA,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1024dupG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1058_1060dupACA,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1144dupC,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1155_1156dupGG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1176_1177dupGA,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1176dupG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1195_1196dupGA,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1284delG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1286_1288delCGC,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1292dupT,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1328_1329insA,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1333dupG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1339delC,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.135_136insT,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1365delT,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1414_1440dupCTAGTTTCGACCGCATGGGCGGCGGCG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1432delG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1438_1440delGCG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.147_149delCCA,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1481delG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1486dupC,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.151_152insCAA,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.151_156delAACCCG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1537delG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1538_1540dupATC,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1549_1552delGTCA,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1562_1575delTGGAAGAGATCCAG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1574_1575insT,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1602delG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1611dupA,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1651delG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1670delA,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1676delC,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1688delT,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1699_1700insA,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1706delC,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1745_2151del,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1752dupT,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1769delA,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.17delC,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1865delC,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.18delA,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1900dupC,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1919dupG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1921_1932delTTACCGCTGGGC,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1944_1948dupGGCCT,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1954_1955insG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.1967_1976delACTTCTTCGT,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.200_202delAGG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.2002dupT,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.2005dupG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.2079_2083dupCGTGG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.2086delC,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.21_22insT,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.2185delG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.22dupA,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.238_260delATCGAGGAAGTGATGACCACCTC,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.-259_924del,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.285_292delCGGCCACT,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.362_364delGCG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.369_371delGGG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.371delG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.390_391delGC,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.446_447dupGG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.45_46insA,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.485dupC,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.517_529delCTGGAATCGATGG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.536delA,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.53delA,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.57_58dupCT,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.58delT,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.596delG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.601_602dupGA,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.606delC,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.633_634insT,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.70_71dupGG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.831_835dupCGCCG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.87delC,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.89_98dupTCGAGGGCGG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.974delC,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.985delG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,p.Arg418*,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,p.Gln127*,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,p.Gln36*,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,p.Gln471*,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,p.Gln88*,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,p.Glu588*,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,p.Ser175*,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,p.Ser671*,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,p.Trp149*,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,p.Trp161*,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,p.Trp204*,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,p.Trp412*,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,p.Trp438*,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,p.Trp505*,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,p.Trp668*,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,p.Trp689*,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,p.Tyr155*,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,p.Tyr28*,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+pncA,c.100_107dupTACCTGGC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.115dupG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.116_132delCGGACTACCATCACGTC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.116dupC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.-11A>T,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.126_127delTC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.134delT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.143_463del,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.145_155delGACTTCCACAT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.152dupA,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.161_169delCGGGTGACC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.161dupC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.164delG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.166_169delGACC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.167delA,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.169delC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.177_182delCGGCAC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.17dupT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.181_191delACACCGGACTA,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.182_191delCACCGGACTA,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.184_185insCGGACTATT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.185_186insA,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.185_186insGG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.192_193insA,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.195_197delCTC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.20delT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.216_217insTACCCCCACCCTCGGGGGCGCCGCCCCCGAGTGGC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.219dupC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.220_231delAGCGGTACTCCC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.22dupG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.231delC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.233delG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.233dupG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.242_246dupTCCAT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.246_259dupTCCCAGTCTGGACA,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.249delC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.249dupC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.250_251delAG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.251delG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.259delA,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.266_277dupCAATCGAGGCGG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.281_399del,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.286_287insT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.287_288insCCTGGCGATCTCGAATGTCATCGTGGACGGGGT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.287delA,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.290delG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.291delT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.305delC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.312_323delCGGCTTCGAAGG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.314dupG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.317delT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.335delA,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.342delG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.34_37dupGACT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.349dupC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.34dupG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.35_44delACTTCTGCGA,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.355dupT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.374_389delTCGATGAGGTCGATGT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.377_390delATGAGGTCGATGTG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.380_381dupAG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.383_389delTCGATGT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.389_390insA,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.389_390insGG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.390_391dupGG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.391dupG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,c.393_394insT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.393dupC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.395_406delGTATTGCCACCG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.397_559del,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.399delT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.405delC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.407dupA,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.408dupT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.417dupG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.419_428dupGCCAGACGGC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.42dupC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.441_442insGTACCGCGTCGC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.447_448dupTG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.447dupT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.449dupG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.452_464delTGGCCACCAGGGT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.455_456dupCC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.456delC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.456dupC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,c.457delA,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.459_466delCAGGGTGC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.460dupA,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.462_463dupGG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.463_465dupGTG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.463delG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.463dupG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.464delT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.464dupT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,c.470_471insA,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.470dupT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.472dupG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.475dupC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.476delT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.478_513delACAGCGGGTGTGTCGGCCGATACCACCGTCGCCGCG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.47dupG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.480delA,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.482_483delCG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.48_58delTGGCTCGCTGG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.486dupT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.48_74delTGGCTCGCTGGCGGTAACCGGTGGCGC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.490delT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.50dupG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.513_514dupGC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.515delT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.517dupG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,c.523dupA,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.527_528dupGC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.532delG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.533_538delCCAGCG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.58dupG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.59dupC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.62delT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.-655_189del,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.66dupC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.7_15delGCGTTGATC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.-744_492del,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.75dupC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.7delG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.80dupT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.85delC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.-882_349del,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.91_92delAT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Glu181*,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Glu91*,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Gly97Val,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.His71Pro,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Ile90Thr,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Leu120Arg,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Leu120Gln,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Leu182Trp,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Pro62Thr,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Ser104Ile,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Ser18*,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Thr135Asn,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Thr177Pro,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Trp119Gly,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Val180Ala,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Val7Ala,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+rpoB,c.1278_1286delCACCAGCCA,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,c.1279_1284delACCAGC,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,c.1280_1285delCCAGCC,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,c.1280_1291delCCAGCCAGCTGA,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,c.1291_1302delAGCCAATTCATG,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,c.1293_1295dupCCA,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,c.1294_1302delCAATTCATG,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,c.1296_1307delATTCATGGACCA,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,c.1302_1310delGGACCAGAA,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,c.1303_1317delGACCAGAACAACCCG,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,c.1305_1307delCCA,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,c.1329_1331dupGAC,who_confidence,drug=rifampicin;who_confidence=Assoc w R
+rpoB,c.1330_1332dupACC,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,c.1334_1339delACAAGC,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,c.1348_1356delTCGGCGCTG,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Ala451Gly,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Ala451Val,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Arg448Gln,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Asn437Ser,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Asp435Leu,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Gln429Leu,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Gln429Pro,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Gln432Asn,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Gln436Asn,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Gln436Pro,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Gly442Glu,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.His445Arg,who_confidence,drug=rifampicin;who_confidence=Assoc w R
+rpoB,p.His445Asn,who_confidence,drug=rifampicin;who_confidence=Assoc w R
+rpoB,p.His445Asp,who_confidence,drug=rifampicin;who_confidence=Assoc w R
+rpoB,p.His445Cys,who_confidence,drug=rifampicin;who_confidence=Assoc w R
+rpoB,p.His445Gln,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.His445Gly,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.His445Phe,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.His445Pro,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.His445Ser,who_confidence,drug=rifampicin;who_confidence=Assoc w R
+rpoB,p.His445Thr,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Leu443Phe,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Leu449Met,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Leu452Gln,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Leu452Met,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Leu452Val,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Lys446Arg,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Lys446Glu,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Lys446Thr,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Met434Leu,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Met434Val,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Pro439Leu,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Pro439Ser,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Ser428Gly,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Ser441Ala,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Ser450Ala,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Ser450Cys,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Ser450Gln,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Ser450Gly,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Ser450Met,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Ser450Phe,who_confidence,drug=rifampicin;who_confidence=Assoc w R
+rpoB,p.Ser450Trp,who_confidence,drug=rifampicin;who_confidence=Assoc w R
+rpoB,p.Ser450Tyr,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Ser450Val,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Thr427Asn,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Thr427Gly,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Thr427Ile,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Thr444Ser,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+gid,c.102dupG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.110delG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.113_114insTACC,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.114_115dupCC,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.120dupA,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.131_136delTATGGG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.137dupA,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.141delG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.161_290del,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.-16_157del,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.163_165dupATC,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.165_167dupCGG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.180delA,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.187delG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.195dupC,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.200_214delATATCGGTAGCGGAG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.212_219delGAGCCGGG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.227delG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.230_248delTGCCATTGGCGATAGCGCG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.245delC,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.247_248delCG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.247delC,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.248_250dupGGC,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.257delT,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.258_259insA,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.258_259insG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.266_304delTTCTCCTAGAACCGCTACTGCGCCGCACCGAGTTTCTTC,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.267delT,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.284delT,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.287_288dupGC,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.287delG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.292delA,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.296dupA,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.304delC,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.309_310insT,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.310dupA,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.314delT,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.318_322dupAGATC,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.319dupG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.320dupA,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.329_330delTG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.336_359dupTGAGATCGTGCGGGGGCGCGCCGA,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.337dupG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.342delC,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.351_446delGCGCGCCGAGGAGTCCTGGGTGCAGGACCAATTGGGCGGCAGCGACGCTGCGGTGTCACGGGCGGTGGCCGCGTTGGACAAGTTGACGAAATGGAG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.352dupC,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.353delG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.355_356delGC,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.357delC,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.361delG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.370delG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.371delT,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.399dupT,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.39delA,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.404delT,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.413delC,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.418delG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.41delC,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.42delG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.438delG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.441dupA,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.445dupA,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.475delA,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.48_51delTGGC,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.489delA,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.48delT,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.501_502delTC,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.518dupA,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.52_59dupCTTGCTCG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.525delG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.-5_331del,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.545dupG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.548_549insA,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.550delG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.562dupG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.574_575delGG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.575dupG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.604delG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.611dupT,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.615dupA,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.659dupG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.-70_140del,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.-74_319del,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.77delT,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.9_113del,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.92delT,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.94delG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.98delG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Ala134Glu,who_confidence,drug=streptomycin;who_confidence=Assoc w R
+gid,p.Arg102*,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Arg206*,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Arg213*,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Gln127*,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Glu103*,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Glu170*,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Glu92*,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Glu99*,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Gly28*,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Gly37*,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Gly71*,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Leu26*,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Leu74*,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Leu79*,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Lys144*,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Lys163*,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Pro84Leu,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Ser136*,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Tyr22*,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+eis,c.-14C>T,who_confidence,drug=amikacin;who_confidence=Assoc w R
+eis,c.-8delC,who_confidence,drug=kanamycin;who_confidence=Assoc w R
+ethA,c.-7T>C,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Cys131*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Gln206*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Gln271*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Ser197*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Trp256*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Trp391*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Trp45*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Tyr143*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Tyr461*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+gid,c.193dupG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.351dupG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.487_507dupAAAGGCGAGCGGGCTCACGAC,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.52delC,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.553dupG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.597delC,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.87delC,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Cys52*,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Gln125*,who_confidence,drug=streptomycin;who_confidence=Assoc w R
+gid,p.Gln87*,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Glu173*,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Glu60*,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Gly69Asp,who_confidence,drug=streptomycin;who_confidence=Assoc w R
+gid,p.Pro75Arg,who_confidence,drug=streptomycin;who_confidence=Assoc w R
+gid,p.Trp148*,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Trp45*,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Tyr195*,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+inhA,c.-154G>A,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+inhA,c.-154G>A,who_confidence,drug=isoniazid;who_confidence=Assoc w R
+katG,c.2003_2005dupGGG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+pncA,c.303_314delAGCGTACAGCGG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.36_37insGCCAGCGAGCCACCCTCGCAGAAGTCG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.386_394delATGTGGTCG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.492_494delGGC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.-5delG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Ala102Pro,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Ala143Gly,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Gln122*,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Glu15*,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Ile31Thr,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Ser164*,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Tyr103Asp,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Tyr64*,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Val125Phe,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Val131Gly,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+rpoB,c.1292_1294dupGCC,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,c.1294_1296delCAA,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,c.1300_1305delATGGAC,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,c.1303_1305delGAC,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rrs,n.878G>A,who_confidence,drug=streptomycin;who_confidence=Assoc w R
+gyrB,p.Glu540Asp,who_confidence,drug=moxifloxacin;who_confidence=
+pncA,p.Thr100Ile,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Thr160Ala,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+gid,p.Gly73Ala,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,p.Leu79Ser,who_confidence,drug=streptomycin;who_confidence=Uncertain significance
+gid,p.Leu108Arg,who_confidence,drug=streptomycin;who_confidence=Uncertain significance
+ahpC,c.-57C>T,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+ddn,p.Gly81Asp,who_confidence,drug=delamanid;who_confidence=
+rpoB,p.His445Tyr,who_confidence,drug=rifampicin;who_confidence=Assoc w R
+rpoB,p.His445Leu,who_confidence,drug=rifampicin;who_confidence=Assoc w R
+rpoB,p.Ser450Leu,who_confidence,drug=rifampicin;who_confidence=Assoc w R
+katG,p.Arg632Cys,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Met420Thr,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Trp351*,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+eis,c.-10G>C,who_confidence,drug=kanamycin;who_confidence=Uncertain significance
+eis,c.-13A>G,who_confidence,drug=kanamycin;who_confidence=Uncertain significance
+ddn,p.Leu107Pro,who_confidence,drug=delamanid;who_confidence=
+ddn,c.51_101delTATCAAGTGGATGTCACGGATTAATACCTGGATGTACCGCCGCAACGACGG,who_confidence,drug=delamanid;who_confidence=
+ddn,p.Trp88*,who_confidence,drug=delamanid;who_confidence=Uncertain significance
+fgd1,c.148dupC,who_confidence,drug=delamanid;who_confidence=
+fgd1,p.Gln88Glu,who_confidence,drug=delamanid;who_confidence=
+fbiA,p.Lys250*,who_confidence,drug=delamanid;who_confidence=
+fbiA,p.Arg175His,who_confidence,drug=delamanid;who_confidence=Uncertain significance
+rrs,n.1158G>T,who_confidence,drug=amikacin;who_confidence=
+rrs,n.1338A>C,who_confidence,drug=amikacin;who_confidence=
+rrs,n.1401A>G,who_confidence,drug=amikacin;who_confidence=Assoc w R
+rrs,n.1402C>A,who_confidence,drug=amikacin;who_confidence=
+rrs,n.1402C>T,who_confidence,drug=amikacin;who_confidence=Assoc w R - interim
+rrs,n.1484G>T,who_confidence,drug=amikacin;who_confidence=Assoc w R - interim
+rrs,n.1158G>T,who_confidence,drug=aminoglycosides;who_confidence=
+rrs,n.1338A>C,who_confidence,drug=aminoglycosides;who_confidence=
+rrs,n.1401A>G,who_confidence,drug=aminoglycosides;who_confidence=
+rrs,n.1402C>A,who_confidence,drug=aminoglycosides;who_confidence=
+rrs,n.1402C>T,who_confidence,drug=aminoglycosides;who_confidence=
+rrs,n.1484G>T,who_confidence,drug=aminoglycosides;who_confidence=
+Rv0678,c.198dupG,who_confidence,drug=bedaquiline;who_confidence=Uncertain significance
+Rv0678,c.38dupA,who_confidence,drug=bedaquiline;who_confidence=
+Rv0678,p.Arg134*,who_confidence,drug=bedaquiline;who_confidence=
+Rv0678,p.Arg94Gln,who_confidence,drug=bedaquiline;who_confidence=
+Rv0678,p.Glu138Gly,who_confidence,drug=bedaquiline;who_confidence=
+Rv0678,p.Ser63Arg,who_confidence,drug=bedaquiline;who_confidence=
+Rv0678,p.Ser68Gly,who_confidence,drug=bedaquiline;who_confidence=Uncertain significance
+rrs,n.1401A>G,who_confidence,drug=capreomycin;who_confidence=Assoc w R
+rrs,n.1402C>A,who_confidence,drug=capreomycin;who_confidence=
+rrs,n.1402C>T,who_confidence,drug=capreomycin;who_confidence=Assoc w R
+rrs,n.1484G>T,who_confidence,drug=capreomycin;who_confidence=Assoc w R
+tlyA,c.201_202dupGC,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,c.23delA,who_confidence,drug=capreomycin;who_confidence=
+tlyA,c.27delC,who_confidence,drug=capreomycin;who_confidence=
+tlyA,c.311delG,who_confidence,drug=capreomycin;who_confidence=
+tlyA,c.400delA,who_confidence,drug=capreomycin;who_confidence=
+tlyA,c.477delG,who_confidence,drug=capreomycin;who_confidence=
+tlyA,c.589delG,who_confidence,drug=capreomycin;who_confidence=
+tlyA,c.653delT,who_confidence,drug=capreomycin;who_confidence=
+tlyA,c.673_674delGT,who_confidence,drug=capreomycin;who_confidence=
+tlyA,c.69_71delCGC,who_confidence,drug=capreomycin;who_confidence=
+tlyA,c.735_744delGCAGACCGAC,who_confidence,drug=capreomycin;who_confidence=
+tlyA,c.753_754dupGT,who_confidence,drug=capreomycin;who_confidence=
+tlyA,c.759delC,who_confidence,drug=capreomycin;who_confidence=
+tlyA,frameshift,who_confidence,drug=capreomycin;who_confidence=
+tlyA,p.Ala67Glu,who_confidence,drug=capreomycin;who_confidence=
+tlyA,p.Ala91Glu,who_confidence,drug=capreomycin;who_confidence=
+tlyA,p.Arg14Trp,who_confidence,drug=capreomycin;who_confidence=
+tlyA,p.Arg18*,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,p.Arg3*,who_confidence,drug=capreomycin;who_confidence=
+tlyA,p.Asn236Lys,who_confidence,drug=capreomycin;who_confidence=Assoc w R
+tlyA,p.Gln184*,who_confidence,drug=capreomycin;who_confidence=
+tlyA,p.Gln22*,who_confidence,drug=capreomycin;who_confidence=Assoc w R - interim
+tlyA,p.Glu238Lys,who_confidence,drug=capreomycin;who_confidence=Uncertain significance
+tlyA,p.Leu118Pro,who_confidence,drug=capreomycin;who_confidence=
+tlyA,p.Leu150Pro,who_confidence,drug=capreomycin;who_confidence=Uncertain significance
+tlyA,p.Lys69Glu,who_confidence,drug=capreomycin;who_confidence=Uncertain significance
+tlyA,p.Phe185Leu,who_confidence,drug=capreomycin;who_confidence=
+tlyA,p.Pro183Leu,who_confidence,drug=capreomycin;who_confidence=
+tlyA,p.Val128Glu,who_confidence,drug=capreomycin;who_confidence=
+gyrA,p.Ala74Ser,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrA,p.Ala90Glu,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrA,p.Ala90Val,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrA,p.Arg68Gly,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrA,p.Asp89Asn,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrA,p.Asp94Ala,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrA,p.Asp94Asn,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrA,p.Asp94Gly,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrA,p.Asp94His,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrA,p.Asp94Tyr,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrA,p.Asp94Val,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrA,p.Gly88Ala,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrA,p.Gly88Cys,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrA,p.His70Arg,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrA,p.Ile92Met,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrA,p.Leu109Val,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrA,p.Pro102His,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrA,p.Ser69Thr,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrA,p.Ser91Ala,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrA,p.Ser91Pro,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrB,p.Ala504Thr,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrB,p.Ala504Val,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrB,p.Arg446Cys,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrB,p.Arg446His,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrB,p.Arg446Leu,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrB,p.Asn499Asp,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrB,p.Asn499Lys,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrB,p.Asn499Thr,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrB,p.Asn499Tyr,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrB,p.Asp461Ala,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrB,p.Asp461Asn,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrB,p.Asp461His,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrB,p.Asp494Ala,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrB,p.Gln538His,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrB,p.Glu501Asp,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrB,p.Glu501Val,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrB,p.Gly470Ala,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrB,p.Gly470Cys,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrB,p.Ile486Leu,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrB,p.Ser447Phe,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrB,p.Thr500Asn,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrB,p.Thr500Ile,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrB,p.Thr500Pro,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrB,p.Thr507Met,who_confidence,drug=ciprofloxacin;who_confidence=
+gyrB,p.Val670Phe,who_confidence,drug=ciprofloxacin;who_confidence=
+Rv0678,c.198dupG,who_confidence,drug=clofazimine;who_confidence=Uncertain significance
+Rv0678,c.38dupA,who_confidence,drug=clofazimine;who_confidence=
+Rv0678,p.Arg134*,who_confidence,drug=clofazimine;who_confidence=
+Rv0678,p.Arg94Gln,who_confidence,drug=clofazimine;who_confidence=
+Rv0678,p.Glu138Gly,who_confidence,drug=clofazimine;who_confidence=
+Rv0678,p.Ser63Arg,who_confidence,drug=clofazimine;who_confidence=
+Rv0678,p.Ser68Gly,who_confidence,drug=clofazimine;who_confidence=Uncertain significance
+ald,c.1107dupG,who_confidence,drug=cycloserine;who_confidence=
+ald,c.130dupG,who_confidence,drug=cycloserine;who_confidence=
+ald,c.134_135dupTC,who_confidence,drug=cycloserine;who_confidence=
+ald,c.133delA,who_confidence,drug=cycloserine;who_confidence=
+ald,c.317_318insT,who_confidence,drug=cycloserine;who_confidence=
+ald,c.436_437dupGC,who_confidence,drug=cycloserine;who_confidence=
+ald,c.464delG,who_confidence,drug=cycloserine;who_confidence=
+ald,c.839_843dupCGACC,who_confidence,drug=cycloserine;who_confidence=
+ald,c.879_880dupGC,who_confidence,drug=cycloserine;who_confidence=
+ald,c.897_898dupGA,who_confidence,drug=cycloserine;who_confidence=
+ald,c.968_969dupAG,who_confidence,drug=cycloserine;who_confidence=
+ald,c.992dupC,who_confidence,drug=cycloserine;who_confidence=
+alr,p.Leu113Arg,who_confidence,drug=cycloserine;who_confidence=
+alr,p.Met343Thr,who_confidence,drug=cycloserine;who_confidence=
+alr,p.Phe4Leu,who_confidence,drug=cycloserine;who_confidence=
+fbiA,p.Asp49Tyr,who_confidence,drug=delamanid;who_confidence=
+embA,c.-11C>A,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embA,c.-12C>T,who_confidence,drug=ethambutol;who_confidence=Assoc w R
+embA,c.-16C>G,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embA,c.-16C>T,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embA,c.27delT,who_confidence,drug=ethambutol;who_confidence=
+embA,c.29delA,who_confidence,drug=ethambutol;who_confidence=
+embA,c.-29_-28delCT,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embA,c.33delG,who_confidence,drug=ethambutol;who_confidence=
+embA,c.35delT,who_confidence,drug=ethambutol;who_confidence=
+embA,c.38delC,who_confidence,drug=ethambutol;who_confidence=
+embA,p.Ala462Val,who_confidence,drug=ethambutol;who_confidence=
+embA,p.Asp4Asn,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embA,p.Asp833Ala,who_confidence,drug=ethambutol;who_confidence=
+embA,p.Gly321Ser,who_confidence,drug=ethambutol;who_confidence=
+embA,p.Gly350Asp,who_confidence,drug=ethambutol;who_confidence=
+embB,c.983delA,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Ala221Gly,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Ala225Ser,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Ala271Val,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Ala281Pro,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Ala313Val,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Ala356Ser,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Ala356Val,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Ala357Ser,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Ala357Val,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Ala379Asp,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Ala379Thr,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Ala388Gly,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Ala431Thr,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Ala659Thr,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Arg257Trp,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Arg274Pro,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Arg367Pro,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Arg460Cys,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Arg460Leu,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Arg469Pro,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Arg471Pro,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Arg507Lys,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Asn296His,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Asn296Lys,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Asn318His,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Asn318Lys,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Asn318Ser,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Asn399Asp,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Asn399His,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Asn400Lys,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Asp1024Asn,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Asp240His,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Asp299Glu,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Asp311Gly,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Asp311His,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Asp328Gly,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Asp328Tyr,who_confidence,drug=ethambutol;who_confidence=Assoc w R
+embB,p.Asp328Val,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Asp354Ala,who_confidence,drug=ethambutol;who_confidence=Assoc w R
+embB,p.Asp959Ala,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Gln497Arg,who_confidence,drug=ethambutol;who_confidence=Assoc w R
+embB,p.Gln497Lys,who_confidence,drug=ethambutol;who_confidence=Assoc w R
+embB,p.Gln497Pro,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Gln853Pro,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Glu368Ala,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Glu368Asp,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Glu368Gln,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Glu378Lys,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Glu405Asp,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Glu504Asp,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Gly294Ser,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Gly314Ala,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Gly331Arg,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Gly358Val,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Gly374Val,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Gly401Ser,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Gly406Ala,who_confidence,drug=ethambutol;who_confidence=Assoc w R
+embB,p.Gly406Asp,who_confidence,drug=ethambutol;who_confidence=Assoc w R
+embB,p.Gly406Cys,who_confidence,drug=ethambutol;who_confidence=Assoc w R
+embB,p.Gly406Ser,who_confidence,drug=ethambutol;who_confidence=Assoc w R
+embB,p.Gly448Val,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Gly459Ala,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Gly745Asp,who_confidence,drug=ethambutol;who_confidence=
+embB,p.His1002Arg,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.His312Arg,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Ile293Asn,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Leu239Pro,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Leu359Ile,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Leu370Arg,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Met1000Arg,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Met306Ile,who_confidence,drug=ethambutol;who_confidence=Assoc w R
+embB,p.Met306Leu,who_confidence,drug=ethambutol;who_confidence=Assoc w R
+embB,p.Met306Thr,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Met306Val,who_confidence,drug=ethambutol;who_confidence=Assoc w R
+embB,p.Met423Ile,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Met423Thr,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Met482Ile,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Phe285Leu,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Phe287Cys,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Phe287Val,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Phe320Leu,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Phe330Val,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Phe398Tyr,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Pro371Arg,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Pro375Ala,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Pro397Gln,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Pro397Thr,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Pro404Ser,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Pro430Leu,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Pro446His,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Pro461Ser,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Ser272Cys,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Ser272Ile,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Ser297Ala,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Ser297Leu,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Ser298Trp,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Ser317Thr,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Ser347Cys,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Ser347Ile,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Ser347Thr,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Ser366Pro,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Ser380Arg,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Ser380Asn,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Ser412Leu,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Thr437Ala,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Trp332Leu,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Trp395Arg,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Trp395Cys,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Tyr315Cys,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Tyr319Asn,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Tyr319Cys,who_confidence,drug=ethambutol;who_confidence=Assoc w R
+embB,p.Tyr319Ser,who_confidence,drug=ethambutol;who_confidence=Assoc w R
+embB,p.Tyr333His,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Tyr334His,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Tyr384Asn,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Val227Gly,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Val282Gly,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Val282Leu,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Val309Gly,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Val360Met,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Val369Ala,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Val369Leu,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Val377Gly,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Val377Met,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embB,p.Val435Gly,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Val436Gly,who_confidence,drug=ethambutol;who_confidence=
+embB,p.Val452Leu,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embC,p.Ala244Thr,who_confidence,drug=ethambutol;who_confidence=
+embC,p.Ala247Pro,who_confidence,drug=ethambutol;who_confidence=
+embC,p.Ala254Gly,who_confidence,drug=ethambutol;who_confidence=
+embC,p.Ala307Thr,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embC,p.Ala779Val,who_confidence,drug=ethambutol;who_confidence=
+embC,p.Arg302Gly,who_confidence,drug=ethambutol;who_confidence=
+embC,p.Gly272Ser,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embC,p.Gly288Trp,who_confidence,drug=ethambutol;who_confidence=
+embC,p.Gly288Val,who_confidence,drug=ethambutol;who_confidence=
+embC,p.Gly308Asp,who_confidence,drug=ethambutol;who_confidence=
+embC,p.Gly325Ser,who_confidence,drug=ethambutol;who_confidence=
+embC,p.His285Tyr,who_confidence,drug=ethambutol;who_confidence=
+embC,p.Ile297Leu,who_confidence,drug=ethambutol;who_confidence=
+embC,p.Ile297Thr,who_confidence,drug=ethambutol;who_confidence=
+embC,p.Leu251Arg,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embC,p.Met300Arg,who_confidence,drug=ethambutol;who_confidence=
+embC,p.Met310Lys,who_confidence,drug=ethambutol;who_confidence=
+embC,p.Trp326Arg,who_confidence,drug=ethambutol;who_confidence=
+embC,p.Tyr296His,who_confidence,drug=ethambutol;who_confidence=
+embC,p.Tyr296Ser,who_confidence,drug=ethambutol;who_confidence=
+embC,p.Tyr309Asn,who_confidence,drug=ethambutol;who_confidence=
+embC,p.Tyr327Asn,who_confidence,drug=ethambutol;who_confidence=
+embC,p.Val287Phe,who_confidence,drug=ethambutol;who_confidence=
+embC,p.Val303Gly,who_confidence,drug=ethambutol;who_confidence=
+embR,p.Ala176Val,who_confidence,drug=ethambutol;who_confidence=
+embR,p.Ala187Val,who_confidence,drug=ethambutol;who_confidence=
+embR,p.Arg186Gly,who_confidence,drug=ethambutol;who_confidence=
+embR,p.Arg230Trp,who_confidence,drug=ethambutol;who_confidence=
+embR,p.Arg356Gly,who_confidence,drug=ethambutol;who_confidence=
+embR,p.Asp223Glu,who_confidence,drug=ethambutol;who_confidence=
+embR,p.Asp53His,who_confidence,drug=ethambutol;who_confidence=
+embR,p.Gln379Arg,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embR,p.Glu200Ala,who_confidence,drug=ethambutol;who_confidence=
+embR,p.Gly240Arg,who_confidence,drug=ethambutol;who_confidence=
+embR,p.Ile369Thr,who_confidence,drug=ethambutol;who_confidence=
+embR,p.Leu172Arg,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+embR,p.Leu211Met,who_confidence,drug=ethambutol;who_confidence=
+embR,p.Leu292Met,who_confidence,drug=ethambutol;who_confidence=
+embR,p.Leu320Val,who_confidence,drug=ethambutol;who_confidence=
+embR,p.Ser188Arg,who_confidence,drug=ethambutol;who_confidence=
+embR,p.Ser326Asn,who_confidence,drug=ethambutol;who_confidence=
+embR,p.Thr32Pro,who_confidence,drug=ethambutol;who_confidence=
+embR,p.Val350Gly,who_confidence,drug=ethambutol;who_confidence=
+embR,p.Val7Gly,who_confidence,drug=ethambutol;who_confidence=Uncertain significance
+ethA,c.101delT,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.1023_1024insGC,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.1047delT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1054delG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1057_1059delACG,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.1080delA,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.1104delC,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.110delA,who_confidence,drug=ethionamide;who_confidence=Assoc w R
+ethA,c.1164_1165insA,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.119_120insA,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.1194_1195insT,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.1195_1196insGTG,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.-11A>G,who_confidence,drug=ethionamide;who_confidence=Uncertain significance
+ethA,c.1215_1224delGTTGAATTAC,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.1242delT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1290delC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1304_1305insA,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.130delA,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.1322_1323delGC,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.1406_1407insC,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.140delT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.1465delG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.180delC,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.229delG,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.308delA,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.492_493insCC,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.597delC,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.621_622insG,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.639_640delGT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.673_674insG,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.674_675insGC,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.701_702insGG,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.703delT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.753_754insG,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.756_757insGC,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.768delG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.771_772insC,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.774delG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.785_787delAGA,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.852_853insC,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.870_871insA,who_confidence,drug=ethionamide;who_confidence=
+ethA,c.884delT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,c.896delG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,frameshift,who_confidence,drug=ethionamide;who_confidence=
+ethA,large_deletion,who_confidence,drug=ethionamide;who_confidence=
+ethA,transcript_ablation,who_confidence,drug=ethionamide;who_confidence=
+ethA,p.Ala381Pro,who_confidence,drug=ethionamide;who_confidence=Uncertain significance
+ethA,p.Arg463Ser,who_confidence,drug=ethionamide;who_confidence=
+ethA,p.Asp58Ala,who_confidence,drug=ethionamide;who_confidence=Uncertain significance
+ethA,p.Cys403Gly,who_confidence,drug=ethionamide;who_confidence=Uncertain significance
+ethA,p.Gln165Pro,who_confidence,drug=ethionamide;who_confidence=Uncertain significance
+ethA,p.Gln246*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Gln269*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Gln347*,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+ethA,p.Glu223Lys,who_confidence,drug=ethionamide;who_confidence=
+ethA,p.Gly11Ala,who_confidence,drug=ethionamide;who_confidence=
+ethA,p.Gly385Asp,who_confidence,drug=ethionamide;who_confidence=
+ethA,p.Gly413Asp,who_confidence,drug=ethionamide;who_confidence=Uncertain significance
+ethA,p.Gly43Cys,who_confidence,drug=ethionamide;who_confidence=Uncertain significance
+ethA,p.Gly43Ser,who_confidence,drug=ethionamide;who_confidence=Uncertain significance
+ethA,p.His22Pro,who_confidence,drug=ethionamide;who_confidence=Uncertain significance
+ethA,p.Ile338Ser,who_confidence,drug=ethionamide;who_confidence=Uncertain significance
+ethA,p.Leu272Pro,who_confidence,drug=ethionamide;who_confidence=
+ethA,p.Leu333Arg,who_confidence,drug=ethionamide;who_confidence=
+ethA,p.Leu397Arg,who_confidence,drug=ethionamide;who_confidence=Uncertain significance
+ethA,p.Met1Arg,who_confidence,drug=ethionamide;who_confidence=Assoc w R
+ethA,p.Pro51Leu,who_confidence,drug=ethionamide;who_confidence=Uncertain significance
+ethA,p.Ser329Leu,who_confidence,drug=ethionamide;who_confidence=
+ethA,p.Thr186Lys,who_confidence,drug=ethionamide;who_confidence=
+ethA,p.Thr232Ala,who_confidence,drug=ethionamide;who_confidence=Uncertain significance
+ethA,p.Thr342Lys,who_confidence,drug=ethionamide;who_confidence=Uncertain significance
+ethA,p.Thr392Ala,who_confidence,drug=ethionamide;who_confidence=Uncertain significance
+ethA,p.Thr61Met,who_confidence,drug=ethionamide;who_confidence=Uncertain significance
+ethA,p.Tyr386Cys,who_confidence,drug=ethionamide;who_confidence=Uncertain significance
+ethA,p.Tyr461His,who_confidence,drug=ethionamide;who_confidence=
+ethA,p.Tyr84Asp,who_confidence,drug=ethionamide;who_confidence=Uncertain significance
+ethR,p.Ala95Thr,who_confidence,drug=ethionamide;who_confidence=Uncertain significance
+ethR,p.Phe110Leu,who_confidence,drug=ethionamide;who_confidence=Uncertain significance
+fabG1,c.-15C>T,who_confidence,drug=ethionamide;who_confidence=Assoc w R
+fabG1,c.-17G>T,who_confidence,drug=ethionamide;who_confidence=Uncertain significance
+fabG1,c.-8T>C,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+inhA,p.Ile194Thr,who_confidence,drug=ethionamide;who_confidence=Uncertain significance
+inhA,p.Ile21Thr,who_confidence,drug=ethionamide;who_confidence=Uncertain significance
+inhA,p.Ser94Ala,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
+gyrA,p.Ala74Ser,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrA,p.Ala90Glu,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrA,p.Ala90Val,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrA,p.Arg68Gly,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrA,p.Asp89Asn,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrA,p.Asp94Ala,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrA,p.Asp94Asn,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrA,p.Asp94Gly,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrA,p.Asp94His,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrA,p.Asp94Tyr,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrA,p.Asp94Val,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrA,p.Gly88Ala,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrA,p.Gly88Cys,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrA,p.His70Arg,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrA,p.Ile92Met,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrA,p.Leu109Val,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrA,p.Pro102His,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrA,p.Ser69Thr,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrA,p.Ser91Ala,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrA,p.Ser91Pro,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrB,p.Ala504Thr,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrB,p.Ala504Val,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrB,p.Arg446Cys,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrB,p.Arg446His,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrB,p.Arg446Leu,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrB,p.Asn499Asp,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrB,p.Asn499Lys,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrB,p.Asn499Thr,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrB,p.Asn499Tyr,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrB,p.Asp461Ala,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrB,p.Asp461Asn,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrB,p.Asp461His,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrB,p.Asp494Ala,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrB,p.Gln538His,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrB,p.Glu501Asp,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrB,p.Glu501Val,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrB,p.Gly470Ala,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrB,p.Gly470Cys,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrB,p.Ile486Leu,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrB,p.Ser447Phe,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrB,p.Thr500Asn,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrB,p.Thr500Ile,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrB,p.Thr500Pro,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrB,p.Thr507Met,who_confidence,drug=fluoroquinolones;who_confidence=
+gyrB,p.Val670Phe,who_confidence,drug=fluoroquinolones;who_confidence=
+ahpC,c.-20C>T,who_confidence,drug=isoniazid;who_confidence=
+ahpC,c.-39C>T,who_confidence,drug=isoniazid;who_confidence=
+ahpC,c.-44T>A,who_confidence,drug=isoniazid;who_confidence=
+ahpC,c.-48G>A,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+ahpC,c.-48G>T,who_confidence,drug=isoniazid;who_confidence=
+ahpC,c.-49T>G,who_confidence,drug=isoniazid;who_confidence=
+ahpC,c.-4A>G,who_confidence,drug=isoniazid;who_confidence=
+ahpC,c.-51G>T,who_confidence,drug=isoniazid;who_confidence=
+ahpC,c.-52C>T,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+ahpC,c.-54C>T,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+ahpC,c.-5G>A,who_confidence,drug=isoniazid;who_confidence=
+ahpC,c.-66G>A,who_confidence,drug=isoniazid;who_confidence=
+ahpC,c.-74G>A,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+ahpC,c.-81C>T,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+ahpC,p.Asp33Asn,who_confidence,drug=isoniazid;who_confidence=
+ahpC,p.Asp73His,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+ahpC,p.Glu76Lys,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+ahpC,p.Leu191Arg,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+ahpC,p.Phe10Ile,who_confidence,drug=isoniazid;who_confidence=
+ahpC,p.Pro2Ser,who_confidence,drug=isoniazid;who_confidence=
+ahpC,p.Thr5Ile,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+fabG1,c.-11A>T,who_confidence,drug=isoniazid;who_confidence=
+fabG1,c.-15C>T,who_confidence,drug=isoniazid;who_confidence=Assoc w R
+fabG1,c.-16A>G,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+fabG1,c.-17G>T,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+fabG1,c.-24G>T,who_confidence,drug=isoniazid;who_confidence=
+fabG1,c.-5T>A,who_confidence,drug=isoniazid;who_confidence=
+fabG1,c.-67G>C,who_confidence,drug=isoniazid;who_confidence=
+fabG1,c.-8T>A,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+fabG1,c.-8T>C,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+fabG1,c.-8T>G,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+fabG1,c.-92A>T,who_confidence,drug=isoniazid;who_confidence=
+inhA,p.Gly40Trp,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+inhA,p.Ile16Thr,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+inhA,p.Ile194Thr,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+inhA,p.Ile21Asn,who_confidence,drug=isoniazid;who_confidence=
+inhA,p.Ile21Thr,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+inhA,p.Ile21Val,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+inhA,p.Ile47Thr,who_confidence,drug=isoniazid;who_confidence=
+inhA,p.Ile95Thr,who_confidence,drug=isoniazid;who_confidence=
+inhA,p.Leu11Val,who_confidence,drug=isoniazid;who_confidence=
+inhA,p.Lys8Asn,who_confidence,drug=isoniazid;who_confidence=
+inhA,p.Ser94Ala,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+inhA,p.Ser94Leu,who_confidence,drug=isoniazid;who_confidence=
+inhA,p.Ser94Trp,who_confidence,drug=isoniazid;who_confidence=
+kasA,p.Arg121Lys,who_confidence,drug=isoniazid;who_confidence=
+kasA,p.Asp66Asn,who_confidence,drug=isoniazid;who_confidence=
+kasA,p.Gly387Asp,who_confidence,drug=isoniazid;who_confidence=
+kasA,p.Met77Ile,who_confidence,drug=isoniazid;who_confidence=
+katG,c.1037delG,who_confidence,drug=isoniazid;who_confidence=
+katG,c.1091delT,who_confidence,drug=isoniazid;who_confidence=
+katG,c.109delG,who_confidence,drug=isoniazid;who_confidence=
+katG,c.-10A>C,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,c.1171_1172insCTA,who_confidence,drug=isoniazid;who_confidence=
+katG,c.1203delC,who_confidence,drug=isoniazid;who_confidence=
+katG,c.-12G>A,who_confidence,drug=isoniazid;who_confidence=
+katG,c.1330_1331insA,who_confidence,drug=isoniazid;who_confidence=
+katG,c.1339_1350delCACGACCTCGTC,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.149delA,who_confidence,drug=isoniazid;who_confidence=
+katG,c.152_166delACCCGGCCGTCGCTG,who_confidence,drug=isoniazid;who_confidence=
+katG,c.1560_1561insTGCAGCCACAAGTCGGGTGGGAGGTCAACGACCCCGACGGGGATCTGCGCAAGGTCATTCGCAC,who_confidence,drug=isoniazid;who_confidence=
+katG,c.1612_1613insA,who_confidence,drug=isoniazid;who_confidence=
+katG,c.1667delC,who_confidence,drug=isoniazid;who_confidence=
+katG,c.1804_1810delAACCCGT,who_confidence,drug=isoniazid;who_confidence=
+katG,c.1850_1851insAC,who_confidence,drug=isoniazid;who_confidence=
+katG,c.186dupC,who_confidence,drug=isoniazid;who_confidence=
+katG,c.1901_1902insC,who_confidence,drug=isoniazid;who_confidence=
+katG,c.196_197insCCCC,who_confidence,drug=isoniazid;who_confidence=
+katG,c.2203_2205delGAC,who_confidence,drug=isoniazid;who_confidence=
+katG,c.269_270insT,who_confidence,drug=isoniazid;who_confidence=
+katG,c.28_35delGAAACCAC,who_confidence,drug=isoniazid;who_confidence=
+katG,c.317_318insG,who_confidence,drug=isoniazid;who_confidence=
+katG,c.358_369delGGCGGCGCCGGG,who_confidence,drug=isoniazid;who_confidence=
+katG,c.372_373delCG,who_confidence,drug=isoniazid;who_confidence=
+katG,c.373dupG,who_confidence,drug=isoniazid;who_confidence=
+katG,c.374_375insCAT,who_confidence,drug=isoniazid;who_confidence=
+katG,c.54delC,who_confidence,drug=isoniazid;who_confidence=
+katG,c.561delG,who_confidence,drug=isoniazid;who_confidence=
+katG,c.572delG,who_confidence,drug=isoniazid;who_confidence=
+katG,c.6_7delCG,who_confidence,drug=isoniazid;who_confidence=
+katG,c.795delG,who_confidence,drug=isoniazid;who_confidence=
+katG,c.-7G>A,who_confidence,drug=isoniazid;who_confidence=
+katG,c.803delG,who_confidence,drug=isoniazid;who_confidence=
+katG,c.861_866delACCCGA,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.86_88delCCG,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.902_903insT,who_confidence,drug=isoniazid;who_confidence=
+katG,c.928delA,who_confidence,drug=isoniazid;who_confidence=
+katG,c.956delT,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,c.99_100insA,who_confidence,drug=isoniazid;who_confidence=
+katG,frameshift,who_confidence,drug=isoniazid;who_confidence=
+katG,large_deletion,who_confidence,drug=isoniazid;who_confidence=
+katG,transcript_ablation,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ala106Val,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Ala109Val,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Ala110Val,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Ala139Pro,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Ala162Thr,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Ala172Thr,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Ala172Val,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Ala243Ser,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ala264Thr,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ala281Val,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ala291Pro,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ala350Ser,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ala350Thr,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ala361Asp,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ala379Val,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Ala409Asp,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ala424Glu,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ala424Gly,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Ala424Val,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Ala444Thr,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ala464Ser,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ala550Asp,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ala551Gly,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ala574Glu,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ala574Val,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ala61Thr,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ala636Glu,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ala65Thr,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ala66Pro,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ala713Pro,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Ala716Pro,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ala727Asp,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Arg104Gln,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Arg104Leu,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Arg128Pro,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Arg249Cys,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Arg418Gln,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Arg418Leu,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Arg463Trp,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Arg484Ser,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Arg496Leu,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Arg515Cys,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Asn138Asp,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Asn138His,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Asn138Ser,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Asn138Thr,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Asn218Lys,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Asn236Thr,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Asn238Lys,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Asn258Ser,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Asn35Asp,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Asn529Asp,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Asp117Ala,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Asp142Ala,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Asp259Glu,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Asp311Glu,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Asp311Gly,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Asp311Tyr,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Asp357Asn,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Asp357His,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Asp381Gly,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Asp419His,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Asp573Asn,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Asp63Glu,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Asp695Ala,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Asp72Gly,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Asp735Ala,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Asp735Asn,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Asp74Gly,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Asp74Tyr,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Asp94Ala,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Asp94Gly,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Gln127Pro,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Gln224Glu,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Gln295Pro,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Gln352*,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,p.Gln434*,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Gln461Pro,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Gln502His,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Gln525Pro,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Gln717Pro,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Gln88Arg,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Glu195Lys,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Glu261Lys,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Glu289Asp,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Glu607Lys,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Gly121Cys,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Gly121Val,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Gly125Cys,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Gly169Ala,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Gly186Val,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Gly19Asp,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Gly234Arg,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Gly234Glu,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Gly279Asp,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Gly285Asp,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Gly297Val,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Gly299Ala,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Gly299Cys,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Gly305Ala,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Gly307Ala,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Gly307Arg,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Gly307Glu,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Gly309Asp,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Gly309Cys,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Gly309Ser,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Gly316Asp,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Gly316Ser,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Gly428Arg,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Gly485Val,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Gly491Cys,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Gly593Asp,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Gly629Ser,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Gly685Arg,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Gly96Cys,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Gly99Glu,who_confidence,drug=isoniazid;who_confidence=
+katG,p.His108Asp,who_confidence,drug=isoniazid;who_confidence=
+katG,p.His108Gln,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ile317Leu,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ile317Val,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Ile335Thr,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ile335Val,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Ile393Asn,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ile462Thr,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ile71Asn,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Leu141Phe,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Leu148Arg,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Leu336Arg,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Leu378Pro,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Leu384Arg,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Leu449Phe,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Leu48Gln,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Leu587Met,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Leu587Pro,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Leu619Pro,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Leu634Phe,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Leu653Pro,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Lys143Thr,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Lys200*,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Lys345Thr,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Lys414Asn,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Lys459*,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Lys488Asn,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Met126Ile,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Met176Ile,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Met257Ile,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Met257Thr,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Met609Ile,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Met84Ile,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Phe252Leu,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Phe567Ser,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Pro2Ser,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Pro365Leu,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Pro429Ser,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Pro589Thr,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ser140Arg,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ser140Asn,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Ser140Gly,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Ser160Leu,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ser17Asn,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ser302Arg,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Ser315Arg,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Ser315Asn,who_confidence,drug=isoniazid;who_confidence=Assoc w R
+katG,p.Ser315Gly,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Ser315Ile,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Ser315Thr,who_confidence,drug=isoniazid;who_confidence=Assoc w R
+katG,p.Ser331Cys,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Ser457Ile,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Ser700Pro,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Thr11Ala,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Thr12Pro,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Thr180Lys,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Thr251Met,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Thr262Arg,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Thr275Ala,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Thr275Pro,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Thr275Ser,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Thr308Pro,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Thr324Pro,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Thr326Met,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Thr380Ile,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Thr394Ala,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Thr435Ile,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Thr85Pro,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Trp107Arg,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Trp107*,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Trp191Arg,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Trp198*,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,p.Trp300Gly,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Trp300*,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Trp321Arg,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Trp321Cys,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Trp321*,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,p.Trp321Leu,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Trp321Ser,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Trp328Cys,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Trp328Gly,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Trp328Leu,who_confidence,drug=isoniazid;who_confidence=Assoc w R
+katG,p.Trp328Ser,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Trp341Ser,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Trp38*,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Trp397*,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Trp477*,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
+katG,p.Trp505Arg,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Trp505Ser,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Trp728Cys,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Trp90*,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Trp91Arg,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Tyr155Cys,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Tyr155Ser,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Tyr229Phe,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Tyr304Ser,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Tyr337Cys,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Tyr337Phe,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Tyr413His,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Val1Ala,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Val1Leu,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Val230Ala,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
+katG,p.Val473Phe,who_confidence,drug=isoniazid;who_confidence=
+katG,p.Val710Ala,who_confidence,drug=isoniazid;who_confidence=
+eis,c.-10G>A,who_confidence,drug=kanamycin;who_confidence=Assoc w R
+eis,c.-10G>C,who_confidence,drug=kanamycin;who_confidence=Uncertain significance
+eis,c.-12C>T,who_confidence,drug=kanamycin;who_confidence=Assoc w R
+eis,c.-13A>G,who_confidence,drug=kanamycin;who_confidence=Uncertain significance
+eis,c.-14C>T,who_confidence,drug=kanamycin;who_confidence=Assoc w R
+eis,c.-15C>G,who_confidence,drug=kanamycin;who_confidence=Uncertain significance
+eis,c.-37G>T,who_confidence,drug=kanamycin;who_confidence=Assoc w R
+eis,c.-53T>G,who_confidence,drug=kanamycin;who_confidence=
+eis,c.-54G>T,who_confidence,drug=kanamycin;who_confidence=
+eis,c.-8C>A,who_confidence,drug=kanamycin;who_confidence=Uncertain significance
+rrs,n.1401A>G,who_confidence,drug=kanamycin;who_confidence=Assoc w R
+rrs,n.1402C>A,who_confidence,drug=kanamycin;who_confidence=
+rrs,n.1402C>T,who_confidence,drug=kanamycin;who_confidence=Assoc w R - interim
+rrs,n.1484G>T,who_confidence,drug=kanamycin;who_confidence=Assoc w R
+gyrA,p.Ala74Ser,who_confidence,drug=levofloxacin;who_confidence=Uncertain significance
+gyrA,p.Ala90Glu,who_confidence,drug=levofloxacin;who_confidence=
+gyrA,p.Ala90Val,who_confidence,drug=levofloxacin;who_confidence=Assoc w R
+gyrA,p.Arg68Gly,who_confidence,drug=levofloxacin;who_confidence=
+gyrA,p.Asp89Asn,who_confidence,drug=levofloxacin;who_confidence=Uncertain significance
+gyrA,p.Asp94Ala,who_confidence,drug=levofloxacin;who_confidence=Assoc w R
+gyrA,p.Asp94Asn,who_confidence,drug=levofloxacin;who_confidence=Assoc w R
+gyrA,p.Asp94Gly,who_confidence,drug=levofloxacin;who_confidence=Assoc w R
+gyrA,p.Asp94His,who_confidence,drug=levofloxacin;who_confidence=Assoc w R
+gyrA,p.Asp94Tyr,who_confidence,drug=levofloxacin;who_confidence=Assoc w R
+gyrA,p.Asp94Val,who_confidence,drug=levofloxacin;who_confidence=Uncertain significance
+gyrA,p.Gly88Ala,who_confidence,drug=levofloxacin;who_confidence=Assoc w R - interim
+gyrA,p.Gly88Cys,who_confidence,drug=levofloxacin;who_confidence=Assoc w R
+gyrA,p.His70Arg,who_confidence,drug=levofloxacin;who_confidence=Uncertain significance
+gyrA,p.Ile92Met,who_confidence,drug=levofloxacin;who_confidence=
+gyrA,p.Leu109Val,who_confidence,drug=levofloxacin;who_confidence=
+gyrA,p.Pro102His,who_confidence,drug=levofloxacin;who_confidence=
+gyrA,p.Ser69Thr,who_confidence,drug=levofloxacin;who_confidence=
+gyrA,p.Ser91Ala,who_confidence,drug=levofloxacin;who_confidence=
+gyrA,p.Ser91Pro,who_confidence,drug=levofloxacin;who_confidence=Assoc w R
+gyrB,p.Ala504Thr,who_confidence,drug=levofloxacin;who_confidence=Uncertain significance
+gyrB,p.Ala504Val,who_confidence,drug=levofloxacin;who_confidence=Assoc w R - interim
+gyrB,p.Arg446Cys,who_confidence,drug=levofloxacin;who_confidence=Uncertain significance
+gyrB,p.Arg446His,who_confidence,drug=levofloxacin;who_confidence=Uncertain significance
+gyrB,p.Arg446Leu,who_confidence,drug=levofloxacin;who_confidence=Uncertain significance
+gyrB,p.Asn499Asp,who_confidence,drug=levofloxacin;who_confidence=Assoc w R - interim
+gyrB,p.Asn499Lys,who_confidence,drug=levofloxacin;who_confidence=Uncertain significance
+gyrB,p.Asn499Thr,who_confidence,drug=levofloxacin;who_confidence=Uncertain significance
+gyrB,p.Asn499Tyr,who_confidence,drug=levofloxacin;who_confidence=Uncertain significance
+gyrB,p.Asp461Ala,who_confidence,drug=levofloxacin;who_confidence=Uncertain significance
+gyrB,p.Asp461Asn,who_confidence,drug=levofloxacin;who_confidence=Assoc w R - interim
+gyrB,p.Asp461His,who_confidence,drug=levofloxacin;who_confidence=Uncertain significance
+gyrB,p.Asp494Ala,who_confidence,drug=levofloxacin;who_confidence=Uncertain significance
+gyrB,p.Gln538His,who_confidence,drug=levofloxacin;who_confidence=
+gyrB,p.Glu501Asp,who_confidence,drug=levofloxacin;who_confidence=Assoc w R - interim
+gyrB,p.Glu501Val,who_confidence,drug=levofloxacin;who_confidence=Assoc w R - interim
+gyrB,p.Gly470Ala,who_confidence,drug=levofloxacin;who_confidence=
+gyrB,p.Gly470Cys,who_confidence,drug=levofloxacin;who_confidence=Uncertain significance
+gyrB,p.Ile486Leu,who_confidence,drug=levofloxacin;who_confidence=Uncertain significance
+gyrB,p.Ser447Phe,who_confidence,drug=levofloxacin;who_confidence=Uncertain significance
+gyrB,p.Thr500Asn,who_confidence,drug=levofloxacin;who_confidence=Uncertain significance
+gyrB,p.Thr500Ile,who_confidence,drug=levofloxacin;who_confidence=Uncertain significance
+gyrB,p.Thr500Pro,who_confidence,drug=levofloxacin;who_confidence=Uncertain significance
+gyrB,p.Thr507Met,who_confidence,drug=levofloxacin;who_confidence=
+gyrB,p.Val670Phe,who_confidence,drug=levofloxacin;who_confidence=Uncertain significance
+rplC,p.Cys154Arg,who_confidence,drug=linezolid;who_confidence=Assoc w R
+rrl,n.2299G>T,who_confidence,drug=linezolid;who_confidence=
+rrl,n.2814G>T,who_confidence,drug=linezolid;who_confidence=Uncertain significance
+gyrA,p.Ala74Ser,who_confidence,drug=moxifloxacin;who_confidence=Uncertain significance
+gyrA,p.Ala90Glu,who_confidence,drug=moxifloxacin;who_confidence=
+gyrA,p.Ala90Val,who_confidence,drug=moxifloxacin;who_confidence=Assoc w R
+gyrA,p.Arg68Gly,who_confidence,drug=moxifloxacin;who_confidence=
+gyrA,p.Asp89Asn,who_confidence,drug=moxifloxacin;who_confidence=Uncertain significance
+gyrA,p.Asp94Ala,who_confidence,drug=moxifloxacin;who_confidence=Assoc w R
+gyrA,p.Asp94Asn,who_confidence,drug=moxifloxacin;who_confidence=Assoc w R
+gyrA,p.Asp94Gly,who_confidence,drug=moxifloxacin;who_confidence=Assoc w R
+gyrA,p.Asp94His,who_confidence,drug=moxifloxacin;who_confidence=Assoc w R
+gyrA,p.Asp94Tyr,who_confidence,drug=moxifloxacin;who_confidence=Assoc w R
+gyrA,p.Asp94Val,who_confidence,drug=moxifloxacin;who_confidence=Uncertain significance
+gyrA,p.Gly88Ala,who_confidence,drug=moxifloxacin;who_confidence=Assoc w R - interim
+gyrA,p.Gly88Cys,who_confidence,drug=moxifloxacin;who_confidence=Assoc w R
+gyrA,p.His70Arg,who_confidence,drug=moxifloxacin;who_confidence=Uncertain significance
+gyrA,p.Ile92Met,who_confidence,drug=moxifloxacin;who_confidence=
+gyrA,p.Leu109Val,who_confidence,drug=moxifloxacin;who_confidence=
+gyrA,p.Pro102His,who_confidence,drug=moxifloxacin;who_confidence=
+gyrA,p.Ser69Thr,who_confidence,drug=moxifloxacin;who_confidence=
+gyrA,p.Ser91Ala,who_confidence,drug=moxifloxacin;who_confidence=
+gyrA,p.Ser91Pro,who_confidence,drug=moxifloxacin;who_confidence=Assoc w R
+gyrB,p.Ala504Thr,who_confidence,drug=moxifloxacin;who_confidence=Uncertain significance
+gyrB,p.Ala504Val,who_confidence,drug=moxifloxacin;who_confidence=Assoc w R - interim
+gyrB,p.Arg446Cys,who_confidence,drug=moxifloxacin;who_confidence=Uncertain significance
+gyrB,p.Arg446His,who_confidence,drug=moxifloxacin;who_confidence=Uncertain significance
+gyrB,p.Arg446Leu,who_confidence,drug=moxifloxacin;who_confidence=Uncertain significance
+gyrB,p.Asn499Asp,who_confidence,drug=moxifloxacin;who_confidence=Assoc w R - interim
+gyrB,p.Asn499Lys,who_confidence,drug=moxifloxacin;who_confidence=Uncertain significance
+gyrB,p.Asn499Thr,who_confidence,drug=moxifloxacin;who_confidence=Uncertain significance
+gyrB,p.Asn499Tyr,who_confidence,drug=moxifloxacin;who_confidence=Uncertain significance
+gyrB,p.Asp461Ala,who_confidence,drug=moxifloxacin;who_confidence=Uncertain significance
+gyrB,p.Asp461Asn,who_confidence,drug=moxifloxacin;who_confidence=Assoc w R - interim
+gyrB,p.Asp461His,who_confidence,drug=moxifloxacin;who_confidence=Uncertain significance
+gyrB,p.Asp494Ala,who_confidence,drug=moxifloxacin;who_confidence=Uncertain significance
+gyrB,p.Gln538His,who_confidence,drug=moxifloxacin;who_confidence=
+gyrB,p.Glu501Asp,who_confidence,drug=moxifloxacin;who_confidence=Assoc w R
+gyrB,p.Glu501Val,who_confidence,drug=moxifloxacin;who_confidence=Assoc w R - interim
+gyrB,p.Gly470Ala,who_confidence,drug=moxifloxacin;who_confidence=
+gyrB,p.Gly470Cys,who_confidence,drug=moxifloxacin;who_confidence=Uncertain significance
+gyrB,p.Ile486Leu,who_confidence,drug=moxifloxacin;who_confidence=Uncertain significance
+gyrB,p.Ser447Phe,who_confidence,drug=moxifloxacin;who_confidence=Uncertain significance
+gyrB,p.Thr500Asn,who_confidence,drug=moxifloxacin;who_confidence=Uncertain significance
+gyrB,p.Thr500Ile,who_confidence,drug=moxifloxacin;who_confidence=Uncertain significance
+gyrB,p.Thr500Pro,who_confidence,drug=moxifloxacin;who_confidence=Uncertain significance
+gyrB,p.Thr507Met,who_confidence,drug=moxifloxacin;who_confidence=
+gyrB,p.Val670Phe,who_confidence,drug=moxifloxacin;who_confidence=Uncertain significance
+gyrA,p.Ala74Ser,who_confidence,drug=ofloxacin;who_confidence=
+gyrA,p.Ala90Glu,who_confidence,drug=ofloxacin;who_confidence=
+gyrA,p.Ala90Val,who_confidence,drug=ofloxacin;who_confidence=
+gyrA,p.Arg68Gly,who_confidence,drug=ofloxacin;who_confidence=
+gyrA,p.Asp89Asn,who_confidence,drug=ofloxacin;who_confidence=
+gyrA,p.Asp94Ala,who_confidence,drug=ofloxacin;who_confidence=
+gyrA,p.Asp94Asn,who_confidence,drug=ofloxacin;who_confidence=
+gyrA,p.Asp94Gly,who_confidence,drug=ofloxacin;who_confidence=
+gyrA,p.Asp94His,who_confidence,drug=ofloxacin;who_confidence=
+gyrA,p.Asp94Tyr,who_confidence,drug=ofloxacin;who_confidence=
+gyrA,p.Asp94Val,who_confidence,drug=ofloxacin;who_confidence=
+gyrA,p.Gly88Ala,who_confidence,drug=ofloxacin;who_confidence=
+gyrA,p.Gly88Cys,who_confidence,drug=ofloxacin;who_confidence=
+gyrA,p.His70Arg,who_confidence,drug=ofloxacin;who_confidence=
+gyrA,p.Ile92Met,who_confidence,drug=ofloxacin;who_confidence=
+gyrA,p.Leu109Val,who_confidence,drug=ofloxacin;who_confidence=
+gyrA,p.Pro102His,who_confidence,drug=ofloxacin;who_confidence=
+gyrA,p.Ser69Thr,who_confidence,drug=ofloxacin;who_confidence=
+gyrA,p.Ser91Ala,who_confidence,drug=ofloxacin;who_confidence=
+gyrA,p.Ser91Pro,who_confidence,drug=ofloxacin;who_confidence=
+gyrB,p.Ala504Thr,who_confidence,drug=ofloxacin;who_confidence=
+gyrB,p.Ala504Val,who_confidence,drug=ofloxacin;who_confidence=
+gyrB,p.Arg446Cys,who_confidence,drug=ofloxacin;who_confidence=
+gyrB,p.Arg446His,who_confidence,drug=ofloxacin;who_confidence=
+gyrB,p.Arg446Leu,who_confidence,drug=ofloxacin;who_confidence=
+gyrB,p.Asn499Asp,who_confidence,drug=ofloxacin;who_confidence=
+gyrB,p.Asn499Lys,who_confidence,drug=ofloxacin;who_confidence=
+gyrB,p.Asn499Thr,who_confidence,drug=ofloxacin;who_confidence=
+gyrB,p.Asn499Tyr,who_confidence,drug=ofloxacin;who_confidence=
+gyrB,p.Asp461Ala,who_confidence,drug=ofloxacin;who_confidence=
+gyrB,p.Asp461Asn,who_confidence,drug=ofloxacin;who_confidence=
+gyrB,p.Asp461His,who_confidence,drug=ofloxacin;who_confidence=
+gyrB,p.Asp494Ala,who_confidence,drug=ofloxacin;who_confidence=
+gyrB,p.Gln538His,who_confidence,drug=ofloxacin;who_confidence=
+gyrB,p.Glu501Asp,who_confidence,drug=ofloxacin;who_confidence=
+gyrB,p.Glu501Val,who_confidence,drug=ofloxacin;who_confidence=
+gyrB,p.Gly470Ala,who_confidence,drug=ofloxacin;who_confidence=
+gyrB,p.Gly470Cys,who_confidence,drug=ofloxacin;who_confidence=
+gyrB,p.Ile486Leu,who_confidence,drug=ofloxacin;who_confidence=
+gyrB,p.Ser447Phe,who_confidence,drug=ofloxacin;who_confidence=
+gyrB,p.Thr500Asn,who_confidence,drug=ofloxacin;who_confidence=
+gyrB,p.Thr500Ile,who_confidence,drug=ofloxacin;who_confidence=
+gyrB,p.Thr500Pro,who_confidence,drug=ofloxacin;who_confidence=
+gyrB,p.Thr507Met,who_confidence,drug=ofloxacin;who_confidence=
+gyrB,p.Val670Phe,who_confidence,drug=ofloxacin;who_confidence=
+folC,p.Ala183Pro,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+folC,p.Arg49Pro,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+folC,p.Arg49Trp,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+folC,p.Arg91Trp,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+folC,p.Asn73Ser,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+folC,p.Glu153Ala,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+folC,p.Glu153Gly,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+folC,p.Glu40Gln,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+folC,p.Glu40Gly,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+folC,p.Ile43Ser,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+folC,p.Ile43Thr,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+folC,p.Leu56Val,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+folC,p.Phe152Leu,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+folC,p.Phe152Ser,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+folC,p.Ser150Arg,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+folC,p.Ser150Cys,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+folC,p.Ser150Gly,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+folC,p.Thr20Pro,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+ribD,p.Gly8Arg,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyA,c.111delT,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyA,c.218_219insCACGAGCAC,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyA,c.260delC,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyA,c.373dupT,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyA,c.472delC,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyA,large_deletion,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyA,transcript_ablation,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyA,p.Arg126Gln,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyA,p.Arg222Gly,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyA,p.Arg235Pro,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyA,p.Cys161Tyr,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyA,p.Gly76*,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyA,p.Gly91Arg,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyA,p.His207Arg,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyA,p.His75Asn,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyA,p.Phe152Val,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyA,p.Pro224Leu,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyA,p.Ser105Pro,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyA,p.Thr22Ala,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyA,p.Trp101Arg,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyA,p.Trp83Cys,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyA,p.Trp83*,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyA,p.Trp98*,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyA,p.Tyr36Cys,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyA,p.Val77Phe,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+thyX,c.-16C>T,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
+panD,c.393delG,who_confidence,drug=pyrazinamide;who_confidence=
+panD,p.Ala128Ser,who_confidence,drug=pyrazinamide;who_confidence=
+panD,p.Glu126*,who_confidence,drug=pyrazinamide;who_confidence=
+panD,p.Glu130Gly,who_confidence,drug=pyrazinamide;who_confidence=
+panD,p.His21Arg,who_confidence,drug=pyrazinamide;who_confidence=
+panD,p.Ile49Val,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+panD,p.Leu136Arg,who_confidence,drug=pyrazinamide;who_confidence=
+panD,p.Met117Ile,who_confidence,drug=pyrazinamide;who_confidence=
+panD,p.Val138Ala,who_confidence,drug=pyrazinamide;who_confidence=
+panD,p.Val138Glu,who_confidence,drug=pyrazinamide;who_confidence=
+panD,p.Val138Gly,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.101_102insT,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.-10T>C,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,c.1_11delATGCGGGCGTT,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.117_118insC,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.118_150delGACTACCATCACGTCGTGGCAACCAAGGACTTC,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.-11A>C,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,c.-11A>G,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,c.12_14delGAT,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.-12T>C,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.-12T>G,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.137_138insG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.158delA,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.16_17insC,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.161delC,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.162_164delGGG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.162delG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.163_164insT,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.172delT,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.189_200delCTATTCCTCGTC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.1_8delATGCGGGC,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.193_194insA,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.194_195insA,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.210_211insACC,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.210_211insC,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.219_220insCGCATTGCCG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.222_223insG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.239delA,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.250_251insC,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.272_276delAGGCG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.288_289insT,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.288delG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.28delC,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.302_303insA,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.302dupG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.306_309delGTAC,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.307_308insC,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.307_311delTACAG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.312delC,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.315_316insG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.341delC,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.369_370insAG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.375_389delCGATGAGGTCGATGT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.379_389delGAGGTCGATGT,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.380_388delAGGTCGATG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,c.381_382delGG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.383_384insAG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.386_388delATG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.386_389delATGT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.389_390insAGGTCGATG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.389_390insGAGGTCGAT,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.389delT,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.391delG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.392_393insGG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.392_393insG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.393_394insG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.395_405delGTATTGCCACC,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.395delG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.398dupT,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.404dupC,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.406delG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.408_409insC,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.415dupG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.416_417delTG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.416delT,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.421_422insGG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.421_422insG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.422delA,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.429_430insGG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.436delG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.443delG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.446_453delATGGCTTG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.452delT,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.457_458insC,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.466_467insT,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.471_472insA,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.475delC,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.47delG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.481_482insTGAC,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.495delC,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.502_503insGC,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.512delC,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.518_519insG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.521_522insT,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.533dupC,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.53_54insGG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.59delC,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.64delA,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.68_78delGTGGCGCCGCG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.70delG,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.71delG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.-7T>C,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,c.84delC,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,c.88_111delGCCATCAGCGACTACCTGGCCGAA,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,frameshift,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,large_deletion,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,transcript_ablation,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Ala102Thr,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Ala134Ser,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Ala134Val,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Ala143Asp,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Ala143Pro,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Ala143Thr,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Ala146Glu,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Ala146Thr,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Ala146Val,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Ala161Pro,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Ala165Thr,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Ala171Glu,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Ala171Pro,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Ala171Thr,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Ala171Val,who_confidence,drug=pyrazinamide;who_confidence=Not assoc w R - Interim
+pncA,p.Ala26Gly,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Ala28Asp,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Ala3Glu,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Ala3Pro,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Ala46Glu,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Ala46Pro,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Ala46Val,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Ala79Gly,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Arg121Pro,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Arg123Pro,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Arg140Gly,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Arg140His,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Arg140Pro,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Arg140Ser,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Arg148Ser,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Arg154Gly,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Arg154Met,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Asn118Thr,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Asp12Ala,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Asp12Asn,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Asp12Glu,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Asp12Gly,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Asp136Asn,who_confidence,drug=pyrazinamide;who_confidence=Not assoc w R - Interim
+pncA,p.Asp136Gly,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Asp136His,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Asp136Tyr,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Asp145Glu,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Asp49Ala,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Asp49Asn,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Asp49Glu,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Asp49Gly,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Asp49His,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Asp49Tyr,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Asp49Val,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Asp53Ala,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Asp53Asn,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Asp63Ala,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Asp63Gly,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Asp63His,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Asp8Ala,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Asp8Asn,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Asp8Glu,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Asp8Gly,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Asp8Tyr,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Cys138Arg,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Cys138*,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Cys138Ser,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Cys138Tyr,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Cys14Arg,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Cys14Gly,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Cys14*,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Cys14Trp,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Cys14Tyr,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Cys72Arg,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Cys72*,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Cys72Trp,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Cys72Tyr,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Gln10Arg,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Gln10His,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Gln10Lys,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Gln10Pro,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Gln10*,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Gln141Pro,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Gln141*,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Glu107*,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Glu174Gly,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Glu181Asp,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Glu37*,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Gly105Arg,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Gly105Asp,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Gly105Val,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Gly108Arg,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Gly132Ala,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Gly132Asp,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Gly132Ser,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Gly132Val,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Gly162Asp,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Gly17Asp,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Gly17Val,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Gly23Val,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Gly24Arg,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Gly24Asp,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Gly78Asp,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Gly78Cys,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Gly78Ser,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Gly78Val,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Gly97Arg,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Gly97Asp,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Gly97Cys,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Gly97Ser,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.His137Arg,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.His137Pro,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.His43Pro,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.His51Arg,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.His51Asn,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.His51Asp,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.His51Gln,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.His51Pro,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.His51Tyr,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.His57Arg,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.His57Asn,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.His57Asp,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.His57Leu,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.His57Pro,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.His57Tyr,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.His71Arg,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.His71Asn,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.His71Asp,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.His71Gln,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.His71Tyr,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.His82Arg,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.His82Asp,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.His82Leu,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.His82Tyr,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Ile133Asn,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Ile133Thr,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Ile31Ser,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Ile5Ser,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Ile5Thr,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Ile6Met,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Ile6Ser,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Ile6Thr,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Ile90Ser,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Leu116Arg,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Leu116Pro,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Leu116Val,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Leu120Pro,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Leu151Ser,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Leu156Pro,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Leu159Arg,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Leu159Pro,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Leu159Val,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Leu172Arg,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Leu172Pro,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Leu182Ser,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Leu19Arg,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Leu19Pro,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Leu27Pro,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Leu35Pro,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Leu4Ser,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Leu4Trp,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Leu85Arg,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Leu85Pro,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Lys48Glu,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Lys48Thr,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Lys96Arg,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Lys96Asn,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Lys96Gln,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Lys96Glu,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Lys96Thr,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Met175Arg,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Met175Ile,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Met175Lys,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Met175Thr,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Met175Val,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Met1Thr,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Phe106Ser,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Phe13Ile,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Phe13Leu,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Phe13Ser,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Phe58Leu,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Phe58Ser,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Phe81Val,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Phe94Cys,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Phe94Leu,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Phe94Ser,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Pro54Gln,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Pro54Leu,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Pro54Thr,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Pro62Arg,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Pro62Gln,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Pro62Leu,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Pro62Ser,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Pro69Arg,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Pro69Leu,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Ser104Arg,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Ser104Gly,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Ser164Pro,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Ser179Arg,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Ser185Ile,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Ser185Thr,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Ser18Pro,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Ser32Ile,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Ser59Phe,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Ser59Pro,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Ser66Pro,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Ser67Pro,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Ser88*,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Thr114Ala,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Thr114Pro,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Thr135Pro,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Thr142Ala,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Thr142Lys,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Thr142Met,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Thr142Pro,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Thr142Arg,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Thr153Asn,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Thr160Arg,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Thr160Pro,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Thr168Asn,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Thr168Pro,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Thr47Ala,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Thr47Pro,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Thr47Ser,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Thr61Pro,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Thr76Ile,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Thr76Pro,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Trp119Arg,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Trp119Cys,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Trp119*,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Trp119Ser,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Trp68Arg,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Trp68Cys,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Trp68Gly,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Trp68Leu,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Trp68*,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Trp68Ser,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Tyr103Cys,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Tyr103His,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Tyr103*,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Tyr103Ser,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Tyr34Asp,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Tyr34*,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Tyr34Ser,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Tyr41His,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Tyr41*,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Tyr64Asp,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Tyr95*,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Tyr99*,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Val125Asp,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Val125Gly,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Val128Gly,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Val130Ala,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Val130Glu,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Val130Gly,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Val131Phe,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Val139Ala,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Val139Gly,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Val139Leu,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Val139Met,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Val155Ala,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Val155Gly,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Val155Leu,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Val155Met,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Val180Gly,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Val180Phe,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Val21Ala,who_confidence,drug=pyrazinamide;who_confidence=Not assoc w R - Interim
+pncA,p.Val21Gly,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Val44Gly,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Val45Gly,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Val7Asp,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Val7Gly,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Val7Ile,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Val7Leu,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
+pncA,p.Val7Phe,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
+pncA,p.Val9Ala,who_confidence,drug=pyrazinamide;who_confidence=
+pncA,p.Val9Gly,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
+pncA,p.Val9Leu,who_confidence,drug=pyrazinamide;who_confidence=
+rpsA,p.Arg474Leu,who_confidence,drug=pyrazinamide;who_confidence=
+rpsA,p.Arg474Trp,who_confidence,drug=pyrazinamide;who_confidence=
+rpsA,p.Glu433Asp,who_confidence,drug=pyrazinamide;who_confidence=
+rpoB,any_missense_codon_445,who_confidence,drug=rifampicin;who_confidence=
+rpoB,any_missense_codon_450,who_confidence,drug=rifampicin;who_confidence=
+rpoB,c.1276_1281delGGCACC,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,c.1276_1281delGGCACC,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,c.1287_1295delGCTGAGCCA,who_confidence,drug=rifampicin;who_confidence=
+rpoB,c.1293_1294insTTCATG,who_confidence,drug=rifampicin;who_confidence=
+rpoB,c.1293_1294insTTC,who_confidence,drug=rifampicin;who_confidence=
+rpoB,c.1294_1299delCAATTC,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,c.1296_1304delATTCATGGA,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,c.1296_1297insCGG,who_confidence,drug=rifampicin;who_confidence=
+rpoB,c.1297_1299dupTTC,who_confidence,drug=rifampicin;who_confidence=Assoc w R
+rpoB,c.1297_1299delTTC,who_confidence,drug=rifampicin;who_confidence=
+rpoB,c.1297_1305delTTCATGGAC,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,c.1297_1299dupTTC,who_confidence,drug=rifampicin;who_confidence=Assoc w R
+rpoB,c.1299_1301delCAT,who_confidence,drug=rifampicin;who_confidence=
+rpoB,c.1301_1312delTGGACCAGAACA,who_confidence,drug=rifampicin;who_confidence=
+rpoB,c.1301_1312delTGGACCAGAACA,who_confidence,drug=rifampicin;who_confidence=
+rpoB,c.1303_1308delGACCAG,who_confidence,drug=rifampicin;who_confidence=
+rpoB,c.1303_1308delGACCAG,who_confidence,drug=rifampicin;who_confidence=
+rpoB,c.1306_1308delCAG,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,c.1306_1311delCAGAAC,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,c.1308_1313delGAACAA,who_confidence,drug=rifampicin;who_confidence=
+rpoB,c.1312_1314delAAC,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,c.1327_1332delTTGACC,who_confidence,drug=rifampicin;who_confidence=
+rpoB,c.1336_1338delAAG,who_confidence,drug=rifampicin;who_confidence=
+rpoB,c.1649_1651dupAGC,who_confidence,drug=rifampicin;who_confidence=
+rpoB,c.297_302dupGTCGTT,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Ala286Val,who_confidence,drug=rifampicin;who_confidence=Uncertain significance
+rpoB,p.Arg447His,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Arg447Pro,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Arg448Lys,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Arg552Cys,who_confidence,drug=rifampicin;who_confidence=Uncertain significance
+rpoB,p.Asn437Asp,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Asn437His,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Asn437Ile,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Asn437Thr,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Asn437Tyr,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Asn438Lys,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Asp435Ala,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Asp435Ala,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Asp435Asn,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Asp435Glu,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Asp435Gly,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Asp435His,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Asp435Phe,who_confidence,drug=rifampicin;who_confidence=Assoc w R
+rpoB,p.Asp435Tyr,who_confidence,drug=rifampicin;who_confidence=Assoc w R
+rpoB,p.Asp435Val,who_confidence,drug=rifampicin;who_confidence=Assoc w R
+rpoB,p.Gln409His,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Gln429His,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Gln429Lys,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Gln432Arg,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Gln432Glu,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Gln432His,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Gln432Leu,who_confidence,drug=rifampicin;who_confidence=Assoc w R
+rpoB,p.Gln432Lys,who_confidence,drug=rifampicin;who_confidence=Assoc w R
+rpoB,p.Gln432Pro,who_confidence,drug=rifampicin;who_confidence=Assoc w R
+rpoB,p.Gln436His,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Gln436Leu,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Glu423Ala,who_confidence,drug=rifampicin;who_confidence=Uncertain significance
+rpoB,p.Glu460Gly,who_confidence,drug=rifampicin;who_confidence=Uncertain significance
+rpoB,p.Glu481Gly,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Glu592Asp,who_confidence,drug=rifampicin;who_confidence=Uncertain significance
+rpoB,p.Glu761Asp,who_confidence,drug=rifampicin;who_confidence=Uncertain significance
+rpoB,p.Gly426Asp,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Gly426Ser,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Gly442Ala,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Gly442Trp,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Gly981Asp,who_confidence,drug=rifampicin;who_confidence=Uncertain significance
+rpoB,p.Ile480Thr,who_confidence,drug=rifampicin;who_confidence=Uncertain significance
+rpoB,p.Ile480Val,who_confidence,drug=rifampicin;who_confidence=Uncertain significance
+rpoB,p.Ile491Phe,who_confidence,drug=rifampicin;who_confidence=Assoc w R
+rpoB,p.Leu430Arg,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Leu430Pro,who_confidence,drug=rifampicin;who_confidence=Assoc w R
+rpoB,p.Leu430Val,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Leu440Met,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Leu440Pro,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Leu443Ser,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Leu443Trp,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Leu452Pro,who_confidence,drug=rifampicin;who_confidence=Assoc w R
+rpoB,p.Leu457Pro,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Leu464Met,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Leu490Val,who_confidence,drug=rifampicin;who_confidence=Uncertain significance
+rpoB,p.Lys446Asn,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Lys446Gln,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Met434Ile,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Met434Thr,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Phe424Leu,who_confidence,drug=rifampicin;who_confidence=Uncertain significance
+rpoB,p.Phe424Ser,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Phe424Val,who_confidence,drug=rifampicin;who_confidence=Uncertain significance
+rpoB,p.Phe433Leu,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Phe433Val,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Pro454Arg,who_confidence,drug=rifampicin;who_confidence=Uncertain significance
+rpoB,p.Pro454His,who_confidence,drug=rifampicin;who_confidence=Uncertain significance
+rpoB,p.Pro454Leu,who_confidence,drug=rifampicin;who_confidence=Uncertain significance
+rpoB,p.Pro454Ser,who_confidence,drug=rifampicin;who_confidence=Uncertain significance
+rpoB,p.Pro483Leu,who_confidence,drug=rifampicin;who_confidence=Uncertain significance
+rpoB,p.Ser428Arg,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Ser428Ile,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Ser428Thr,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Ser431Arg,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Ser431Gly,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Ser431Ile,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Ser431Thr,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Ser441Gln,who_confidence,drug=rifampicin;who_confidence=Assoc w R
+rpoB,p.Ser441Leu,who_confidence,drug=rifampicin;who_confidence=Assoc w R
+rpoB,p.Ser441Met,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Ser441Trp,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Ser441Val,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Ser472Ala,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Ser493Leu,who_confidence,drug=rifampicin;who_confidence=Uncertain significance
+rpoB,p.Thr400Ala,who_confidence,drug=rifampicin;who_confidence=Uncertain significance
+rpoB,p.Thr427Ala,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Thr427Pro,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Thr427Ser,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Thr444Ile,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
+rpoB,p.Thr444Pro,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Thr482Pro,who_confidence,drug=rifampicin;who_confidence=
+rpoB,p.Val170Phe,who_confidence,drug=rifampicin;who_confidence=Assoc w R
+rpoC,p.Asp485Asn,who_confidence,drug=rifampicin;who_confidence=
+rpoC,p.Asp735Asn,who_confidence,drug=rifampicin;who_confidence=
+rpoC,p.Asp747Ala,who_confidence,drug=rifampicin;who_confidence=
+rpoC,p.Gly332Arg,who_confidence,drug=rifampicin;who_confidence=Uncertain significance
+rpoC,p.Ile491Thr,who_confidence,drug=rifampicin;who_confidence=
+rpoC,p.Ile885Val,who_confidence,drug=rifampicin;who_confidence=
+rpoC,p.Leu527Val,who_confidence,drug=rifampicin;who_confidence=
+rpoC,p.Phe452Ser,who_confidence,drug=rifampicin;who_confidence=
+gid,c.102delG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.103_104insG,who_confidence,drug=streptomycin;who_confidence=
+gid,c.107delT,who_confidence,drug=streptomycin;who_confidence=
+gid,c.115delC,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.136delG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.157delG,who_confidence,drug=streptomycin;who_confidence=
+gid,c.225_226insT,who_confidence,drug=streptomycin;who_confidence=
+gid,c.294_295insAC,who_confidence,drug=streptomycin;who_confidence=
+gid,c.297_298insA,who_confidence,drug=streptomycin;who_confidence=
+gid,c.326delG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.351delG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.352_353insG,who_confidence,drug=streptomycin;who_confidence=
+gid,c.366_367delCT,who_confidence,drug=streptomycin;who_confidence=
+gid,c.386delG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.390delC,who_confidence,drug=streptomycin;who_confidence=
+gid,c.400_401insT,who_confidence,drug=streptomycin;who_confidence=
+gid,c.446_447insA,who_confidence,drug=streptomycin;who_confidence=
+gid,c.450delG,who_confidence,drug=streptomycin;who_confidence=
+gid,c.452delC,who_confidence,drug=streptomycin;who_confidence=
+gid,c.455delT,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.471delG,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+gid,c.519_520insA,who_confidence,drug=streptomycin;who_confidence=
+gid,c.554_555insG,who_confidence,drug=streptomycin;who_confidence=
+gid,c.559_572delAGGGTGGTGACATG,who_confidence,drug=streptomycin;who_confidence=
+gid,c.58_59insT,who_confidence,drug=streptomycin;who_confidence=
+gid,c.601delA,who_confidence,drug=streptomycin;who_confidence=
+gid,large_deletion,who_confidence,drug=streptomycin;who_confidence=
+gid,transcript_ablation,who_confidence,drug=streptomycin;who_confidence=
+gid,p.Ala80Pro,who_confidence,drug=streptomycin;who_confidence=Uncertain significance
+rpsL,p.Arg86Pro,who_confidence,drug=streptomycin;who_confidence=
+rpsL,p.Arg86Trp,who_confidence,drug=streptomycin;who_confidence=
+rpsL,p.Arg9His,who_confidence,drug=streptomycin;who_confidence=
+rpsL,p.Gly84Val,who_confidence,drug=streptomycin;who_confidence=
+rpsL,p.Lys43Arg,who_confidence,drug=streptomycin;who_confidence=Assoc w R
+rpsL,p.Lys43Thr,who_confidence,drug=streptomycin;who_confidence=Uncertain significance
+rpsL,p.Lys51Asn,who_confidence,drug=streptomycin;who_confidence=
+rpsL,p.Lys88Arg,who_confidence,drug=streptomycin;who_confidence=Assoc w R
+rpsL,p.Lys88Gln,who_confidence,drug=streptomycin;who_confidence=Assoc w R - interim
+rpsL,p.Lys88Met,who_confidence,drug=streptomycin;who_confidence=Assoc w R
+rpsL,p.Lys88Thr,who_confidence,drug=streptomycin;who_confidence=Uncertain significance
+rpsL,p.Thr40Ile,who_confidence,drug=streptomycin;who_confidence=
+rpsL,p.Thr41Ser,who_confidence,drug=streptomycin;who_confidence=
+rpsL,p.Val52Gly,who_confidence,drug=streptomycin;who_confidence=
+rpsL,p.Val87Leu,who_confidence,drug=streptomycin;who_confidence=
+rpsL,p.Val93Met,who_confidence,drug=streptomycin;who_confidence=
+rrs,n.190G>A,who_confidence,drug=streptomycin;who_confidence=
+rrs,n.277G>C,who_confidence,drug=streptomycin;who_confidence=
+rrs,n.427G>C,who_confidence,drug=streptomycin;who_confidence=
+rrs,n.427G>T,who_confidence,drug=streptomycin;who_confidence=
+rrs,n.462C>T,who_confidence,drug=streptomycin;who_confidence=Uncertain significance
+rrs,n.513C>T,who_confidence,drug=streptomycin;who_confidence=Uncertain significance
+rrs,n.514A>C,who_confidence,drug=streptomycin;who_confidence=Assoc w R
+rrs,n.514A>T,who_confidence,drug=streptomycin;who_confidence=Uncertain significance
+rrs,n.516C>T,who_confidence,drug=streptomycin;who_confidence=
+rrs,n.517C>T,who_confidence,drug=streptomycin;who_confidence=Assoc w R
+rrs,n.628G>C,who_confidence,drug=streptomycin;who_confidence=
+rrs,n.799C>T,who_confidence,drug=streptomycin;who_confidence=
+rrs,n.888G>A,who_confidence,drug=streptomycin;who_confidence=
+rrs,n.905C>A,who_confidence,drug=streptomycin;who_confidence=Uncertain significance
+rrs,n.905C>G,who_confidence,drug=streptomycin;who_confidence=Uncertain significance
+rrs,n.906A>G,who_confidence,drug=streptomycin;who_confidence=Uncertain significance
+rrs,n.907A>C,who_confidence,drug=streptomycin;who_confidence=Uncertain significance
+rrs,n.907A>T,who_confidence,drug=streptomycin;who_confidence=Uncertain significance
+rrs,n.908A>G,who_confidence,drug=streptomycin;who_confidence=Uncertain significance
