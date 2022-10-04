@@ -1,774 +1,385 @@
-# bed mask from https://raw.githubusercontent.com/COMBAT-TB/tb_variant_filter/main/bedfiles/farhat_rlc.bed
-Chromosome	24720	24738
-Chromosome	39029	39030
-Chromosome	55548	55647
-Chromosome	71464	71584
-Chromosome	79569	83035
-Chromosome	86778	86779
-Chromosome	86780	86782
-Chromosome	103749	104811
-Chromosome	104813	104962
-Chromosome	131928	131979
-Chromosome	131980	131982
-Chromosome	131992	131993
-Chromosome	132077	132079
-Chromosome	132159	132189
-Chromosome	132518	132684
-Chromosome	149499	149526
-Chromosome	149911	150890
-Chromosome	154138	154186
-Chromosome	154191	154239
-Chromosome	171456	171457
-Chromosome	171778	171779
-Chromosome	192336	192398
-Chromosome	198936	199007
-Chromosome	206494	206519
-Chromosome	234446	234492
-Chromosome	279558	279560
-Chromosome	308321	308413
-Chromosome	333436	336310
-Chromosome	336379	336380
-Chromosome	336399	336400
-Chromosome	336402	336403
-Chromosome	336404	336405
-Chromosome	336496	336497
-Chromosome	336503	336504
-Chromosome	336534	336535
-Chromosome	336536	336537
-Chromosome	336539	336540
-Chromosome	336545	336546
-Chromosome	336552	337173
-Chromosome	337265	337381
-Chromosome	337714	338963
-Chromosome	338983	338998
-Chromosome	340429	340470
-Chromosome	340472	340484
-Chromosome	361798	361800
-Chromosome	361806	361814
-Chromosome	361815	361973
-Chromosome	361987	362010
-Chromosome	362620	362748
-Chromosome	362751	362764
-Chromosome	362769	362916
-Chromosome	362960	363020
-Chromosome	366149	372764
-Chromosome	373295	373333
-Chromosome	374840	374842
-Chromosome	400362	401474
-Chromosome	401483	401494
-Chromosome	410552	410570
-Chromosome	425240	425254
-Chromosome	425293	425353
-Chromosome	426581	426592
-Chromosome	426619	426628
-Chromosome	426648	426680
-Chromosome	426775	426785
-Chromosome	426942	426967
-Chromosome	427088	427089
-Chromosome	427098	427110
-Chromosome	427310	427325
-Chromosome	427359	427374
-Chromosome	456207	456210
-Chromosome	456211	456212
-Chromosome	496254	496354
-Chromosome	531556	531558
-Chromosome	531559	531562
-Chromosome	569820	569876
-Chromosome	569896	569897
-Chromosome	569899	569901
-Chromosome	569917	569978
-Chromosome	577285	577496
-Chromosome	580581	580808
-Chromosome	595373	595374
-Chromosome	606696	606698
-Chromosome	606702	607781
-Chromosome	607793	607798
-Chromosome	623230	624417
-Chromosome	663428	663429
-Chromosome	672009	672011
-Chromosome	672014	672070
-Chromosome	672104	672108
-Chromosome	672161	672246
-Chromosome	672265	672274
-Chromosome	672443	672462
-Chromosome	672477	672524
-Chromosome	672532	672563
-Chromosome	672648	672805
-Chromosome	672827	672919
-Chromosome	672945	672951
-Chromosome	672955	672959
-Chromosome	673102	673134
-Chromosome	673135	673623
-Chromosome	673635	673637
-Chromosome	673647	673668
-Chromosome	673989	673991
-Chromosome	673992	673995
-Chromosome	674121	674132
-Chromosome	674142	674163
-Chromosome	674218	674220
-Chromosome	674227	674233
-Chromosome	674240	674272
-Chromosome	674311	674319
-Chromosome	674343	674358
-Chromosome	674434	674507
-Chromosome	674546	674556
-Chromosome	674780	675029
-Chromosome	675034	675405
-Chromosome	699610	699640
-Chromosome	725208	725233
-Chromosome	735079	735081
-Chromosome	742596	742634
-Chromosome	767365	767366
-Chromosome	767367	767371
-Chromosome	806193	806194
-Chromosome	806195	806199
-Chromosome	806202	806219
-Chromosome	831965	832028
-Chromosome	832980	833508
-Chromosome	833514	833517
-Chromosome	833529	833539
-Chromosome	835700	838052
-Chromosome	838450	840856
-Chromosome	844884	844888
-Chromosome	846903	846905
-Chromosome	888762	891269
-Chromosome	891281	891287
-Chromosome	908408	909107
-Chromosome	909122	909128
-Chromosome	925370	926393
-Chromosome	926626	927518
-Chromosome	928675	928791
-Chromosome	928868	928936
-Chromosome	929015	929360
-Chromosome	929367	929373
-Chromosome	929463	929470
-Chromosome	929476	929605
-Chromosome	929666	929961
-Chromosome	960216	960217
-Chromosome	964633	964660
-Chromosome	964679	964707
-Chromosome	964776	964893
-Chromosome	964931	965006
-Chromosome	969615	969752
-Chromosome	973762	973786
-Chromosome	976897	976913
-Chromosome	1000741	1000799
-Chromosome	1025867	1025899
-Chromosome	1025901	1025904
-Chromosome	1056823	1056824
-Chromosome	1056825	1056829
-Chromosome	1064072	1064074
-Chromosome	1064079	1064083
-Chromosome	1064091	1064099
-Chromosome	1066998	1067002
-Chromosome	1070325	1070330
-Chromosome	1090782	1090783
-Chromosome	1090788	1090789
-Chromosome	1090790	1090793
-Chromosome	1090803	1090814
-Chromosome	1090938	1090940
-Chromosome	1090957	1091137
-Chromosome	1091147	1091152
-Chromosome	1091362	1091368
-Chromosome	1091373	1091379
-Chromosome	1091388	1091846
-Chromosome	1091888	1092021
-Chromosome	1092056	1092089
-Chromosome	1092102	1092104
-Chromosome	1092246	1092263
-Chromosome	1093755	1094257
-Chromosome	1095623	1095871
-Chromosome	1095947	1096415
-Chromosome	1096469	1096470
-Chromosome	1096486	1096487
-Chromosome	1133280	1133283
-Chromosome	1145287	1145317
-Chromosome	1164832	1165521
-Chromosome	1169504	1170502
-Chromosome	1170525	1170526
-Chromosome	1188524	1188557
-Chromosome	1188561	1188908
-Chromosome	1188949	1188955
-Chromosome	1188972	1189045
-Chromosome	1189073	1189075
-Chromosome	1189081	1189157
-Chromosome	1189158	1189900
-Chromosome	1190864	1190865
-Chromosome	1190877	1190881
-Chromosome	1190969	1191112
-Chromosome	1191248	1191277
-Chromosome	1191287	1191681
-Chromosome	1200523	1200544
-Chromosome	1203334	1203396
-Chromosome	1211559	1213863
-Chromosome	1216951	1217162
-Chromosome	1217167	1217181
-Chromosome	1217416	1217422
-Chromosome	1217423	1218426
-Chromosome	1218436	1218676
-Chromosome	1218702	1218703
-Chromosome	1218968	1218970
-Chromosome	1224338	1224340
-Chromosome	1224341	1224345
-Chromosome	1224348	1224350
-Chromosome	1224356	1224357
-Chromosome	1276380	1276424
-Chromosome	1276431	1276432
-Chromosome	1276770	1276771
-Chromosome	1276773	1276774
-Chromosome	1276785	1277869
-Chromosome	1277870	1278555
-Chromosome	1283487	1283493
-Chromosome	1283512	1283548
-Chromosome	1283554	1283562
-Chromosome	1305494	1305556
-Chromosome	1305592	1305654
-Chromosome	1313129	1313134
-Chromosome	1313384	1313385
-Chromosome	1313389	1313394
-Chromosome	1335476	1335507
-Chromosome	1335508	1335513
-Chromosome	1340656	1340657
-Chromosome	1340666	1340667
-Chromosome	1341517	1342651
-Chromosome	1363470	1363471
-Chromosome	1385096	1385437
-Chromosome	1385572	1385580
-Chromosome	1385586	1385667
-Chromosome	1385669	1385672
-Chromosome	1386008	1386036
-Chromosome	1386073	1386081
-Chromosome	1386112	1386113
-Chromosome	1386118	1386121
-Chromosome	1386125	1386129
-Chromosome	1386136	1386140
-Chromosome	1414620	1414621
-Chromosome	1414628	1414629
-Chromosome	1414643	1414644
-Chromosome	1414652	1414653
-Chromosome	1443427	1443428
-Chromosome	1445086	1445117
-Chromosome	1445118	1445121
-Chromosome	1451778	1451995
-Chromosome	1468425	1469402
-Chromosome	1480944	1480945
-Chromosome	1480947	1481670
-Chromosome	1488082	1488126
-Chromosome	1488383	1488410
-Chromosome	1488413	1488420
-Chromosome	1488429	1488757
-Chromosome	1488760	1488766
-Chromosome	1488776	1488788
-Chromosome	1488791	1488794
-Chromosome	1488807	1488810
-Chromosome	1488813	1488839
-Chromosome	1488843	1488848
-Chromosome	1488896	1489512
-Chromosome	1524571	1524574
-Chromosome	1541946	1543431
-Chromosome	1543453	1543457
-Chromosome	1543462	1543480
-Chromosome	1568059	1568087
-Chromosome	1572184	1572482
-Chromosome	1572499	1572621
-Chromosome	1572744	1573416
-Chromosome	1612620	1612621
-Chromosome	1612623	1612624
-Chromosome	1612647	1612648
-Chromosome	1618208	1619684
-Chromosome	1630814	1630825
-Chromosome	1630827	1630837
-Chromosome	1630839	1630872
-Chromosome	1630874	1630875
-Chromosome	1630996	1631066
-Chromosome	1631391	1631908
-Chromosome	1631936	1631955
-Chromosome	1632218	1632220
-Chromosome	1632231	1632289
-Chromosome	1632355	1632775
-Chromosome	1632790	1632795
-Chromosome	1632856	1632858
-Chromosome	1633191	1634631
-Chromosome	1634632	1634633
-Chromosome	1636003	1638229
-Chromosome	1638234	1638235
-Chromosome	1638237	1638238
-Chromosome	1644361	1644362
-Chromosome	1655670	1655721
-Chromosome	1655814	1655815
-Chromosome	1656096	1656098
-Chromosome	1656099	1656208
-Chromosome	1779266	1789687
-Chromosome	1789712	1789713
-Chromosome	1789794	1789795
-Chromosome	1789797	1789798
-Chromosome	1828812	1828831
-Chromosome	1828832	1828843
-Chromosome	1863481	1863575
-Chromosome	1863723	1863733
-Chromosome	1864008	1864112
-Chromosome	1864256	1864323
-Chromosome	1864394	1864468
-Chromosome	1864554	1864567
-Chromosome	1864568	1864580
-Chromosome	1864702	1864872
-Chromosome	1864885	1864924
-Chromosome	1879425	1879426
-Chromosome	1879494	1879503
-Chromosome	1879504	1879619
-Chromosome	1879631	1879638
-Chromosome	1879650	1879659
-Chromosome	1895352	1895498
-Chromosome	1914970	1914986
-Chromosome	1914987	1914995
-Chromosome	1914998	1914999
-Chromosome	1955581	1955615
-Chromosome	1955638	1955672
-Chromosome	1981613	1984775
-Chromosome	1987701	1989057
-Chromosome	1989982	1990093
-Chromosome	1990109	1990114
-Chromosome	1990322	1990823
-Chromosome	1991181	1991432
-Chromosome	1991569	1992029
-Chromosome	1992055	1992058
-Chromosome	1996100	1998415
-Chromosome	2001205	2001716
-Chromosome	2002029	2002036
-Chromosome	2002125	2002328
-Chromosome	2002405	2002406
-Chromosome	2025567	2025585
-Chromosome	2025587	2025612
-Chromosome	2025615	2025847
-Chromosome	2025892	2026163
-Chromosome	2028425	2028971
-Chromosome	2045048	2045107
-Chromosome	2045963	2045964
-Chromosome	2045969	2045970
-Chromosome	2046100	2046195
-Chromosome	2061412	2061430
-Chromosome	2061431	2062159
-Chromosome	2074435	2074840
-Chromosome	2088461	2088499
-Chromosome	2088773	2088933
-Chromosome	2088946	2088949
-Chromosome	2096825	2096840
-Chromosome	2096843	2096849
-Chromosome	2133474	2133475
-Chromosome	2146058	2146132
-Chromosome	2162931	2167311
-Chromosome	2181376	2181412
-Chromosome	2193009	2193021
-Chromosome	2196149	2196474
-Chromosome	2196714	2196715
-Chromosome	2244992	2245020
-Chromosome	2262251	2262252
-Chromosome	2262256	2262269
-Chromosome	2262278	2262963
-Chromosome	2262972	2262973
-Chromosome	2262979	2262982
-Chromosome	2266486	2266487
-Chromosome	2266507	2266508
-Chromosome	2266516	2266517
-Chromosome	2266549	2266550
-Chromosome	2266552	2266553
-Chromosome	2266582	2266583
-Chromosome	2266597	2266598
-Chromosome	2266603	2266604
-Chromosome	2266623	2266624
-Chromosome	2268721	2268725
-Chromosome	2299384	2299386
-Chromosome	2299390	2299928
-Chromosome	2301702	2301704
-Chromosome	2301707	2302099
-Chromosome	2302112	2302120
-Chromosome	2302125	2302227
-Chromosome	2302230	2302231
-Chromosome	2302272	2302275
-Chromosome	2302283	2302285
-Chromosome	2305466	2306065
-Chromosome	2306447	2306452
-Chromosome	2317128	2317129
-Chromosome	2317135	2317136
-Chromosome	2329858	2330072
-Chromosome	2338206	2338215
-Chromosome	2338216	2338217
-Chromosome	2338415	2338416
-Chromosome	2338421	2338422
-Chromosome	2338424	2338425
-Chromosome	2338427	2338428
-Chromosome	2338430	2338431
-Chromosome	2338433	2338434
-Chromosome	2338456	2338457
-Chromosome	2338676	2338677
-Chromosome	2338678	2338679
-Chromosome	2338691	2338692
-Chromosome	2338700	2338702
-Chromosome	2338703	2338704
-Chromosome	2338706	2338707
-Chromosome	2338715	2338716
-Chromosome	2338719	2338720
-Chromosome	2339512	2339573
-Chromosome	2339888	2340051
-Chromosome	2347407	2347613
-Chromosome	2356873	2356918
-Chromosome	2356927	2356933
-Chromosome	2357181	2357185
-Chromosome	2357249	2357268
-Chromosome	2357291	2357297
-Chromosome	2357314	2357321
-Chromosome	2357417	2357420
-Chromosome	2357426	2357607
-Chromosome	2360650	2360660
-Chromosome	2360730	2360740
-Chromosome	2361908	2361909
-Chromosome	2363680	2363682
-Chromosome	2365410	2366766
-Chromosome	2366768	2366772
-Chromosome	2366889	2366967
-Chromosome	2367028	2367060
-Chromosome	2372549	2372560
-Chromosome	2380217	2380261
-Chromosome	2387281	2387659
-Chromosome	2401824	2401869
-Chromosome	2401883	2401927
-Chromosome	2423424	2423425
-Chromosome	2423526	2423687
-Chromosome	2423705	2423775
-Chromosome	2423789	2424293
-Chromosome	2430113	2430116
-Chromosome	2431471	2431474
-Chromosome	2449219	2449221
-Chromosome	2461325	2461382
-Chromosome	2461398	2461401
-Chromosome	2461402	2461425
-Chromosome	2462528	2462594
-Chromosome	2466995	2467029
-Chromosome	2470043	2470086
-Chromosome	2522186	2522192
-Chromosome	2522194	2522219
-Chromosome	2523189	2523219
-Chromosome	2531897	2532244
-Chromosome	2550008	2551371
-Chromosome	2631598	2631599
-Chromosome	2631619	2631620
-Chromosome	2632922	2636977
-Chromosome	2638985	2639613
-Chromosome	2651435	2651440
-Chromosome	2651445	2651447
-Chromosome	2693239	2693589
-Chromosome	2693609	2693854
-Chromosome	2700488	2700489
-Chromosome	2700496	2700498
-Chromosome	2700501	2700502
-Chromosome	2704885	2704886
-Chromosome	2721012	2721013
-Chromosome	2724201	2724221
-Chromosome	2729618	2729620
-Chromosome	2729832	2729834
-Chromosome	2740574	2740601
-Chromosome	2785969	2785974
-Chromosome	2795376	2795395
-Chromosome	2795561	2795578
-Chromosome	2795854	2795868
-Chromosome	2795872	2795941
-Chromosome	2795948	2795950
-Chromosome	2795958	2795972
-Chromosome	2795976	2795977
-Chromosome	2796483	2796488
-Chromosome	2796490	2796492
-Chromosome	2796747	2796761
-Chromosome	2801405	2801452
-Chromosome	2801456	2801471
-Chromosome	2801822	2802329
-Chromosome	2802330	2802331
-Chromosome	2802743	2802850
-Chromosome	2802853	2803103
-Chromosome	2803112	2803113
-Chromosome	2803467	2803712
-Chromosome	2803721	2803725
-Chromosome	2803726	2803773
-Chromosome	2803777	2803783
-Chromosome	2803863	2803883
-Chromosome	2804375	2804706
-Chromosome	2804720	2804723
-Chromosome	2804746	2804750
-Chromosome	2804813	2804823
-Chromosome	2804906	2805754
-Chromosome	2822573	2822586
-Chromosome	2822617	2822669
-Chromosome	2828709	2828711
-Chromosome	2828729	2829758
-Chromosome	2829764	2829777
-Chromosome	2866550	2866551
-Chromosome	2866568	2866569
-Chromosome	2866577	2866578
-Chromosome	2866579	2866580
-Chromosome	2866606	2866607
-Chromosome	2866646	2866647
-Chromosome	2866670	2866671
-Chromosome	2866676	2866677
-Chromosome	2866862	2866863
-Chromosome	2866875	2866876
-Chromosome	2866879	2866880
-Chromosome	2866881	2867786
-Chromosome	2880155	2880261
-Chromosome	2887448	2887449
-Chromosome	2922097	2922119
-Chromosome	2922181	2922254
-Chromosome	2922357	2922373
-Chromosome	2922436	2922459
-Chromosome	2922725	2922835
-Chromosome	2922867	2922930
-Chromosome	2922937	2922960
-Chromosome	2943754	2943801
-Chromosome	2944205	2944970
-Chromosome	2945003	2945004
-Chromosome	2960226	2960592
-Chromosome	2960877	2960880
-Chromosome	2960929	2961063
-Chromosome	2961069	2961071
-Chromosome	2961078	2961083
-Chromosome	2961085	2961231
-Chromosome	2961334	2961341
-Chromosome	2961355	2961356
-Chromosome	2961366	2961401
-Chromosome	2961409	2961412
-Chromosome	2961446	2961938
-Chromosome	2961961	2961962
-Chromosome	2972105	2972108
-Chromosome	2973463	2973466
-Chromosome	2980970	2980998
-Chromosome	2983159	2983631
-Chromosome	2989950	2989952
-Chromosome	2996003	2996054
-Chromosome	3026262	3026284
-Chromosome	3054576	3054577
-Chromosome	3054578	3054941
-Chromosome	3054952	3055236
-Chromosome	3059799	3059811
-Chromosome	3059812	3059829
-Chromosome	3105013	3105014
-Chromosome	3112312	3112313
-Chromosome	3112459	3112460
-Chromosome	3119560	3119563
-Chromosome	3119566	3122702
-Chromosome	3122810	3122918
-Chromosome	3122931	3122942
-Chromosome	3122948	3122954
-Chromosome	3123027	3123283
-Chromosome	3123316	3123353
-Chromosome	3123422	3123424
-Chromosome	3135953	3135985
-Chromosome	3147107	3147108
-Chromosome	3147110	3147119
-Chromosome	3155882	3155936
-Chromosome	3155978	3156089
-Chromosome	3162806	3162923
-Chromosome	3163500	3163548
-Chromosome	3163615	3163617
-Chromosome	3163619	3163693
-Chromosome	3163709	3164033
-Chromosome	3192198	3192251
-Chromosome	3194705	3194708
-Chromosome	3194791	3194794
-Chromosome	3232506	3232870
-Chromosome	3239470	3239525
-Chromosome	3239564	3239587
-Chromosome	3247864	3247869
-Chromosome	3248283	3248335
-Chromosome	3253733	3253738
-Chromosome	3258342	3258404
-Chromosome	3266035	3266081
-Chromosome	3281221	3281240
-Chromosome	3307727	3307761
-Chromosome	3336528	3336650
-Chromosome	3336704	3336705
-Chromosome	3336737	3336791
-Chromosome	3348513	3348515
-Chromosome	3369930	3369931
-Chromosome	3369937	3369942
-Chromosome	3376515	3376543
-Chromosome	3378094	3378269
-Chromosome	3379375	3380708
-Chromosome	3381512	3382562
-Chromosome	3415197	3415211
-Chromosome	3463548	3463559
-Chromosome	3481551	3481554
-Chromosome	3481568	3482541
-Chromosome	3482553	3482560
-Chromosome	3482563	3482566
-Chromosome	3482568	3482572
-Chromosome	3484186	3484858
-Chromosome	3484859	3484860
-Chromosome	3501334	3501335
-Chromosome	3502182	3502183
-Chromosome	3502185	3502186
-Chromosome	3502194	3502195
-Chromosome	3502199	3502200
-Chromosome	3502227	3502228
-Chromosome	3502230	3502231
-Chromosome	3502236	3502237
-Chromosome	3502251	3502252
-Chromosome	3528083	3528084
-Chromosome	3528086	3528087
-Chromosome	3528098	3528099
-Chromosome	3528101	3528102
-Chromosome	3528116	3528117
-Chromosome	3528118	3528120
-Chromosome	3528128	3528129
-Chromosome	3528139	3528140
-Chromosome	3528143	3528144
-Chromosome	3528157	3528159
-Chromosome	3528164	3528165
-Chromosome	3528191	3528192
-Chromosome	3528197	3528198
-Chromosome	3528674	3528971
-Chromosome	3528974	3529181
-Chromosome	3537803	3537820
-Chromosome	3551226	3552585
-Chromosome	3552587	3554067
-Chromosome	3558759	3558794
-Chromosome	3590644	3590647
-Chromosome	3590653	3590658
-Chromosome	3590662	3590663
-Chromosome	3590667	3590678
-Chromosome	3590685	3590686
-Chromosome	3594288	3594343
-Chromosome	3594400	3594455
-Chromosome	3595987	3596005
-Chromosome	3617102	3617103
-Chromosome	3663727	3663889
-Chromosome	3707616	3707622
-Chromosome	3710381	3712611
-Chromosome	3730518	3730519
-Chromosome	3730578	3730582
-Chromosome	3730583	3732792
-Chromosome	3735635	3736072
-Chromosome	3736074	3736087
-Chromosome	3736098	3736102
-Chromosome	3736107	3736108
-Chromosome	3737092	3737207
-Chromosome	3737268	3737497
-Chromosome	3737804	3737808
-Chromosome	3737814	3737818
-Chromosome	3737828	3737836
-Chromosome	3737992	3738961
-Chromosome	3738977	3738985
-Chromosome	3739052	3739056
-Chromosome	3739131	3739133
-Chromosome	3739159	3739163
-Chromosome	3739194	3739202
-Chromosome	3739207	3739839
-Chromosome	3739841	3739845
-Chromosome	3739857	3739864
-Chromosome	3739866	3739883
-Chromosome	3739886	3739887
-Chromosome	3740065	3740083
-Chromosome	3740088	3740107
-Chromosome	3740120	3740131
-Chromosome	3740138	3740140
-Chromosome	3740161	3740208
-Chromosome	3740214	3740229
-Chromosome	3740302	3740322
-Chromosome	3740338	3740574
-Chromosome	3740592	3740604
-Chromosome	3740617	3740620
-Chromosome	3740630	3740632
-Chromosome	3740644	3740655
-Chromosome	3740659	3740666
-Chromosome	3740681	3740698
-Chromosome	3740702	3740904
-Chromosome	3740915	3740927
-Chromosome	3741172	3741178
-Chromosome	3741286	3741394
-Chromosome	3741502	3741604
-Chromosome	3741624	3741633
-Chromosome	3741681	3741914
-Chromosome	3741942	3742247
-Chromosome	3742250	3742256
-Chromosome	3742316	3742371
-Chromosome	3743710	3753184
-Chromosome	3753413	3754169
-Chromosome	3754194	3754208
-Chromosome	3766851	3766852
-Chromosome	3779545	3779766
-Chromosome	3779809	3779899
-Chromosome	3779936	3779981
-Chromosome	3780156	3780175
-Chromosome	3794868	3796415
-Chromosome	3802134	3803827
-Chromosome	3820406	3820407
-Chromosome	3820428	3820429
-Chromosome	3820504	3820505
-Chromosome	3820507	3820508
-Chromosome	3820522	3820523
-Chromosome	3820544	3820545
-Chromosome	3841661	3841663
-Chromosome	3842145	3842437
-Chromosome	3842471	3842551
-Chromosome	3843353	3843354
-Chromosome	3843355	3843356
-Chromosome	3843360	3843363
-Chromosome	3843519	3843520
-Chromosome	3843530	3843531
-Chromosome	3843535	3843536
-Chromosome	3843695	3843696
-Chromosome	3843703	3843704
-Chromosome	3843713	3843714
-Chromosome	3843748	3843749
-Chromosome	3843750	3843753
-Chromosome	3843759	3843760
-Chromosome	3844681	3844756
-Chromosome	3845970	3847214
-Chromosome	3847700	3847711
-Chromosome	3862570	3862575
-Chromosome	3862576	3862578
-Chromosome	3873526	3873540
-Chromosome	3878561	3878637
-Chromosome	3883794	3883815
-Chromosome	3883818	3884835
-Chromosome	3890775	3892136
-Chromosome	3926568	3930714
-Chromosome	3931004	3936710
-Chromosome	3939616	3944963
-Chromosome	3945413	3945417
-Chromosome	3945793	3950263
-Chromosome	3950927	3951150
-Chromosome	3998607	3998613
-Chromosome	3998824	3998868
-Chromosome	3998879	3998880
-Chromosome	4031821	4031838
-Chromosome	4031924	4031943
-Chromosome	4031955	4032014
-Chromosome	4032019	4032024
-Chromosome	4032382	4032639
-Chromosome	4036846	4037194
-Chromosome	4037349	4037350
-Chromosome	4037353	4037354
-Chromosome	4037446	4037497
-Chromosome	4038844	4038845
-Chromosome	4038846	4038882
-Chromosome	4052949	4053603
-Chromosome	4094066	4094346
-Chromosome	4120925	4120926
-Chromosome	4120955	4121197
-Chromosome	4139502	4139566
-Chromosome	4139567	4139569
-Chromosome	4155459	4155516
-Chromosome	4155525	4155582
-Chromosome	4156828	4156857
-Chromosome	4168470	4168482
-Chromosome	4175392	4175410
-Chromosome	4201240	4201294
-Chromosome	4231319	4232393
-Chromosome	4253022	4253024
-Chromosome	4253116	4254170
-Chromosome	4318423	4319123
-Chromosome	4340937	4340993
-Chromosome	4353179	4353460
-Chromosome	4353839	4353891
-Chromosome	4359134	4359135
-Chromosome	4361058	4361100
-Chromosome	4368618	4368637
-Chromosome	4369564	4369624
+Chromosome	33582	33794	Rv0031	remnant_of_A_transposase
+Chromosome	103710	104663	Rv0094c	50bp_duplicated
+Chromosome	104805	105215	Rv0095c	50bp_duplicated
+Chromosome	105324	106715	Rv0096	PPE_family_protein
+Chromosome	131382	132872	Rv0109	PE-PGRS_family_protein
+Chromosome	149533	150996	Rv0124	PE-PGRS_family_protein
+Chromosome	177543	179309	Rv0151c	PE_family_protein
+Chromosome	179319	180896	Rv0152c	PE_family_protein
+Chromosome	187433	188839	Rv0159c	PE_family_protein
+Chromosome	188931	190439	Rv0160c	PE_family_protein
+Chromosome	307877	309547	Rv0256c	PPE_family_protein
+Chromosome	309699	310073	Rv0257	50bp_duplicated
+Chromosome	332708	333136	Rv0277c	50bp_duplicated
+Chromosome	333437	336310	Rv0278c	PE-PGRS_family_protein
+Chromosome	336560	339073	Rv0279c	PE-PGRS_family_protein
+Chromosome	339364	340974	Rv0280	PPE_family_protein
+Chromosome	349624	349932	Rv0285	PE_family_protein
+Chromosome	349935	351476	Rv0286	PPE_family_protein
+Chromosome	361334	363109	Rv0297	PE-PGRS_family_protein
+Chromosome	366150	372764	Rv0304c	PPE_family_protein
+Chromosome	372820	375711	Rv0305c	PPE_family_protein
+Chromosome	399535	400050	Rv0335c	PE_family_protein
+Chromosome	400192	401703	Rv0336	50bp_duplicated
+Chromosome	423639	424019	Rv0353	50bp_duplicated
+Chromosome	424269	424694	Rv0354c	PPE_family_protein
+Chromosome	424777	434679	Rv0355c	PPE_family_protein
+Chromosome	466672	467406	Rv0387c	PPE_family_protein
+Chromosome	467459	468001	Rv0388c	PPE_family_protein
+Chromosome	472781	474106	Rv0393	50bp_duplicated
+Chromosome	475816	476184	Rv0397	50bp_duplicated
+Chromosome	530751	532214	Rv0442c	PPE_family_protein
+Chromosome	543174	544730	Rv0453	PPE_family_protein
+Chromosome	576787	577338	Rv0487	50bp_duplicated
+Chromosome	579349	580581	Rv0490	50bp_duplicated
+Chromosome	606551	608062	Rv0515	50bp_duplicated
+Chromosome	622793	624577	Rv0532	PE-PGRS_family_protein
+Chromosome	630040	631686	Rv0538	50bp_duplicated
+Chromosome	671996	675916	Rv0578c	PE-PGRS_family_protein
+Chromosome	701406	702014	Rv0605	repeat_region
+Chromosome	701406	702014	Rv0605	resolvase
+Chromosome	831776	832303	Rv0740	50bp_duplicated
+Chromosome	832534	832848	Rv0741	transposase
+Chromosome	832981	833508	Rv0742	PE-PGRS_family_protein
+Chromosome	835701	838052	Rv0746	PE-PGRS_family_protein
+Chromosome	838451	840856	Rv0747	PE-PGRS_family_protein
+Chromosome	842033	842278	Rv0750	50bp_duplicated
+Chromosome	846159	847913	Rv0754	PE-PGRS_family_protein
+Chromosome	850342	850527	Rv0755A	transposase
+Chromosome	848103	850040	Rv0755c	PPE_family_protein
+Chromosome	889072	889398	Rv0795	transposase_IS6110
+Chromosome	889347	890333	Rv0796	transposase_IS6110
+Chromosome	890388	891482	Rv0797	50bp_duplicated
+Chromosome	908181	908483	Rv0814c	50bp_duplicated
+Chromosome	916477	917646	Rv0823c	50bp_duplicated
+Chromosome	921575	921865	Rv0829	50bp_duplicated
+Chromosome	924951	925364	Rv0832	PE-PGRS_family_protein
+Chromosome	925361	927610	Rv0833	PE-PGRS_family_protein
+Chromosome	927837	930485	Rv0834c	PE-PGRS_family_protein
+Chromosome	947312	947644	Rv0850	transposase
+Chromosome	964312	965535	Rv0867c	50bp_duplicated
+Chromosome	968424	970244	Rv0872c	PE-PGRS_family_protein
+Chromosome	976872	978203	Rv0878c	PPE_family_protein
+Chromosome	1020058	1021329	Rv0915c	PPE_family_protein
+Chromosome	1021344	1021643	Rv0916c	PE_family_protein
+Chromosome	1025497	1026816	Rv0920c	transposase
+Chromosome	1027104	1027685	Rv0921	resolvase
+Chromosome	1027685	1029337	Rv0922	transposase
+Chromosome	1090373	1093144	Rv0977	PE-PGRS_family_protein
+Chromosome	1093361	1094356	Rv0978c	PE-PGRS_family_protein
+Chromosome	1095078	1096451	Rv0980c	PE-PGRS_family_protein
+Chromosome	1158918	1159307	Rv1034c	transposase
+Chromosome	1159375	1160061	Rv1035c	transposase
+Chromosome	1160095	1160433	Rv1036c	truncated_IS1560_transposase
+Chromosome	1160544	1160828	Rv1037c	50bp_duplicated
+Chromosome	1160855	1161151	Rv1038c	50bp_duplicated
+Chromosome	1161297	1162472	Rv1039c	PPE_family_protein
+Chromosome	1162549	1163376	Rv1040c	PE_family_protein
+Chromosome	1164572	1165435	Rv1041c	IS_like-2_transposase
+Chromosome	1165092	1165499	Rv1042c	IS_like-2_transposase
+Chromosome	1169423	1170670	Rv1047	transposase
+Chromosome	1188421	1190424	Rv1067c	PE-PGRS_family_protein
+Chromosome	1190757	1192148	Rv1068c	PE-PGRS_family_protein
+Chromosome	1211560	1213863	Rv1087	PE-PGRS_family_protein
+Chromosome	1214513	1214947	Rv1088	PE_family_protein
+Chromosome	1214769	1215131	Rv1089	PE_family_protein
+Chromosome	1216469	1219030	Rv1091	PE-PGRS_family_protein
+Chromosome	1251617	1252972	Rv1128c	repeat_region
+Chromosome	1262272	1264128	Rv1135c	PPE_family_protein
+Chromosome	1276300	1277748	Rv1148c	50bp_duplicated
+Chromosome	1277893	1278300	Rv1149	transposase
+Chromosome	1278269	1278820	Rv1150	Possible_fragment_of_transposase_
+Chromosome	1298764	1299804	Rv1168c	PPE_family_protein
+Chromosome	1299822	1300124	Rv1169c	PE_family_protein
+Chromosome	1301755	1302681	Rv1172c	PE_family_protein
+Chromosome	1339003	1339302	Rv1195	PE_family_protein
+Chromosome	1339349	1340524	Rv1196	PPE_family_protein
+Chromosome	1340659	1340955	Rv1197	50bp_duplicated
+Chromosome	1341006	1341290	Rv1198	50bp_duplicated
+Chromosome	1341358	1342605	Rv1199c	transposase
+Chromosome	1357293	1357625	Rv1214c	PE_family_protein
+Chromosome	1384989	1386677	Rv1243c	PE-PGRS_family_protein
+Chromosome	1441348	1442718	Rv1288	50bp_duplicated
+Chromosome	1450697	1451779	Rv1295	50bp_duplicated
+Chromosome	1468171	1469505	Rv1313c	transposase
+Chromosome	1479199	1480824	Rv1318c	50bp_duplicated
+Chromosome	1480894	1482501	Rv1319c	50bp_duplicated
+Chromosome	1488154	1489965	Rv1325c	PE-PGRS_family_protein
+Chromosome	1532443	1533633	Rv1361c	PPE_family_protein
+Chromosome	1541994	1542980	Rv1369c	transposase
+Chromosome	1542929	1543255	Rv1370c	transposase
+Chromosome	1561464	1561772	Rv1386	PE_family_protein
+Chromosome	1561769	1563388	Rv1387	PPE_family_protein
+Chromosome	1572127	1573857	Rv1396c	PE-PGRS_family_protein
+Chromosome	1606386	1607972	Rv1430	PE_family_protein
+Chromosome	1618209	1619684	Rv1441c	PE-PGRS_family_protein
+Chromosome	1630638	1634627	Rv1450c	PE-PGRS_family_protein
+Chromosome	1636004	1638229	Rv1452c	PE-PGRS_family_protein
+Chromosome	1643319	1644260	Rv1458c	50bp_duplicated
+Chromosome	1655609	1656721	Rv1468c	PE-PGRS_family_protein
+Chromosome	1678942	1679172	Rv1489A	50bp_duplicated
+Chromosome	1684005	1686257	Rv1493	50bp_duplicated
+Chromosome	1751297	1753333	Rv1548c	PPE_family_protein
+Chromosome	1761744	1762937	Rv1557	repeat_region
+Chromosome	1762947	1763393	Rv1558	repeat_region
+Chromosome	1779194	1779298	Rv1572c	repeat_region
+Chromosome	1779930	1780241	Rv1574	repeat_region
+Chromosome	1780199	1780699	Rv1575	repeat_region
+Chromosome	1779314	1779724	Rv1573	phiRV1_phage_protein
+Chromosome	1779930	1780241	Rv1574	phiRV1_phage_related_protein
+Chromosome	1780199	1780699	Rv1575	phiRV1_phage_protein
+Chromosome	1780643	1782064	Rv1576c	phiRV1_phage_protein
+Chromosome	1782072	1782584	Rv1577c	phiRv1_phage_protein
+Chromosome	1782758	1783228	Rv1578c	phiRv1_phage_protein
+Chromosome	1783309	1783623	Rv1579c	phiRv1_phage_protein
+Chromosome	1783620	1783892	Rv1580c	phiRv1_phage_protein
+Chromosome	1783906	1784301	Rv1581c	phiRv1_phage_protein
+Chromosome	1784497	1785912	Rv1582c	phiRv1_phage_protein
+Chromosome	1785912	1786310	Rv1583c	phiRv1_phage_protein
+Chromosome	1786307	1786528	Rv1584c	phiRv1_phage_protein
+Chromosome	1786584	1787099	Rv1585c	phiRv1_phage_protein
+Chromosome	1787096	1788505	Rv1586c	phiRv1_integrase
+Chromosome	1788162	1789163	Rv1587c	REP13E12_repeat-containing_protein
+Chromosome	1789168	1789836	Rv1588c	REP13E12_repeat-containing_protein
+Chromosome	1855764	1856696	Rv1646	PE_family_protein
+Chromosome	1862347	1865382	Rv1651c	PE-PGRS_family_protein
+Chromosome	1927211	1928575	Rv1702c	repeat_region
+Chromosome	1931497	1932654	Rv1705c	PPE_family_protein
+Chromosome	1932694	1933878	Rv1706c	PPE_family_protein
+Chromosome	1981614	1984775	Rv1753c	PPE_family_protein
+Chromosome	1987745	1988731	Rv1756c	putative_transposase
+Chromosome	1988680	1989006	Rv1757c	putative_transposase
+Chromosome	1989042	1989566	Rv1758	putative_transposase
+Chromosome	1989833	1992577	Rv1759c	PE-PGRS_family_protein
+Chromosome	1996152	1996478	Rv1763	putative_transposase
+Chromosome	1996427	1997413	Rv1764	putative_transposase
+Chromosome	1999142	1999357	Rv1765A	transposase
+Chromosome	1997418	1998515	Rv1765c	50bp_duplicated
+Chromosome	2000614	2002470	Rv1768	PE-PGRS_family_protein
+Chromosome	2025301	2026398	Rv1787	PPE_family_protein
+Chromosome	2026477	2026776	Rv1788	PE_family_protein
+Chromosome	2026790	2027971	Rv1789	PPE_family_protein
+Chromosome	2028425	2029477	Rv1790	PPE_family_protein
+Chromosome	2029904	2030203	Rv1791	PE_family_protein
+Chromosome	2030694	2030978	Rv1793	50bp_duplicated
+Chromosome	2039453	2041420	Rv1800	PPE_family_protein
+Chromosome	2042001	2043272	Rv1801	PPE_family_protein
+Chromosome	2043384	2044775	Rv1802	PPE_family_protein
+Chromosome	2044923	2046842	Rv1803c	PE-PGRS_family_protein
+Chromosome	2048072	2048371	Rv1806	PE_family_protein
+Chromosome	2048398	2049597	Rv1807	PPE_family_protein
+Chromosome	2049921	2051150	Rv1808	PPE_family_protein
+Chromosome	2051282	2052688	Rv1809	PPE_family_protein
+Chromosome	2061178	2062674	Rv1818c	PE-PGRS_family_protein
+Chromosome	2073943	2074437	Rv1829	50bp_duplicated
+Chromosome	2087971	2089518	Rv1840c	PE-PGRS_family_protein
+Chromosome	2156706	2157299	Rv1910c	50bp_duplicated
+Chromosome	2157382	2157987	Rv1911c	50bp_duplicated
+Chromosome	2162932	2167311	Rv1917c	PPE_family_protein
+Chromosome	2167649	2170612	Rv1918c	PPE_family_protein
+Chromosome	2195989	2197353	Rv1945	repeat_region
+Chromosome	2226244	2227920	Rv1983	PE-PGRS_family_protein
+Chromosome	2260665	2261144	Rv2013	transposase
+Chromosome	2261098	2261688	Rv2014	transposase
+Chromosome	2261816	2263072	Rv2015c	50bp_duplicated
+Chromosome	2294531	2306986	Rv2048c	50bp_duplicated
+Chromosome	2338709	2340874	Rv2082	50bp_duplicated
+Chromosome	2343027	2343332	Rv2085	repeat_region
+Chromosome	2347373	2348554	Rv2090	50bp_duplicated
+Chromosome	2365465	2365791	Rv2105	transposase
+Chromosome	2365740	2366726	Rv2106	transposase
+Chromosome	2367359	2367655	Rv2107	PE_family_protein
+Chromosome	2367711	2368442	Rv2108	PPE_family_protein
+Chromosome	2370905	2372569	Rv2112c	50bp_duplicated
+Chromosome	2381071	2382492	Rv2123	PPE_family_protein
+Chromosome	2387202	2387972	Rv2126c	PE-PGRS_family_protein
+Chromosome	2423240	2424838	Rv2162c	PE-PGRS_family_protein
+Chromosome	2430159	2431145	Rv2167c	transposase
+Chromosome	2431094	2431420	Rv2168c	transposase
+Chromosome	2439282	2439947	Rv2177c	transposase
+Chromosome	2459678	2461327	Rv2196	50bp_duplicated
+Chromosome	2530836	2531897	Rv2258c	50bp_duplicated
+Chromosome	2549124	2550029	Rv2277c	50bp_duplicated
+Chromosome	2550065	2550391	Rv2278	transposase
+Chromosome	2550340	2551326	Rv2279	transposase
+Chromosome	2600731	2601879	Rv2328	PE_family_protein
+Chromosome	2617667	2618908	Rv2340c	PE-PGRS_family_protein
+Chromosome	2625888	2626172	Rv2346c	50bp_duplicated
+Chromosome	2626223	2626519	Rv2347c	50bp_duplicated
+Chromosome	2632923	2634098	Rv2352c	PPE_family_protein
+Chromosome	2634528	2635592	Rv2353c	PPE_family_protein
+Chromosome	2635628	2635954	Rv2354	transposase
+Chromosome	2635903	2636889	Rv2355	transposase
+Chromosome	2637688	2639535	Rv2356c	PPE_family_protein
+Chromosome	2651753	2651938	Rv2371	PE-PGRS_family_protein
+Chromosome	2692799	2693884	Rv2396	PE-PGRS_family_protein
+Chromosome	2706017	2706736	Rv2408	PE_family_protein
+Chromosome	2720776	2721777	Rv2424c	transposase
+Chromosome	2727336	2727920	Rv2430c	PPE_family_protein
+Chromosome	2727967	2728266	Rv2431c	PE_family_protein
+Chromosome	2762531	2763175	Rv2460c	repeat_region
+Chromosome	2763172	2763774	Rv2461c	repeat_region
+Chromosome	2784657	2785643	Rv2479c	transposase
+Chromosome	2785592	2785918	Rv2480c	transposase
+Chromosome	2795301	2797385	Rv2487c	PE-PGRS_family_protein
+Chromosome	2800846	2801145	Rv2489c	repeat_region
+Chromosome	2801254	2806236	Rv2490c	PE-PGRS_family_protein
+Chromosome	2828556	2829803	Rv2512c	IS1081_transposase
+Chromosome	2835785	2837263	Rv2519	PE_family_protein
+Chromosome	2866468	2867127	Rv2543	50bp_duplicated
+Chromosome	2867124	2867786	Rv2544	50bp_duplicated
+Chromosome	2921551	2923182	Rv2591	PE-PGRS_family_protein
+Chromosome	2935046	2936788	Rv2608	PPE_family_protein
+Chromosome	2943600	2944985	Rv2615c	PE-PGRS_family_protein
+Chromosome	2960105	2962441	Rv2634c	PE-PGRS_family_protein
+Chromosome	2972160	2972486	Rv2648	transposase_IS6110
+Chromosome	2972435	2973421	Rv2649	transposase_IS6110
+Chromosome	2973795	2975234	Rv2650c	phiRv2_prophage_protein
+Chromosome	2975242	2975775	Rv2651c	phiRv2_prophage_protease
+Chromosome	2975928	2976554	Rv2652c	phiRv2_prophage_protein
+Chromosome	2976586	2976909	Rv2653c	phiRv2_prophage_protein
+Chromosome	2976989	2977234	Rv2654c	phiRv2_prophage_protein
+Chromosome	2977231	2978658	Rv2655c	phiRv2_prophage_protein
+Chromosome	2978660	2979052	Rv2656c	phiRv2_prophage_protein
+Chromosome	2979049	2979309	Rv2657c	phiRv2_prophage_protein
+Chromosome	2979691	2980818	Rv2659c	phiRv2_prophage_integrase
+Chromosome	2982699	2982980	Rv2665	50bp_duplicated
+Chromosome	2983071	2983874	Rv2666	truncated_IS1081_transposase
+Chromosome	2989291	2990592	Rv2673	50bp_duplicated
+Chromosome	2996105	2996737	Rv2680	50bp_duplicated
+Chromosome	3005845	3007062	Rv2689c	50bp_duplicated
+Chromosome	3007236	3009209	Rv2690c	repeat_region
+Chromosome	3053914	3055491	Rv2741	PE-PGRS_family_protein
+Chromosome	3076894	3078078	Rv2768c	PPE_family_protein
+Chromosome	3078158	3078985	Rv2769c	PE_family_protein
+Chromosome	3079309	3080457	Rv2770c	PPE_family_protein
+Chromosome	3082352	3082756	Rv2774c	50bp_duplicated
+Chromosome	3100202	3101581	Rv2791c	transposase
+Chromosome	3101581	3102162	Rv2792c	resolvase
+Chromosome	3112867	3113271	Rv2805	50bp_duplicated
+Chromosome	3113658	3114812	Rv2807	50bp_duplicated
+Chromosome	3115741	3116142	Rv2810c	transposase
+Chromosome	3116818	3118227	Rv2812	transposase
+Chromosome	3120566	3121552	Rv2814c	transposase
+Chromosome	3121501	3121827	Rv2815c	transposase
+Chromosome	3132892	3133539	Rv2825c	50bp_duplicated
+Chromosome	3135788	3136333	Rv2828c	50bp_duplicated
+Chromosome	3162268	3164115	Rv2853	PE-PGRS_family_protein
+Chromosome	3170720	3171646	Rv2859c	50bp_duplicated
+Chromosome	3191644	3192201	Rv2882c	50bp_duplicated
+Chromosome	3194166	3195548	Rv2885c	transposase
+Chromosome	3195545	3196432	Rv2886c	resolvase
+Chromosome	3200794	3202020	Rv2892c	PPE_family_protein
+Chromosome	3245445	3251075	Rv2931	50bp_duplicated
+Chromosome	3251072	3255688	Rv2932	50bp_duplicated
+Chromosome	3288464	3289705	Rv2943	IS1533_transposase
+Chromosome	3289705	3290235	Rv2943A	transposase
+Chromosome	3289790	3290506	Rv2944	IS1533_transposase
+Chromosome	3313283	3313672	Rv2961	transposase
+Chromosome	3332787	3333788	Rv2977c	50bp_duplicated
+Chromosome	3333785	3335164	Rv2978c	transposase
+Chromosome	3335164	3335748	Rv2979c	resolvase
+Chromosome	3335960	3336505	Rv2980	50bp_duplicated
+Chromosome	3378329	3378415	Rv3018A	PE_family_protein
+Chromosome	3376939	3378243	Rv3018c	PPE_family_protein
+Chromosome	3379376	3380452	Rv3021c	PPE_family_protein
+Chromosome	3380679	3380993	Rv3022A	PE_family_protein
+Chromosome	3380440	3380682	Rv3022c	PPE_family_protein
+Chromosome	3381375	3382622	Rv3023c	transposase
+Chromosome	3465778	3467091	Rv3097c	PE-PGRS_family_protein
+Chromosome	3481451	3482698	Rv3115	transposase
+Chromosome	3490476	3491651	Rv3125c	PPE_family_protein
+Chromosome	3501334	3501732	Rv3135	PPE_family_protein
+Chromosome	3501794	3502936	Rv3136	PPE_family_protein
+Chromosome	3510088	3511317	Rv3144c	PPE_family_protein
+Chromosome	3527391	3529163	Rv3159c	PPE_family_protein
+Chromosome	3551281	3551607	Rv3184	transposase
+Chromosome	3551556	3552542	Rv3185	transposase
+Chromosome	3552764	3553090	Rv3186	transposase
+Chromosome	3553039	3554025	Rv3187	transposase
+Chromosome	3557311	3558345	Rv3191c	transposase
+Chromosome	3663689	3664222	Rv3281	50bp_duplicated
+Chromosome	3710433	3710759	Rv3325	transposase
+Chromosome	3710708	3711694	Rv3326	transposase
+Chromosome	3711749	3713461	Rv3327	transposase
+Chromosome	3729364	3736935	Rv3343c	PPE_family_protein
+Chromosome	3736984	3738438	Rv3344c	PE-PGRS_family_protein
+Chromosome	3738158	3742774	Rv3345c	PE-PGRS_family_protein
+Chromosome	3743198	3743455	Rv3346c	50bp_duplicated
+Chromosome	3743711	3753184	Rv3347c	PPE_family_protein
+Chromosome	3753765	3754256	Rv3348	transposase
+Chromosome	3754293	3755033	Rv3349c	transposase
+Chromosome	3755952	3767102	Rv3350c	PPE_family_protein
+Chromosome	3769514	3769807	Rv3355c	50bp_duplicated
+Chromosome	3778568	3780334	Rv3367	PE-PGRS_family_protein
+Chromosome	3795100	3796086	Rv3380c	transposase
+Chromosome	3796035	3796361	Rv3381c	transposase
+Chromosome	3800092	3800796	Rv3386	transposase
+Chromosome	3800786	3801463	Rv3387	transposase
+Chromosome	3801653	3803848	Rv3388	PE-PGRS_family_protein
+Chromosome	3841714	3842076	Rv3424c	50bp_duplicated
+Chromosome	3842239	3842769	Rv3425	PPE_family_protein
+Chromosome	3843036	3843734	Rv3426	PPE_family_protein
+Chromosome	3843885	3844640	Rv3427c	transposase
+Chromosome	3844738	3845970	Rv3428c	transposase
+Chromosome	3847165	3847701	Rv3429	PPE_family_protein
+Chromosome	3847642	3848805	Rv3430c	transposase
+Chromosome	3849294	3850139	Rv3431c	repeat_region
+Chromosome	3883525	3884193	Rv3466	repeat_region
+Chromosome	3883964	3884917	Rv3467	repeat_region
+Chromosome	3890830	3891156	Rv3474	transposase_IS6110
+Chromosome	3891105	3892091	Rv3475	transposase_IS6110
+Chromosome	3894093	3894389	Rv3477	PE_family_protein
+Chromosome	3894426	3895607	Rv3478	PE_family_protein
+Chromosome	3926569	3930714	Rv3507	PE-PGRS_family_protein
+Chromosome	3931005	3936710	Rv3508	PE-PGRS_family_protein
+Chromosome	3939617	3941761	Rv3511	PE-PGRS_family_protein
+Chromosome	3941724	3944963	Rv3512	PE-PGRS_family_protein
+Chromosome	3945092	3945748	Rv3513c	50bp_duplicated
+Chromosome	3945794	3950263	Rv3514	PE-PGRS_family_protein
+Chromosome	3950824	3952470	Rv3515c	50bp_duplicated
+Chromosome	3969343	3970563	Rv3532	PPE_family_protein
+Chromosome	3970705	3972453	Rv3533c	PPE_family_protein
+Chromosome	3978059	3979498	Rv3539	PPE_family_protein
+Chromosome	3997980	3999638	Rv3558	PPE_family_protein
+Chromosome	4031404	4033158	Rv3590c	PE-PGRS_family_protein
+Chromosome	4036731	4038050	Rv3595c	PE-PGRS_family_protein
+Chromosome	4052950	4053603	Rv3611	50bp_duplicated
+Chromosome	4059984	4060268	Rv3619c	50bp_duplicated
+Chromosome	4060295	4060591	Rv3620c	50bp_duplicated
+Chromosome	4060648	4061889	Rv3621c	PPE_family_protein
+Chromosome	4061899	4062198	Rv3622c	PE_family_protein
+Chromosome	4075752	4076099	Rv3636	transposase
+Chromosome	4076484	4076984	Rv3637	transposase
+Chromosome	4076984	4077730	Rv3638	transposase
+Chromosome	4077884	4078450	Rv3639c	50bp_duplicated
+Chromosome	4078520	4079749	Rv3640c	transposase
+Chromosome	4091233	4091517	Rv3650	PE_family_protein
+Chromosome	4119795	4120955	Rv3680	50bp_duplicated
+Chromosome	4153740	4155674	Rv3710	50bp_duplicated
+Chromosome	4189285	4190232	Rv3738c	PPE_family_protein
+Chromosome	4190284	4190517	Rv3739c	PPE_family_protein
+Chromosome	4196171	4196506	Rv3746c	PE_family_protein
+Chromosome	4252993	4254327	Rv3798	transposase
+Chromosome	4276571	4278085	Rv3812	PE-PGRS_family_protein
+Chromosome	4299812	4301566	Rv3826	50bp_duplicated
+Chromosome	4301563	4302789	Rv3827c	transposase
+Chromosome	4302786	4303397	Rv3828c	resolvase
+Chromosome	4318775	4319266	Rv3844	transposase
+Chromosome	4351075	4352181	Rv3873	PPE_family_protein
+Chromosome	4353010	4355010	Rv3876	50bp_duplicated
+Chromosome	4374484	4375683	Rv3892c	PPE_family_protein
+Chromosome	4375762	4375995	Rv3893c	PE_family_protein
+Chromosome	1306002	1306201	IG1195_Rv1174c-Rv1175c	
+Chromosome	154130	154231	IG127_Rv0126-Rv0127	
+Chromosome	1907321	1907593	IG1711_Rv1682-Rv1683	
+Chromosome	23182	23269	IG18_Rv0018c-Rv0019c	
+Chromosome	3318816	3318900	IG3012_Rv2965c-Rv2966c	
+Chromosome	3319468	3319662	IG3013_Rv2966c-Rv2967c	
+Chromosome	616832	616845	IG533_Rv0525-Rv0526	
+Chromosome	642812	642888	IG559_Rv0551c-Rv0552	
+Chromosome	706930	706947	IG622_Rv0612-Rv0613c	
+Chromosome	80194	80623	IG71_Rv0071-Rv0072	
+Chromosome	863159	863255	IG784_Rv0769-Rv0770	
+Chromosome	960152	960341	IG877_Rv0861c-Rv0862c	
+Chromosome	4093940	4094527	Rv3653	PE_family_protein
