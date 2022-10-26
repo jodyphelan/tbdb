@@ -16654,7 +16654,6 @@ tlyA,c.69_71delCGC,who_confidence,drug=capreomycin;who_confidence=
 tlyA,c.735_744delGCAGACCGAC,who_confidence,drug=capreomycin;who_confidence=
 tlyA,c.753_754dupGT,who_confidence,drug=capreomycin;who_confidence=
 tlyA,c.759delC,who_confidence,drug=capreomycin;who_confidence=
-tlyA,frameshift,who_confidence,drug=capreomycin;who_confidence=
 tlyA,p.Ala67Glu,who_confidence,drug=capreomycin;who_confidence=
 tlyA,p.Ala91Glu,who_confidence,drug=capreomycin;who_confidence=
 tlyA,p.Arg14Trp,who_confidence,drug=capreomycin;who_confidence=
@@ -16968,9 +16967,6 @@ ethA,c.852_853insC,who_confidence,drug=ethionamide;who_confidence=
 ethA,c.870_871insA,who_confidence,drug=ethionamide;who_confidence=
 ethA,c.884delT,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
 ethA,c.896delG,who_confidence,drug=ethionamide;who_confidence=Assoc w R - interim
-ethA,frameshift,who_confidence,drug=ethionamide;who_confidence=
-ethA,large_deletion,who_confidence,drug=ethionamide;who_confidence=
-ethA,transcript_ablation,who_confidence,drug=ethionamide;who_confidence=
 ethA,p.Ala381Pro,who_confidence,drug=ethionamide;who_confidence=Uncertain significance
 ethA,p.Arg463Ser,who_confidence,drug=ethionamide;who_confidence=
 ethA,p.Asp58Ala,who_confidence,drug=ethionamide;who_confidence=Uncertain significance
@@ -17143,9 +17139,6 @@ katG,c.902_903insT,who_confidence,drug=isoniazid;who_confidence=
 katG,c.928delA,who_confidence,drug=isoniazid;who_confidence=
 katG,c.956delT,who_confidence,drug=isoniazid;who_confidence=Assoc w R - interim
 katG,c.99_100insA,who_confidence,drug=isoniazid;who_confidence=
-katG,frameshift,who_confidence,drug=isoniazid;who_confidence=
-katG,large_deletion,who_confidence,drug=isoniazid;who_confidence=
-katG,transcript_ablation,who_confidence,drug=isoniazid;who_confidence=
 katG,p.Ala106Val,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
 katG,p.Ala109Val,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
 katG,p.Ala110Val,who_confidence,drug=isoniazid;who_confidence=Uncertain significance
@@ -17542,8 +17535,6 @@ thyA,c.218_219insCACGAGCAC,who_confidence,drug=para-aminosalicylic_acid;who_conf
 thyA,c.260delC,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
 thyA,c.373dupT,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
 thyA,c.472delC,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
-thyA,large_deletion,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
-thyA,transcript_ablation,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
 thyA,p.Arg126Gln,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
 thyA,p.Arg222Gly,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
 thyA,p.Arg235Pro,who_confidence,drug=para-aminosalicylic_acid;who_confidence=
@@ -17667,9 +17658,6 @@ pncA,c.71delG,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interi
 pncA,c.-7T>C,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R - interim
 pncA,c.84delC,who_confidence,drug=pyrazinamide;who_confidence=
 pncA,c.88_111delGCCATCAGCGACTACCTGGCCGAA,who_confidence,drug=pyrazinamide;who_confidence=
-pncA,frameshift,who_confidence,drug=pyrazinamide;who_confidence=
-pncA,large_deletion,who_confidence,drug=pyrazinamide;who_confidence=
-pncA,transcript_ablation,who_confidence,drug=pyrazinamide;who_confidence=
 pncA,p.Ala102Thr,who_confidence,drug=pyrazinamide;who_confidence=Uncertain significance
 pncA,p.Ala134Ser,who_confidence,drug=pyrazinamide;who_confidence=
 pncA,p.Ala134Val,who_confidence,drug=pyrazinamide;who_confidence=Assoc w R
@@ -17946,8 +17934,6 @@ pncA,p.Val9Leu,who_confidence,drug=pyrazinamide;who_confidence=
 rpsA,p.Arg474Leu,who_confidence,drug=pyrazinamide;who_confidence=
 rpsA,p.Arg474Trp,who_confidence,drug=pyrazinamide;who_confidence=
 rpsA,p.Glu433Asp,who_confidence,drug=pyrazinamide;who_confidence=
-rpoB,any_missense_codon_445,who_confidence,drug=rifampicin;who_confidence=
-rpoB,any_missense_codon_450,who_confidence,drug=rifampicin;who_confidence=
 rpoB,c.1276_1281delGGCACC,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
 rpoB,c.1276_1281delGGCACC,who_confidence,drug=rifampicin;who_confidence=Assoc w R - interim
 rpoB,c.1287_1295delGCTGAGCCA,who_confidence,drug=rifampicin;who_confidence=
@@ -18098,8 +18084,6 @@ gid,c.554_555insG,who_confidence,drug=streptomycin;who_confidence=
 gid,c.559_572delAGGGTGGTGACATG,who_confidence,drug=streptomycin;who_confidence=
 gid,c.58_59insT,who_confidence,drug=streptomycin;who_confidence=
 gid,c.601delA,who_confidence,drug=streptomycin;who_confidence=
-gid,large_deletion,who_confidence,drug=streptomycin;who_confidence=
-gid,transcript_ablation,who_confidence,drug=streptomycin;who_confidence=
 gid,p.Ala80Pro,who_confidence,drug=streptomycin;who_confidence=Uncertain significance
 rpsL,p.Arg86Pro,who_confidence,drug=streptomycin;who_confidence=
 rpsL,p.Arg86Trp,who_confidence,drug=streptomycin;who_confidence=
