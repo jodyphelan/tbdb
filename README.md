@@ -41,9 +41,11 @@ Mutations must follow the HGVS nomenclature. Information on this format can be f
 * SNPs in non-coding RNAs. *Example: A to G at position 1401 in rrs would be n.1401a>g*
 * SNPs in gene promoters. *Example: A to G 7 bases 5' of the start codon in pncA c.-7A>G*
 
-In addition, sequence ontology terms can also be used in place of the mutation. Supported sequence ontology terms can be found at XXXX. For example the following line is used to denote that any frameshift in _katG_ confers resistance.
+In addition, sequence ontology terms can also be used in place of the mutation. Supported sequence ontology terms can be found at http://pcingola.github.io/SnpEff/se_inputoutput/#effect-prediction-details. For example the following line is used to denote that any frameshift in _katG_ confers resistance.
 
-XXXX
+| Gene | Mutation           | Drug      | Confers    | Interaction | Literature | WHO Confidence |
+|------|--------------------|-----------|------------|-------------|------------|----------------|
+| katG | frameshift_variant | isoniazid | resistance |             |            |                |
 
 Additionally, ranges can be applied to sequence ontology terms to limit the resistance association of any particular term to a certain region within the gene or protein or non-coding RNA. To use gene coordinates add "_c.X_Y" where *X* and *Y* are the ranges between which the variant should occur in. Similarly, for protein you can use "_p.X_Y" and for RNA use "_n.X_Y". For example to use any missense variant between codon 430 and 470, the term will be *missense_variant_p.450_470*.
 
