@@ -22,5 +22,6 @@
         "delamanid",
         "bedaquiline",
         "linezolid"
-      ]
+      ],
+      "min-tb-profiler-version": "4.4.0"
 }
