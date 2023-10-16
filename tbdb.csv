@@ -175,8 +175,8 @@ fabG1,c.-8T>C,isoniazid,resistance,,https://www.who.int/publications/i/item/9789
 fabG1,c.-8T>C,ethionamide,resistance,,https://www.who.int/publications/i/item/9789240028173,Assoc w R - Interim
 fabG1,c.-8T>A,isoniazid,resistance,,https://www.who.int/publications/i/item/9789240028173,Assoc w R - Interim
 fabG1,c.-8T>A,ethionamide,resistance,,https://www.who.int/publications/i/item/9789240028173,Assoc w R - Interim
-fabG1,c.609G>A,isoniazid,resistance,,https://www.who.int/publications/i/item/9789240028173,Assoc w R
-fabG1,c.609G>A,ethionamide,resistance,,https://www.who.int/publications/i/item/9789240028173,Assoc w R - Interim
+inhA,c.-154G>A,isoniazid,resistance,,https://www.who.int/publications/i/item/9789240028173,Assoc w R
+inhA,c.-154G>A,ethionamide,resistance,,https://www.who.int/publications/i/item/9789240028173,Assoc w R - Interim
 inhA,p.Ser94Ala,ethionamide,resistance,,https://www.who.int/publications/i/item/9789240028173,Assoc w R - Interim
 tlyA,p.Arg18*,capreomycin,resistance,,https://www.who.int/publications/i/item/9789240028173,Assoc w R - Interim
 tlyA,p.Gln22*,capreomycin,resistance,,https://www.who.int/publications/i/item/9789240028173,Assoc w R - Interim
@@ -1229,8 +1229,6 @@ gid,c.-70_140del,streptomycin,resistance,,,
 gid,c.-74_319del,streptomycin,resistance,,,
 gid,c.9_113del,streptomycin,resistance,,,
 gid,c.597delC,streptomycin,resistance,,,
-inhA,c.-154G>A,ethionamide,resistance,,,
-inhA,c.-154G>A,isoniazid,resistance,,,
 pncA,p.Ile31Thr,pyrazinamide,resistance,,,
 gyrB,p.Glu540Asp,moxifloxacin,resistance,,,
 pncA,p.Thr100Ile,pyrazinamide,resistance,,,
