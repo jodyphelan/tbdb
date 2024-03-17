@@ -16,7 +16,9 @@
         "kanamycin",
         "capreomycin",
         "clofazimine",
-        "ethionamide"
+        "ethionamide",
+        "para-aminosalicylic_acid",
+        "cycloserine"
     ],
     "tb-profiler-version": ">=6.0.0,<7.0.0"
 }
