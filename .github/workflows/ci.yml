@@ -1,0 +1,43 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
+
+name: CI testing
+
+on:
+  pull_request:
+    branches: [ "master", "dev" ]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    defaults:
+      run: 
+        shell: bash -el {0}
+    steps:
+    - uses: actions/checkout@v4
+    - uses: conda-incubator/setup-miniconda@v3
+      with:
+          python-version: 3.8
+          mamba-version: "*"
+          channels: conda-forge,bioconda,defaults
+          channel-priority: true
+
+    - name: install dependancies
+      run: |
+        wget https://raw.githubusercontent.com/jodyphelan/TBProfiler/dev/conda/linux-latest.txt
+        conda create --name test --file linux-latest.txt
+      
+        
+    - name: Install dependencies
+      run: |
+        conda activate test
+        pip install --force-reinstall git+https://github.com/jodyphelan/pathogen-profiler.git
+        pip install --force-reinstall git+https://github.com/jodyphelan/TBProfiler.git
+    - name: Run tests
+      run: |
+        tb-profiler create_db
+    
