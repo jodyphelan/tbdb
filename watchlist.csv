@@ -117,3 +117,4 @@ atpE,drug_resistance,bedaquiline
 gyrB,drug_resistance,levofloxacin
 Rv0010c,drug_resistance,isoniazid
 fbiB,drug_resistance,clofazimine
+mmaA3,drug_resistance,isoniazid
