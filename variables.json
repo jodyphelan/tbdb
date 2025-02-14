@@ -21,5 +21,5 @@
         "para-aminosalicylic_acid",
         "cycloserine"
     ],
-    "tb-profiler-version": ">=6.0.0,<7.0.0"
+    "tb-profiler-version": ">=6.6.0,<7.0.0"
 }
