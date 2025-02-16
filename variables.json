@@ -1,5 +1,5 @@
 {
-    "db-schema-version": "1.1.0",
+    "db-schema-version": "2.0.0",
     "snpEff_db":"Mycobacterium_tuberculosis_h37rv",
     "drugs": [
         "rifampicin",
@@ -19,5 +19,5 @@
         "clofazimine",
         "ethionamide"
     ],
-    "tb-profiler-version": ">=6.0.0,<7.0.0"
+    "tb-profiler-version": ">=6.6.0,<7.0.0"
 }
