@@ -1,4 +1,5 @@
 {
+    "db-schema-version": "2.0.0",
     "snpEff_db":"Mycobacterium_tuberculosis_h37rv",
     "drugs": [
         "rifampicin",
@@ -20,5 +21,5 @@
         "para-aminosalicylic_acid",
         "cycloserine"
     ],
-    "tb-profiler-version": ">=6.0.0,<7.0.0"
+    "tb-profiler-version": ">=6.6.0,<7.0.0"
 }
