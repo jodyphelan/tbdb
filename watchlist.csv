@@ -150,3 +150,7 @@ whiB7,drug_resistance,kanamycin
 whiB7,drug_resistance,streptomycin
 Rv3253c,drug_resistance,para_aminosalicylic_acid
 Rv1453,drug_resistance,clofazimine
+Rv1344,drug_resistance,clofazimine
+Rv1344,drug_resistance,bedaquiline
+Rv2244,drug_resistance,clofazimine
+Rv2244,drug_resistance,bedaquiline
