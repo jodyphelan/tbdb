@@ -1,8 +1,9 @@
 {
-    "db-schema-version": "2.0.0",
-    "snpEff_db":"Mycobacterium_tuberculosis_h37rv",
+    "db-schema-version": "2.1.0",
+    "snpEff_db":"Mycobacterium_tuberculosis_h37rv_tbprofiler",
     "drugs": [
         "rifampicin",
+        "rifapentine",
         "isoniazid",
         "ethambutol",
         "pyrazinamide",
@@ -17,7 +18,8 @@
         "kanamycin",
         "capreomycin",
         "clofazimine",
-        "ethionamide"
+        "ethionamide",
+        "prothionamide"
     ],
     "tb-profiler-version": ">=6.6.0,<7.0.0"
 }

@@ -48331,3 +48331,5 @@ Rv2983,frameshift_variant,drug_resistance,pretomanid,LoF,Assoc w R - Interim,WHO
 rpoB,missense_variant_p.426_452,drug_resistance,rifampicin,RRDR non-silent,Assoc w R - Interim,WHO catalogue v2,Expert rule: Non-silent variants in RRDR of rpoB
 rpoB,conservative_inframe_deletion_c.1276_1356,drug_resistance,rifampicin,RRDR non-silent,Assoc w R - Interim,WHO catalogue v2,Expert rule: Non-silent variants in RRDR of rpoB
 rpoB,conservative_inframe_insertion_c.1276_1356,drug_resistance,rifampicin,RRDR non-silent,Assoc w R - Interim,WHO catalogue v2,Expert rule: Non-silent variants in RRDR of rpoB
+rpoB,disruptive_inframe_deletion_c.1276_1356,drug_resistance,rifampicin,RRDR non-silent,Assoc w R - Interim,WHO catalogue v2,Expert rule: Non-silent variants in RRDR of rpoB
+rpoB,disruptive_inframe_insertion_c.1276_1356,drug_resistance,rifampicin,RRDR non-silent,Assoc w R - Interim,WHO catalogue v2,Expert rule: Non-silent variants in RRDR of rpoB
