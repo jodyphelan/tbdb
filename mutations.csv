@@ -48482,7 +48482,7 @@ embA,c.29delA,drug_resistance,ethambutol,c.29delA,,tbdb,Mutation from literature
 katG,p.Leu148Arg,drug_resistance,isoniazid,p.Leu148Arg,,tbdb,Mutation from literature
 katG,p.Lys459*,drug_resistance,isoniazid,p.Lys459*,,tbdb,Mutation from literature
 katG,p.Thr180Lys,drug_resistance,isoniazid,p.Thr180Lys,,tbdb,Mutation from literature
-embA,p.Asp4Asn,drug_resistance,ethambutol,p.Asp4Asn,Uncertain significance,tbdb,Mutation from literature
+embA,p.Asp4Asn,drug_resistance,ethambutol,p.Asp4Asn,Uncertain significance,tbdb,Mutation from literature: doi: 10.1128/AAC.44.2.326-336.2000 
 inhA,p.Ile21Asn,drug_resistance,isoniazid,p.Ile21Asn,,tbdb,Mutation from literature
 pncA,p.Ala143Thr,drug_resistance,pyrazinamide,p.Ala143Thr,Uncertain significance,tbdb,Mutation from literature
 katG,p.Glu195Lys,drug_resistance,isoniazid,p.Glu195Lys,Uncertain significance,tbdb,Mutation from literature
@@ -48499,7 +48499,7 @@ embB,p.Ser298Trp,drug_resistance,ethambutol,p.Ser298Trp,,tbdb,Mutation from lite
 kasA,p.Arg121Lys,drug_resistance,isoniazid,p.Arg121Lys,,tbdb,Mutation from literature
 embC,p.Val287Phe,drug_resistance,ethambutol,p.Val287Phe,,tbdb,Mutation from literature
 pncA,c.162_164delGGG,drug_resistance,pyrazinamide,c.162_164delGGG,,tbdb,Mutation from literature
-katG,p.Trp728Cys,drug_resistance,isoniazid,p.Trp728Cys,Uncertain significance,tbdb,Mutation from literature
+katG,p.Trp728Cys,drug_resistance,isoniazid,p.Trp728Cys,Uncertain significance,tbdb,Mutation from literature: doi: 10.1371/journal.ppat.0020061
 pncA,p.Asp63His,drug_resistance,pyrazinamide,p.Asp63His,,tbdb,Mutation from literature
 pncA,c.386_388delATG,drug_resistance,pyrazinamide,c.386_388delATG,,tbdb,Mutation from literature
 katG,p.Trp91Arg,drug_resistance,isoniazid,p.Trp91Arg,Uncertain significance,tbdb,Mutation from literature
@@ -48590,7 +48590,7 @@ katG,p.Trp321Cys,drug_resistance,isoniazid,p.Trp321Cys,,tbdb,Mutation from liter
 pncA,p.Asn118Thr,drug_resistance,pyrazinamide,p.Asn118Thr,,tbdb,Mutation from literature
 pncA,p.Ala3Pro,drug_resistance,pyrazinamide,p.Ala3Pro,Uncertain significance,tbdb,Mutation from literature
 thyA,p.Val77Phe,drug_resistance,para-aminosalicylic_acid,p.Val77Phe,,tbdb,Mutation from literature
-embA,c.-12C>T,drug_resistance,ethambutol,c.-12C>T,Uncertain significance,tbdb,Mutation from literature
+embA,c.-12C>T,drug_resistance,ethambutol,c.-12C>T,Uncertain significance,tbdb,Mutation from literature: doi: 10.1128/AAC.03285-14
 embB,p.Ala281Pro,drug_resistance,ethambutol,p.Ala281Pro,,tbdb,Mutation from literature
 inhA,p.Lys8Asn,drug_resistance,isoniazid,p.Lys8Asn,,tbdb,Mutation from literature
 katG,p.Val1Leu,drug_resistance,isoniazid,p.Val1Leu,,tbdb,Mutation from literature
@@ -48606,7 +48606,7 @@ katG,p.Ser140Arg,drug_resistance,isoniazid,p.Ser140Arg,Uncertain significance,tb
 katG,p.Gly279Asp,drug_resistance,isoniazid,p.Gly279Asp,Uncertain significance,tbdb,Mutation from literature
 katG,p.Ala106Val,drug_resistance,isoniazid,p.Ala106Val,Uncertain significance,tbdb,Mutation from literature
 mmpR5,p.Ser63Arg,drug_resistance,bedaquiline,p.Ser63Arg,Uncertain significance,tbdb,Mutation from literature
-embB,p.Ser347Thr,drug_resistance,ethambutol,p.Ser347Thr,Uncertain significance,tbdb,Mutation from literature
+embB,p.Ser347Thr,drug_resistance,ethambutol,p.Ser347Thr,Uncertain significance,tbdb,"Mutation from literature: https://stoptb.org/wg/new_diagnostics/assets/documents/06_NDWG-Workshop_StefanNIEMANN_NGS%20data%20complexity.pdf, doi: 10.1038/s41598-019-39339-3"
 folC,p.Ser150Arg,drug_resistance,para-aminosalicylic_acid,p.Ser150Arg,,tbdb,Mutation from literature
 ethA,c.1070_1072delACG,drug_resistance,ethionamide,c.1070_1072delACG,,tbdb,Mutation from literature
 rpoB,p.Pro454His,drug_resistance,rifampicin,p.Pro454His,Uncertain significance,tbdb,Mutation from literature
@@ -48647,7 +48647,7 @@ rpoB,p.Ala286Val,drug_resistance,rifampicin,p.Ala286Val,Uncertain significance,t
 folC,p.Thr20Pro,drug_resistance,para-aminosalicylic_acid,p.Thr20Pro,,tbdb,Mutation from literature
 embB,p.Asn296Lys,drug_resistance,ethambutol,p.Asn296Lys,,tbdb,Mutation from literature
 embB,p.Glu368Gln,drug_resistance,ethambutol,p.Glu368Gln,,tbdb,Mutation from literature
-inhA,p.Ile194Thr,drug_resistance,isoniazid,p.Ile194Thr,Uncertain significance,tbdb,Mutation from literature
+inhA,p.Ile194Thr,drug_resistance,isoniazid,p.Ile194Thr,Uncertain significance,tbdb,Mutation from literature: doi: 10.1126/scitranslmed.3010597
 katG,p.Ala243Ser,drug_resistance,isoniazid,p.Ala243Ser,,tbdb,Mutation from literature
 gyrB,p.Arg446Leu,drug_resistance,moxifloxacin,p.Arg446Leu,Uncertain significance,tbdb,Mutation from literature
 ethA,c.625_633dupCCCACCTAC,drug_resistance,ethionamide,c.625_633dupCCCACCTAC,,tbdb,Mutation from literature
@@ -48687,7 +48687,7 @@ embR,p.Val350Gly,drug_resistance,ethambutol,p.Val350Gly,,tbdb,Mutation from lite
 gyrB,p.Glu540Asp,drug_resistance,moxifloxacin,p.Glu540Asp,,tbdb,Mutation from literature
 folC,p.Ser150Gly,drug_resistance,para-aminosalicylic_acid,p.Ser150Gly,,tbdb,Mutation from literature
 katG,p.Gly96Cys,drug_resistance,isoniazid,p.Gly96Cys,,tbdb,Mutation from literature
-embB,p.Ala313Val,drug_resistance,ethambutol,p.Ala313Val,Uncertain significance,tbdb,Mutation from literature
+embB,p.Ala313Val,drug_resistance,ethambutol,p.Ala313Val,Uncertain significance,tbdb,Mutation from literature: doi: 10.1128/JCM.06664-11
 embB,p.Arg460Leu,drug_resistance,ethambutol,p.Arg460Leu,,tbdb,Mutation from literature
 embB,p.Phe287Cys,drug_resistance,ethambutol,p.Phe287Cys,,tbdb,Mutation from literature
 ethA,p.GluArgPro420LysSerGly,drug_resistance,ethionamide,p.GluArgPro420LysSerGly,,tbdb,Mutation from literature
@@ -48737,7 +48737,7 @@ pncA,c.266_277dupCAATCGAGGCGG,drug_resistance,pyrazinamide,c.266_277dupCAATCGAGG
 embR,p.Gly240Arg,drug_resistance,ethambutol,p.Gly240Arg,,tbdb,Mutation from literature
 rpoB,c.1297_1305delTTCATGGAC,drug_resistance,rifampicin,c.1297_1305delTTCATGGAC,,tbdb,Mutation from literature
 pncA,p.Gly78Cys,drug_resistance,pyrazinamide,p.Gly78Cys,Uncertain significance,tbdb,Mutation from literature
-rpoC,p.Leu527Val,drug_resistance,rifampicin,p.Leu527Val,Uncertain significance,tbdb,Mutation from literature
+rpoC,p.Leu527Val,drug_resistance,rifampicin,p.Leu527Val,Uncertain significance,tbdb,Mutation from literature: Putative compensatory mutation. doi: 10.3389/fmicb.2023.1265390
 katG,c.-259_924del,drug_resistance,isoniazid,c.-259_924del,,tbdb,Mutation from literature
 rpoC,p.Phe452Ser,drug_resistance,rifampicin,p.Phe452Ser,Uncertain significance,tbdb,Mutation from literature
 katG,p.Ala65Thr,drug_resistance,isoniazid,p.Ala65Thr,,tbdb,Mutation from literature
@@ -48754,7 +48754,7 @@ gid,c.386_388delGCGinsCC,drug_resistance,streptomycin,c.386_388delGCGinsCC,,tbdb
 rpoB,p.Thr400Ala,drug_resistance,rifampicin,p.Thr400Ala,Uncertain significance,tbdb,Mutation from literature
 gid,c.329_346delTGGCCGTTGAGATCGTGCinsTTGCCGTTGAGATCGTGCG,drug_resistance,streptomycin,c.329_346delTGGCCGTTGAGATCGTGCinsTTGCCGTTGAGATCGTGCG,,tbdb,Mutation from literature
 katG,p.Asp381Gly,drug_resistance,isoniazid,p.Asp381Gly,Uncertain significance,tbdb,Mutation from literature
-embB,p.Glu504Asp,drug_resistance,ethambutol,p.Glu504Asp,Uncertain significance,tbdb,Mutation from literature
+embB,p.Glu504Asp,drug_resistance,ethambutol,p.Glu504Asp,Uncertain significance,tbdb,Mutation from literature: doi: 10.1111/1574-6968.12238
 rrs,n.907A>C,drug_resistance,streptomycin,n.907A>C,Uncertain significance,tbdb,Mutation from literature
 katG,c.861_866delACCCGA,drug_resistance,isoniazid,c.861_866delACCCGA,,tbdb,Mutation from literature
 inhA,p.Ile47Thr,drug_resistance,isoniazid,p.Ile47Thr,,tbdb,Mutation from literature
@@ -48774,7 +48774,7 @@ thyA,p.Cys161Tyr,drug_resistance,para-aminosalicylic_acid,p.Cys161Tyr,,tbdb,Muta
 katG,p.Tyr337Cys,drug_resistance,isoniazid,p.Tyr337Cys,Uncertain significance,tbdb,Mutation from literature
 rpoB,p.Ser431Ile,drug_resistance,rifampicin,p.Ser431Ile,,tbdb,Mutation from literature
 alr,p.Phe4Leu,drug_resistance,cycloserine,p.Phe4Leu,,tbdb,Mutation from literature
-inhA,p.Ile194Thr,drug_resistance,ethionamide,p.Ile194Thr,Uncertain significance,tbdb,Mutation from literature
+inhA,p.Ile194Thr,drug_resistance,ethionamide,p.Ile194Thr,Uncertain significance,tbdb,Mutation from literature: doi: 10.1128/AAC.01028-15
 embB,p.Glu405Asp,drug_resistance,ethambutol,p.Glu405Asp,Uncertain significance,tbdb,Mutation from literature
 pncA,c.463_465dupGTG,drug_resistance,pyrazinamide,c.463_465dupGTG,,tbdb,Mutation from literature
 alr,p.Met343Thr,drug_resistance,cycloserine,p.Met343Thr,,tbdb,Mutation from literature
@@ -48785,7 +48785,7 @@ embR,p.Val7Gly,drug_resistance,ethambutol,p.Val7Gly,Uncertain significance,tbdb,
 pncA,p.Leu156Pro,drug_resistance,pyrazinamide,p.Leu156Pro,Uncertain significance,tbdb,Mutation from literature
 panD,p.Glu130Gly,drug_resistance,pyrazinamide,p.Glu130Gly,,tbdb,Mutation from literature
 katG,p.Gly99Glu,drug_resistance,isoniazid,p.Gly99Glu,Uncertain significance,tbdb,Mutation from literature
-inhA,p.Ile21Thr,drug_resistance,isoniazid,p.Ile21Thr,Uncertain significance,tbdb,Mutation from literature
+inhA,p.Ile21Thr,drug_resistance,isoniazid,p.Ile21Thr,Uncertain significance,tbdb,Mutation from literature: doi: 10.1128/AAC.47.12.3799-3805.2003
 embB,p.Gly459Ala,drug_resistance,ethambutol,p.Gly459Ala,,tbdb,Mutation from literature
 embC,p.Ala307Thr,drug_resistance,ethambutol,p.Ala307Thr,Uncertain significance,tbdb,Mutation from literature
 ethA,c.1057_1059delACG,drug_resistance,ethionamide,c.1057_1059delACG,,tbdb,Mutation from literature
@@ -48970,7 +48970,7 @@ katG,c.1286_1288delCGC,drug_resistance,isoniazid,c.1286_1288delCGC,,tbdb,Mutatio
 ahpC,c.-48G>T,drug_resistance,isoniazid,c.-48G>T,,tbdb,Mutation from literature
 katG,p.Asn138Ser,drug_resistance,isoniazid,p.Asn138Ser,Uncertain significance,tbdb,Mutation from literature
 pncA,p.Val9Leu,drug_resistance,pyrazinamide,p.Val9Leu,,tbdb,Mutation from literature
-katG,p.Gly285Asp,drug_resistance,isoniazid,p.Gly285Asp,Uncertain significance,tbdb,Mutation from literature
+katG,p.Gly285Asp,drug_resistance,isoniazid,p.Gly285Asp,Uncertain significance,tbdb,Mutation from literature: doi: 10.1128/JCM.00561-08
 katG,p.Trp107Arg,drug_resistance,isoniazid,p.Trp107Arg,,tbdb,Mutation from literature
 tlyA,p.Lys69Glu,drug_resistance,capreomycin,p.Lys69Glu,Uncertain significance,tbdb,Mutation from literature
 rpoB,missense_variant_p.445,drug_resistance,rifampicin,missense_variant_p.445,,tbdb,Mutation from literature
@@ -49055,7 +49055,7 @@ embB,c.983delA,drug_resistance,ethambutol,c.983delA,,tbdb,Mutation from literatu
 katG,c.151_156delAACCCG,drug_resistance,isoniazid,c.151_156delAACCCG,,tbdb,Mutation from literature
 embB,p.Ser412Leu,drug_resistance,ethambutol,p.Ser412Leu,Uncertain significance,tbdb,Mutation from literature
 thyA,p.Trp83*,drug_resistance,para-aminosalicylic_acid,p.Trp83*,,tbdb,Mutation from literature
-rpoB,p.Arg552Cys,drug_resistance,rifampicin,p.Arg552Cys,Uncertain significance,tbdb,Mutation from literature
+rpoB,p.Arg552Cys,drug_resistance,rifampicin,p.Arg552Cys,Uncertain significance,tbdb,Mutation from literature: Frequently occurs together with other RRDR resistance mutations - potentially a compensatory mutation. doi: 10.1056/NEJMc1413930 
 rpoB,p.Phe433Val,drug_resistance,rifampicin,p.Phe433Val,,tbdb,Mutation from literature
 eis,c.-10G>C,drug_resistance,kanamycin,c.-10G>C,Uncertain significance,tbdb,Mutation from literature
 gyrA,p.Leu109Val,drug_resistance,moxifloxacin,p.Leu109Val,,tbdb,Mutation from literature
@@ -49146,7 +49146,7 @@ pncA,p.Leu172Arg,drug_resistance,pyrazinamide,p.Leu172Arg,Uncertain significance
 rpsL,p.Arg86Trp,drug_resistance,streptomycin,p.Arg86Trp,,tbdb,Mutation from literature
 pncA,p.Asp53Ala,drug_resistance,pyrazinamide,p.Asp53Ala,,tbdb,Mutation from literature
 katG,p.Ala264Thr,drug_resistance,isoniazid,p.Ala264Thr,Uncertain significance,tbdb,Mutation from literature
-gid,p.Leu79Ser,drug_resistance,streptomycin,p.Leu79Ser,Uncertain significance,tbdb,Mutation from literature
+gid,p.Leu79Ser,drug_resistance,streptomycin,p.Leu79Ser,Uncertain significance,tbdb,Mutation from literature: doi: 10.1016/j.jgar.2015.11.009
 embC,p.His285Tyr,drug_resistance,ethambutol,p.His285Tyr,,tbdb,Mutation from literature
 katG,p.Gly629Ser,drug_resistance,isoniazid,p.Gly629Ser,,tbdb,Mutation from literature
 pncA,p.Met1Thr,drug_resistance,pyrazinamide,p.Met1Thr,,tbdb,Mutation from literature
@@ -49160,7 +49160,7 @@ gyrB,p.Asp461Ala,drug_resistance,levofloxacin,p.Asp461Ala,Uncertain significance
 katG,p.Gln471*,drug_resistance,isoniazid,p.Gln471*,,tbdb,Mutation from literature
 ethA,p.GluArgProGlySerAspValGluGluArgProPhe420SerSerAspArgAlaGlnMetSerLysSerGlyPro,drug_resistance,ethionamide,p.GluArgProGlySerAspValGluGluArgProPhe420SerSerAspArgAlaGlnMetSerLysSerGlyPro,,tbdb,Mutation from literature
 pncA,p.Gly24Arg,drug_resistance,pyrazinamide,p.Gly24Arg,,tbdb,Mutation from literature
-gyrB,p.Arg446Cys,drug_resistance,moxifloxacin,p.Arg446Cys,Uncertain significance,tbdb,Mutation from literature
+gyrB,p.Arg446Cys,drug_resistance,moxifloxacin,p.Arg446Cys,Uncertain significance,tbdb,Mutation from literature: doi: 10.1186/s12864-020-6577-1
 embB,p.Tyr315Cys,drug_resistance,ethambutol,p.Tyr315Cys,Uncertain significance,tbdb,Mutation from literature
 katG,c.86_88delCCG,drug_resistance,isoniazid,c.86_88delCCG,,tbdb,Mutation from literature
 rpoB,p.Ser493Leu,drug_resistance,rifampicin,p.Ser493Leu,Uncertain significance,tbdb,Mutation from literature
@@ -49216,7 +49216,7 @@ embB,p.Pro397Thr,drug_resistance,ethambutol,p.Pro397Thr,Uncertain significance,t
 rpoB,c.1348_1356delTCGGCGCTG,drug_resistance,rifampicin,c.1348_1356delTCGGCGCTG,,tbdb,Mutation from literature
 ald,c.1107dupG,drug_resistance,cycloserine,c.1107dupG,,tbdb,Mutation from literature
 katG,p.Thr324Pro,drug_resistance,isoniazid,p.Thr324Pro,Uncertain significance,tbdb,Mutation from literature
-gyrB,p.Arg446Cys,drug_resistance,levofloxacin,p.Arg446Cys,Uncertain significance,tbdb,Mutation from literature
+gyrB,p.Arg446Cys,drug_resistance,levofloxacin,p.Arg446Cys,Uncertain significance,tbdb,Mutation from literature: doi: 10.1186/s12864-020-6577-1
 katG,p.Ile335Thr,drug_resistance,isoniazid,p.Ile335Thr,,tbdb,Mutation from literature
 katG,p.Lys345Thr,drug_resistance,isoniazid,p.Lys345Thr,,tbdb,Mutation from literature
 ethA,c.-1242_166del,drug_resistance,ethionamide,c.-1242_166del,,tbdb,Mutation from literature
@@ -49270,9 +49270,9 @@ pncA,p.Glu174Gly,drug_resistance,pyrazinamide,p.Glu174Gly,,tbdb,Mutation from li
 ald,c.968_969dupAG,drug_resistance,cycloserine,c.968_969dupAG,,tbdb,Mutation from literature
 katG,p.Leu48Gln,drug_resistance,isoniazid,p.Leu48Gln,Uncertain significance,tbdb,Mutation from literature
 pncA,p.His51Asn,drug_resistance,pyrazinamide,p.His51Asn,,tbdb,Mutation from literature
-inhA,p.Ile21Thr,drug_resistance,ethionamide,p.Ile21Thr,Uncertain significance,tbdb,Mutation from literature
+inhA,p.Ile21Thr,drug_resistance,ethionamide,p.Ile21Thr,Uncertain significance,tbdb,Mutation from literature: doi: 10.1128/AAC.47.12.3799-3805.2003
 pncA,c.287_288insCCTGGCGATCTCGAATGTCATCGTGGACGGGGT,drug_resistance,pyrazinamide,c.287_288insCCTGGCGATCTCGAATGTCATCGTGGACGGGGT,,tbdb,Mutation from literature
-inhA,p.Ile21Val,drug_resistance,isoniazid,p.Ile21Val,Uncertain significance,tbdb,Mutation from literature
+inhA,p.Ile21Val,drug_resistance,isoniazid,p.Ile21Val,Uncertain significance,tbdb,Mutation from literature: doi: 10.1128/AAC.47.12.3799-3805.2003
 ethA,c.581_583delTGG,drug_resistance,ethionamide,c.581_583delTGG,,tbdb,Mutation from literature
 katG,p.Trp341Ser,drug_resistance,isoniazid,p.Trp341Ser,,tbdb,Mutation from literature
 ethA,p.Pro51Leu,drug_resistance,ethionamide,p.Pro51Leu,Uncertain significance,tbdb,Mutation from literature
@@ -49301,7 +49301,7 @@ tlyA,p.Pro183Leu,drug_resistance,capreomycin,p.Pro183Leu,,tbdb,Mutation from lit
 katG,p.Gly121Cys,drug_resistance,isoniazid,p.Gly121Cys,,tbdb,Mutation from literature
 katG,p.Asn35Asp,drug_resistance,isoniazid,p.Asn35Asp,,tbdb,Mutation from literature
 katG,p.Ala424Gly,drug_resistance,isoniazid,p.Ala424Gly,Uncertain significance,tbdb,Mutation from literature
-rpoC,p.Ile491Thr,drug_resistance,rifampicin,p.Ile491Thr,Uncertain significance,tbdb,Mutation from literature
+rpoC,p.Ile491Thr,drug_resistance,rifampicin,p.Ile491Thr,Uncertain significance,tbdb,Mutation from literature: Compensatory mutation. doi: 10.1128/AAC.01541-12
 embB,p.Val435Gly,drug_resistance,ethambutol,p.Val435Gly,,tbdb,Mutation from literature
 rpoB,c.1293_1295dupCCA,drug_resistance,rifampicin,c.1293_1295dupCCA,,tbdb,Mutation from literature
 katG,p.Ala162Thr,drug_resistance,isoniazid,p.Ala162Thr,Uncertain significance,tbdb,Mutation from literature
