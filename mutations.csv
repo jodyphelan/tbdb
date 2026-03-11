@@ -48330,7 +48330,9 @@ Rv2983,stop_gained,drug_resistance,pretomanid,LoF,Assoc w R - Interim,WHO catalo
 Rv2983,frameshift_variant,drug_resistance,pretomanid,LoF,Assoc w R - Interim,WHO catalogue v2,Confers DLM-PMD cross-resistance
 rpoB,missense_variant_p.426_452,drug_resistance,rifampicin,RRDR non-silent,Assoc w R - Interim,WHO catalogue v2,Expert rule: Non-silent variants in RRDR of rpoB
 rpoB,conservative_inframe_deletion_c.1276_1356,drug_resistance,rifampicin,RRDR non-silent,Assoc w R - Interim,WHO catalogue v2,Expert rule: Non-silent variants in RRDR of rpoB
+rpoB,disruptive_inframe_deletion_c.1276_1356,drug_resistance,rifampicin,RRDR non-silent,Assoc w R - Interim,WHO catalogue v2,Expert rule: Non-silent variants in RRDR of rpoB
 rpoB,conservative_inframe_insertion_c.1276_1356,drug_resistance,rifampicin,RRDR non-silent,Assoc w R - Interim,WHO catalogue v2,Expert rule: Non-silent variants in RRDR of rpoB
+rpoB,disruptive_inframe_insertion_c.1276_1356,drug_resistance,rifampicin,RRDR non-silent,Assoc w R - Interim,WHO catalogue v2,Expert rule: Non-silent variants in RRDR of rpoB
 pncA,p.His82Tyr,drug_resistance,pyrazinamide,p.His82Tyr,,tbdb,Mutation from literature
 rpsL,p.Arg86Pro,drug_resistance,streptomycin,p.Arg86Pro,,tbdb,Mutation from literature
 rpoB,p.Ile480Thr,drug_resistance,rifampicin,p.Ile480Thr,Uncertain significance,tbdb,Mutation from literature
