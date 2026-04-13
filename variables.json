@@ -19,7 +19,9 @@
         "capreomycin",
         "clofazimine",
         "ethionamide",
-        "prothionamide"
+        "prothionamide",
+        "para-aminosalicylic_acid",
+        "cycloserine"
     ],
     "tb-profiler-version": ">=6.6.0,<7.0.0"
 }
