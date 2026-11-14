@@ -21,6 +21,12 @@ bovis_bcg_cys_rule:
   lineage: La1.2.BCG
   drug: cycloserine
   note: 'M. bovis BCG is intrinsically resistant to cycloserine'
+
+bovis_bcg_terizidone_rule:
+  type: lineageResistanceRule
+  lineage: La1.2.BCG
+  drug: terizidone
+  note: 'M. bovis BCG is intrinsically resistant to terizidone'
   
 katG_ahpC_compensatory_rule:
   type: CompensatoryRule
@@ -40,6 +46,7 @@ katG_ahpC_compensatory_rule:
   drug: isoniazid
   original_confidence: "Uncertain significance"
   updated_confidence: "Assoc w R - Interim"
+  updated_resistance_level: "High"
   note: 'Mutations in ahpC can compensate for loss of function mutations in katG, leading to isoniazid resistance'
 
 eis_rule:
@@ -67,8 +74,3 @@ mmpR5_rule:
   source_inactivation_freq_cutoff: 100
   target_escape_freq_cutoff: 50
 
-rpoB1346Rule:
-  type: SequencingArtefectRule
-  gene: rpoB
-  gene_position: 1346
-  note: 'Changes at position 1346 in codon 449 of rpoB detected with Illumina sequencing, particularly if unfixed, may represent artefacts.'
