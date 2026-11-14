@@ -1,6 +1,6 @@
 {
-    "db-schema-version": "2.1.0",
-    "snpEff_db":"Mycobacterium_tuberculosis_h37rv_tbprofiler",
+    "db-schema-version": "3.0.0",
+    "snpEff_db": "Mycobacterium_tuberculosis_h37rv_tbprofiler",
     "drugs": [
         "rifampicin",
         "rifapentine",
@@ -21,7 +21,8 @@
         "ethionamide",
         "prothionamide",
         "para-aminosalicylic_acid",
-        "cycloserine"
+        "cycloserine",
+        "terizidone"
     ],
-    "tb-profiler-version": ">=6.6.0,<7.0.0"
+    "tb-profiler-version": ">=7.0.0,<8.0.0"
 }
